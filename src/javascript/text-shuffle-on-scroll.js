@@ -1,7 +1,3 @@
-
-
-
-
 var stringRandom = (function() {
 
     var data = {
@@ -137,5 +133,4 @@ var stringRandom = (function() {
     }
 
 })();
-
 stringRandom.init('.el-st');
