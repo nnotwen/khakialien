@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-between;
   /* background-color: rgba(35, 38, 36, 1); */
   color: white;
-  padding: 2% 2% 1% 2%;
+  padding: 1% 2%;
   font-family: 'Silkscreen';
   transition: .3s ease-in-out;
 }
