@@ -119,6 +119,7 @@ body::-webkit-scrollbar-thumb {
   transition: .3s ease-in-out;
   padding: 0 2%;
   background: #3b3224;
+  box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 600px) {
