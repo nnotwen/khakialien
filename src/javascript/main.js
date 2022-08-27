@@ -15,7 +15,7 @@ $(function(){
                 $(audioElement).animate({ volume: 1 });
                 audioElement.play();
                 // $(audioElement).animate({ volume: 1.0}, 0);
-                $(audioElement).animate({ volume: 0.0 }, duration * 1000);
+                $(audioElement).animate({ volume: 0.0 }, (duration + 1) * 1000);
             };
         });
     });
