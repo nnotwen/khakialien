@@ -46,7 +46,7 @@ var goodearthlingsList = [
   },
   {
     name: 'Wendy Wen',
-    imageURL: './src/images/avatar_Wen.jpg',
+    imageURL: './src/images/avatar_wen.jpg',
     profession: 'Professional Earthman',
     facebookURL: 'https://web.facebook.com/nnotwen',
     twitterURL: ' https://twitter.com/wen_bolongaita',
