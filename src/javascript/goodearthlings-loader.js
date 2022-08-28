@@ -80,12 +80,20 @@ var goodearthlingsList = [
     youtubeURL: null,
     rating: 5, // max-rating is 5
   },
-
   {
     name: 'Tratachuli',
     imageURL: './src/images/avatar_trata.jpg',
     profession: 'Earthman FB Streamer',
     facebookURL: 'https://web.facebook.com/Tratachuli-103989062191157/',
+    twitterURL: null,
+    youtubeURL: null,
+    rating: 5, // max-rating is 5
+  },
+  {
+    name: 'Maya',
+    imageURL: './src/images/avatar_maya.jpg',
+    profession: 'Artistic Earthman Maddae',
+    facebookURL: 'https://www.facebook.com/profile.php?id=100081383273468',
     twitterURL: null,
     youtubeURL: null,
     rating: 5, // max-rating is 5
