@@ -266,9 +266,3 @@ body::-webkit-scrollbar-thumb {
   font-size: 25px;
   color: white;
 }
-
-@media (max-width: 1024px){
-  .invite-link {
-    transform: scale(0);
-  }
-}
