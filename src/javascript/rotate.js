@@ -63,7 +63,6 @@
 
 
     $(window).on('scroll', function(){
-        console.log(rot.style.webkitTransform)
         if (rot.style.webkitTransform !== 'rotate(0deg)'){
             rot.style.webkitTransition = '1s ease-in-out'
             rot.style.webkitTransform = 'rotate(0deg)';
@@ -74,3 +73,33 @@
     });
 
 }).call(this);
+
+// Add sound when rotating
+$(document).ready(function(){
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', './src/audio/spin.mp3');
+
+    $(audioElement).on('ended', function(){
+        this.currentTime = 0;
+        this.play();
+    });
+
+    $('#rotate').on('mousedown', function(){
+        audioElement.play();
+        $(audioElement).animate({ volume: 1.0 }, 500)
+    }).on('mouseup', function(){
+        $(audioElement).animate({ volume: 0.0 }, 500)
+        setTimeout(function(){
+          audioElement.pause();
+        }, 600)
+    });
+
+    // $('.click-me').on('click', function(){
+    //     if (canPlay){
+    //         $(audioElement).animate({ volume: 1 });
+    //         audioElement.play();
+    //         // $(audioElement).animate({ volume: 1.0}, 0);
+    //         $(audioElement).animate({ volume: 0.0 }, (duration + 1) * 1000);
+    //     };
+    // });
+});
