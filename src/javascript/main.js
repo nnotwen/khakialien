@@ -81,6 +81,7 @@ $(function(){
             // }
         });
     });
+    
 });
 
 function isScrolledIntoView(elem){
