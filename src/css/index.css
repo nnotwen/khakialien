@@ -460,6 +460,14 @@ body {
   color: #3b3224;
 }
 
+.carousel-media-disabled {
+    cursor: not-allowed;
+}
+
+.media-icons .carousel-media-disabled i:hover{
+    opacity: 0.6;
+}
+
 @media (max-width:960px){
   .featured-video{
     display: none;
