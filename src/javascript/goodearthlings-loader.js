@@ -23,7 +23,7 @@ var goodearthlingsList = [
     profession: 'Earthman Vtuber',
     facebookURL: null,
     twitterURL: null,
-    youtubeURL: null,
+    youtubeURL: 'https://www.youtube.com/channel/UCXNKAX0dD1teqpRGpR8W6PA',
     rating: 5, // max-rating is 5
   },
   {
