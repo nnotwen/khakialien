@@ -18,6 +18,13 @@ $(function(){
                 $(audioElement).animate({ volume: 0.0 }, (duration + 1) * 1000);
             };
         });
+
+        $(document).on("contextmenu",function(e){
+            // Do not open context menu for images
+            if (e.target.nodeName == 'IMG'){
+                e.preventDefault();
+            };
+        });
     });
 
     $('.nav-bar-toggle').on('click', function(){
