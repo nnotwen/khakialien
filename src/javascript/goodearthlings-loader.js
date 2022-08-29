@@ -98,6 +98,15 @@ var goodearthlingsList = [
     youtubeURL: null,
     rating: 5, // max-rating is 5
   },
+  {
+    name: 'XiaoMogi',
+    imageURL: 'https://cdn.discordapp.com/attachments/958362883941597184/958365749083250718/HAHAHAHA.png',
+    profession: 'Game Enjoyer Earthman',
+    facebookURL: 'https://web.facebook.com/kwak1kiii',
+    twitterURL: null,
+    youtubeURL: null,
+    rating: 5
+  }
 ]
 
 $(function(){
