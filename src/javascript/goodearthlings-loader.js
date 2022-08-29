@@ -56,7 +56,7 @@ var goodearthlingsList = [
   {
     name: 'Klessy',
     imageURL: './src/images/avatar_klessy.jpg',
-    profession: 'Joe Papa',
+    profession: 'Joe Papa / Moon Boy',
     facebookURL: null,
     twitterURL: null,
     youtubeURL: 'https://www.youtube.com/channel/UCYIuKWf3zYKWDc6j_IqWvxg',
