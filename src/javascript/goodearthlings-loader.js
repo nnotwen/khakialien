@@ -106,13 +106,20 @@ var goodearthlingsList = [
     twitterURL: null,
     youtubeURL: null,
     rating: 5
+  },
+  {
+    name: 'Cation',
+    imageURL: 'https://cdn.discordapp.com/avatars/681694709080391702/899902bc981c21f2a0b9c5d4a1862060.png?size=256',
+    profession: 'Meme-sama',
+    youtubeURL: 'https://youtube.com/channel/UC204Lwn8PlWRPSjsGjSHZXA',
+    rating: 5
   }
 ]
 
 $(function(){
     var $cardContent = $('.carousel-content');
 
-    $.each(goodearthlingsList, function(_, entry){
+    $.each(shuffleArray(goodearthlingsList)/*.splice(0,9)*/, function(_, entry){
         if (entry.rating > 5) entry.rating = 5;
         if (entry.rating < 0) entry.rating = 0;
         if (isNaN(entry.rating)) entry.rating = 0;
@@ -150,3 +157,15 @@ $(function(){
         )
     });
 });
+
+function shuffleArray(array) {
+  let curId = array.length;
+  while (0 !== curId) {
+    let randId = Math.floor(Math.random() * curId);
+    curId -= 1;
+    let tmp = array[curId];
+    array[curId] = array[randId];
+    array[randId] = tmp;
+  };
+  return array;
+};
