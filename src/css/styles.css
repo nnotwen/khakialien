@@ -130,3 +130,27 @@ animation: fadeIn ease 2s;
     transform: translateX(-10px) scaleX(2);
   }
 }
+
+.gelatine {
+  visibility: visible !important;
+  animation: gelatine 0.5s;
+  top: -100px;
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); top: -110px;}
+  25% { transform: scale(0.9, 1.1); top: -30.5px;}
+  50% { transform: scale(1.1, 0.9); top: -55px;}
+  75% { transform: scale(0.95, 1.05); top: -82.5px }
+}
+
+.mirrorflip {
+    animation: mirrorflip 1.5s;
+}
+
+@keyframes mirrorflip {
+  50% { transform: scaleX(1); }
+  51% { transform: scaleX(-1); }
+  99% { transform: scaleX(-1); }
+  100% { transform: scaleX(1); }
+}

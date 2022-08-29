@@ -34,6 +34,27 @@ $(function(){
             $('.nav-bar-links').addClass('active');
         }
     });
+    var totalTitleClicks = 0, isAnimating = false;
+    $('.clickable-entity-popup').on('click', function(){
+        if (isAnimating) return null;
+            totalTitleClicks++;
+        if (totalTitleClicks >= Math.floor(Math.random() * 10) + 15){
+            const duration = 1500;
+                  isAnimating = true;
+            // Add gelatine effect while popping up
+            $('.popup-slippers').addClass('gelatine');
+            // Flip after 2.5 seconds
+            setTimeout(function(){
+                $('.popup-slippers').addClass('mirrorflip');
+            }, 2500);
+            // Remove after 8 seconds
+            setTimeout(function(){
+                isAnimating = false;
+                totalTitleClicks = 0;
+                $('.popup-slippers').removeClass('gelatine mirrorflip');
+            }, duration + 8000)
+        };
+    });
 
     $(window).scroll(function(){
 
