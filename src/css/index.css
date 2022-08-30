@@ -156,6 +156,7 @@ body {
 
 .featured-video {
   padding-top: 50px;
+  background-color: #5a4d38;
   margin: auto;
 }
 
@@ -297,6 +298,10 @@ body {
     margin-left: 10px;
     margin-right: 10px;
   }
+}
+
+.story {
+    background-color: #5a4d38;
 }
 
 .story-content {
