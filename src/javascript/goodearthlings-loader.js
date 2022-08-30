@@ -113,11 +113,23 @@ var goodearthlingsList = [
     profession: 'Meme-sama',
     youtubeURL: 'https://youtube.com/channel/UC204Lwn8PlWRPSjsGjSHZXA',
     rating: 5
+  },
+  {
+    name: 'magikarp',
+    profession: 'Earth fishda / osu!mania Smasher',
+    imageURL: 'https://images-ext-2.discordapp.net/external/9-PKJiO0q19oYcwkVHDniyfPm2e10ZMc29LHgx37y50/%3Fq%3Dtbn%3AANd9GcQ03qZDMB0OGk8ZN6grqEh03Le2MhFuu-Cw-Q%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?width=440&height=498',
+    rating: 5
+  },
+  {
+    name: 'Yoshi',
+    profession: 'Artistic Earthman',
+    imageURL: 'https://cdn.discordapp.com/attachments/826336865572749375/1014061786003157002/272fe811848bb06da74f6bdd3313ced5.jpg',
+    rating: 5
   }
 ]
 
 $(function(){
-    var $cardContent = $('.carousel-content');
+    var $cardContent = $('.swiper-content');
 
     $.each(shuffleArray(goodearthlingsList)/*.splice(0,9)*/, function(_, entry){
         if (entry.rating > 5) entry.rating = 5;
@@ -125,20 +137,20 @@ $(function(){
         if (isNaN(entry.rating)) entry.rating = 0;
 
         $cardContent.append(
-          `<div class="carousel-card swiper-slide">
-            <div class="carousel-card-content">
+          `<div class="card swiper-slide">
+            <div class="card-content">
               <div class="image">
                 <img src="${entry.imageURL}" alt="">
               </div>
 
               <div class="media-icons">
-                <a ${entry.facebookURL ? `title="Facebook" href="${entry.facebookURL}" target="_blank"` : 'title="Facebook: Not Found" class="carousel-media-disabled"'}>
+                <a ${entry.facebookURL ? `title="Facebook" href="${entry.facebookURL}" target="_blank"` : 'title="Facebook: Not Found" class="swiper-media-disabled"'}>
                   <i class="fab fa-facebook"></i>
                 </a>
-                <a ${entry.youtubeURL ? `title="YouTube" href="${entry.youtubeURL}" target="_blank"` : 'title="YouTube: Not Found" class="carousel-media-disabled"'}>
+                <a ${entry.youtubeURL ? `title="YouTube" href="${entry.youtubeURL}" target="_blank"` : 'title="YouTube: Not Found" class="swiper-media-disabled"'}>
                   <i class="fab fa-youtube"></i>
                 </a>
-                <a ${entry.twitterURL ? `title="Twitter" href="${entry.twitterURL}" target="_blank"` : 'title="Twitter: Not Found"class="carousel-media-disabled"'}>
+                <a ${entry.twitterURL ? `title="Twitter" href="${entry.twitterURL}" target="_blank"` : 'title="Twitter: Not Found"class="swiper-media-disabled"'}>
                   <i class="fab fa-twitter"></i>
                 </a>
               </div>
@@ -155,6 +167,33 @@ $(function(){
             </div>
           </div>`
         )
+    });
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 30,
+        loop: true,
+        effect: 'coverflow',
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                // slidesPerGroup: 2, //enable on default effect (slide) disable on effect: coverflow
+            },
+            950: {
+                slidesPerView: 3,
+                // slidesPerGroup: 3  //enable on default effect (slide) disable on effect: coverflow
+            }
+        }
     });
 });
 
