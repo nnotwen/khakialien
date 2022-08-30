@@ -89,13 +89,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-bar-links li a:hover{
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #9d8158;
 }
 
 .nav-bar-toggle{
   position: absolute;
-  cursor: pointer;
+  /* cursor: pointer; */
   top: 1.25rem;
   right: 1.25rem;
   display: none;
@@ -222,7 +222,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-links ul li a:hover{
-  cursor: pointer;
+  /* cursor: pointer; */
   color: hotpink;
 }
 
@@ -234,7 +234,7 @@ body::-webkit-scrollbar-thumb {
   padding: 10px;
   display: flex;
   justify-content: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 10px;
   align-items: center;
   background: hotpink;

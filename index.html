@@ -24,19 +24,23 @@
 
     <link rel="icon" type="image/png" href="./src/images/favicon.jpg" />
 
-    <!--Stylesheets-->
+    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Fontawesome CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Stylesheets-->
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/swiper.css">
     <!--------------->
     <title>Khaki Alien</title>
 
     <script src="./src/javascript/jquery/jquery-3.5.1.js"></script>
-    <script src="./src/javascript/goodearthlings-loader.js"></script>
     <script src="./src/javascript/main.js"></script>
-
+    <script src="./src/javascript/text-shuffle-on-scroll.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/javascript/goodearthlings-loader.js"></script>
   </head>
   <body style="cursor: url('./src/images/ghost khaki.cur'), auto;">
     <nav class="nav-bar">
@@ -126,7 +130,7 @@
               <p>Some say that i am endangered since i am the only known khaki subspecies to exist.</p>
               <p>More like, i am a special type of alien. You won't get to see anybody like me elsewhere!</p>
             </div>
-          </div><div class="feature-row">
+          </div><div class="feature-row middle-row">
             <div class="feature-column scroll-fade-in">
               <h1>Part of your History</h1>
               <p>Since the dawn of time, we aliens are known to help humanity by bringing far-from-the-future technology to help build ancient megastructures, like those big tall triangle pointed thingy on Egypt.</p>
@@ -137,7 +141,7 @@
                 <img src="./src/images/history_aliens.jpg" alt="">
               </div>
             </div>
-          </div><div class="feature-row last-row">
+          </div><div class="feature-row">
             <div class="feature-column">
               <div class="feature-column-image scroll-zoom-in">
                 <img src="./src/images/khaki_twerks.gif" alt="">
@@ -155,33 +159,17 @@
             <span class="story-title">Good Earthlings</span>
           </div>
           <p style="text-align:center">"Yep, these people are one of the good earthlings i found."</p>
-          <div class="swiper mySwiper carousel-container">
-            <div class="swiper-wrapper carousel-content"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+          <div class="swiper-body">
+            <section>
+              <div class="swiper mySwiper swiper-container" style="padding: 0 25px;">
+                <div class="swiper-wrapper swiper-content"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </section>
           </div>
-
-          <script src="./src/javascript/text-shuffle-on-scroll.js"></script>
-          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-          <script>
-              var swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                  slidesPerGroup: 3,
-                  resistance: false,
-                  loop: false,
-                  loopFillGroupWithBlank: true,
-                  pagination: {
-                      el: ".swiper-pagination",
-                      clickable: true,
-                  },
-                  navigation: {
-                      nextEl: ".swiper-button-next",
-                      prevEl: ".swiper-button-prev",
-                  },
-              });
-          </script>
+        </div>
         </div>
         <!-- <div class="main-links">
           <div class="link-container">
