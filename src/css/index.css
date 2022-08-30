@@ -140,17 +140,19 @@ body {
 }
 
 .feature-column-image img{
+  border-radius: 20px;
   max-width: 400px;
   width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  transition: transform .5s ease;
+  transition: all .5s ease-in-out;
 }
-
 .feature-column-image img:hover{
   transform: scale(1.05);
+  filter: drop-shadow(3px 9px 15px rgba(0,0,0,0.85));
 }
+
 
 .featured-video {
   padding-top: 50px;
