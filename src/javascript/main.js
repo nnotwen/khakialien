@@ -66,6 +66,18 @@ $(function(){
             $('.nav-bar').removeClass('sticky').fadeIn('slow');
         };
 
+        // Show/hide back to top button
+        var topBtn = $('.back-to-top-button');
+        if ($(window).scrollTop() > 300){
+            topBtn.addClass('button-show');
+        } else {
+            topBtn.removeClass('button-show');
+        };
+        topBtn.on('click', function(e){
+            e.preventDefault();
+            $('html, body').stop(true, false).animate({ scrollTop: 0 }, 300);
+        });
+
         //https://codepen.io/codingtuting/pen/BaBVjRR/
         //Zoom-in
         $('.scroll-zoom-in').each(function(){

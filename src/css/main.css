@@ -206,63 +206,40 @@ body::-webkit-scrollbar-thumb {
   font-size: 12px;
 }
 
-.footer-links {
-  padding: 20px;
-  margin: auto;
-  font-family: 'Poppins'
-}
-
-.footer-links ul{
-  padding: 0;
-}
-
-.footer-links ul li a{
-  text-decoration: none;
-  color: white;
-}
-
-.footer-links ul li a:hover{
-  /* cursor: pointer; */
-  color: hotpink;
-}
-
-.invite-link {
+.back-to-top-button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
   position: fixed;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  /* cursor: pointer; */
-  border-radius: 10px;
-  align-items: center;
-  background: hotpink;
-  overflow: hidden;
-  box-shadow: 20px black;
-  transition: transform .5s ease;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.back-to-top-button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+.back-to-top-button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+.back-to-top-button:active {
+  background-color: #555;
 }
 
-.invite-link img{
-  max-width: 100px;
-  height: auto;
-}
-
-.invite-link:hover .overlay{
-  opacity: 0.85;
-}
-
-.invite-text {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  vertical-align: middle;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 10px;
-  font-family: 'Poppins';
-  font-size: 25px;
-  color: white;
+.button-show {
+  opacity: 1;
+  visibility: visible;
 }
