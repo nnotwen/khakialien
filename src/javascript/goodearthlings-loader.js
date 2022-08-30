@@ -125,6 +125,14 @@ var goodearthlingsList = [
     profession: 'Artistic Earthman',
     imageURL: 'https://cdn.discordapp.com/attachments/826336865572749375/1014061786003157002/272fe811848bb06da74f6bdd3313ced5.jpg',
     rating: 5
+  },
+  {
+    name: 'Nehemiah Go',
+    profession: 'Bassist / Percussionist / Audio Editor',
+    imageURL: 'https://scontent.fmnl6-2.fna.fbcdn.net/v/t39.30808-1/293715338_6030103657006421_3383898319826914208_n.jpg?stp=dst-jpg_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHE_jMGqq5pIyOVsDaL-pQYsf-9e9olWs2x_7172iVazV7nj3FHLNBpIRSWGknuCHaLnhXkIZjMLtn6__a5Fg0K&_nc_ohc=yTBA-Rjq25wAX80q-Cd&tn=INjf7BOyORudRW9Y&_nc_ht=scontent.fmnl6-2.fna&oh=00_AT9yIp6mnHmVtyBG7yqqjXgKJwg0IetvUlz35DcGaVPVRg&oe=63127E35',
+    facebookURL: 'https://www.facebook.com/miahgo',
+    youtubeURL: 'https://youtube.com/channel/UCqjtQTB-r18oVMISrv9QW4w',
+    rating: 5
   }
 ]
 
