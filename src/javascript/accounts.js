@@ -21,7 +21,7 @@ const accounts = [
   },
   {
     siteName: 'BandLab',
-    siteURL: 'https://www.tiktok.com/@khaki_alien',
+    siteURL: 'https://www.bandlab.com/khaki_alien',
     siteBanner: 'https://bandlabimages.azureedge.net/v1.0/users/670c0fd5-91d1-46f0-a1c2-18718a5eb035/320x320/blur',
     siteLogo: 'https://www.techwibe.com/wp-content/uploads/2015/11/icon1.png',
     siteAvatar: 'https://bandlabimages.azureedge.net/v1.0/users/670c0fd5-91d1-46f0-a1c2-18718a5eb035/160x160',
@@ -31,7 +31,7 @@ const accounts = [
   },
   {
     siteName: 'osu!',
-    siteURL: 'https://www.tiktok.com/@khaki_alien',
+    siteURL: 'https://osu.ppy.sh/users/26302221',
     siteBanner: './src/images/banner_osu.webp',
     siteLogo: 'https://www.speedrun.com/gameasset/kdkn7xdm/cover?v=8703de7',
     siteAvatar: 'https://a.ppy.sh/26302221?1635864599.jpeg',
