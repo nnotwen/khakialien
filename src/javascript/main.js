@@ -1,10 +1,13 @@
 $(function(){
-
+    const loadingAfterxSeconds = setTimeout(function(){
+        $('.infinitely-loading').show();
+    }, 10_000)
     document.onreadystatechange = function() {
         if (document.readyState === "complete") {
             setTimeout(function(){
                 $(".loading-page").fadeOut('slow', function(){
                     $('.page-loaded').fadeIn('slow');
+                    clearTimeout(loadingAfterxSeconds);
                 });
             }, 1000) //1secs delay
         };

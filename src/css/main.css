@@ -357,3 +357,17 @@ body::-webkit-scrollbar-thumb {
     left:86.111%;
     animation-delay: .5s;
 }
+.infinitely-loading{
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+}
+.infinitely-loading span{
+  position: relative;
+  left: -50%
+}
+.infinitely-loading a{
+  color: #d9bb8d;
+  text-decoration: underline;
+}
