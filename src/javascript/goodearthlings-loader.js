@@ -133,6 +133,13 @@ var goodearthlingsList = [
     facebookURL: 'https://www.facebook.com/miahgo',
     youtubeURL: 'https://youtube.com/channel/UCqjtQTB-r18oVMISrv9QW4w',
     rating: 5
+  },
+  {
+    name: 'Zek',
+    profession: 'Artistic Animator Earthman',
+    imageURL: 'https://pbs.twimg.com/profile_images/1530980571174047744/l1C9U_6r_400x400.jpg',
+    twitterURL: 'https://mobile.twitter.com/ZekkaellHades',
+    rating: 5
   }
 ]
 
