@@ -2,7 +2,7 @@
 
 $(function(){
     // Rickroll fn
-    $(document).ready(function(){
+    // $(document).ready(function(){
         var audioElement = document.createElement('audio');
         audioElement.setAttribute('src', './src/audio/kindsound.mp3');
 
@@ -16,7 +16,7 @@ $(function(){
                 e.preventDefault();
             };
         });
-    });
+    // });
 
     // Navbar
     $('.nav-bar-toggle').on('click', function(){

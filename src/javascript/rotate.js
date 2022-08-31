@@ -75,7 +75,7 @@
 }).call(this);
 
 // Add sound when rotating
-$(document).ready(function(){
+// $(document).ready(function(){
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('src', './src/audio/spin.mp3');
 
@@ -102,4 +102,4 @@ $(document).ready(function(){
     //         $(audioElement).animate({ volume: 0.0 }, (duration + 1) * 1000);
     //     };
     // });
-});
+// });
