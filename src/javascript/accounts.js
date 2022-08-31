@@ -1,4 +1,3 @@
-
 const accounts = [
   {
     siteName: 'YouTube',
@@ -67,7 +66,7 @@ $(function(){
       const container = $('.container');
       $.each(accounts, function(_, entry){
           container.append(
-              `<div class="account-card fade-in">
+              `<div class="account-card">
                 <div class="site-avatar">
                   <img src="${entry.siteAvatar}"></img>
                 </div>

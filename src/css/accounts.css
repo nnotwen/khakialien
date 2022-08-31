@@ -75,14 +75,14 @@ a{
 }
 
 .site-avatar {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   padding: 3px;
   border-radius: 50%;
   background: #66656e;
   position: absolute;
   z-index: 1;
-  top: 50px;
+  top: 65px;
   left: 25px;
 }
 
