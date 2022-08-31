@@ -289,7 +289,7 @@ body::-webkit-scrollbar-thumb {
         top:130px;
         transform: scale(1.7, 0.5);
     }
-    40%{
+    20%{
         transform: scaleY(1);
     }
     100%{
