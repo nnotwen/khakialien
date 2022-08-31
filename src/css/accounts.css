@@ -188,15 +188,16 @@ span.divider{
   position: relative;
   padding: 15px;
   height: 20px;
+  margin-top: 20px;
 }
 .button-link{
   position: absolute;
   bottom: 0;
   right: 0px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 25px;
   background-color: #279327;
-  font-size: 14px;
+  font-size: 16px;
   min-width: 50px;
   text-align: center;
 }
