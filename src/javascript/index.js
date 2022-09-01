@@ -3,11 +3,11 @@
 $(function(){
     // Rickroll fn
     // $(document).ready(function(){
-        var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', './src/audio/kindsound.mp3');
+        var kindsound = document.createElement('audio');
+        kindsound.setAttribute('src', './src/audio/kindsound.mp3');
 
         $('.click-me').on('click', function(){
-            audioElement.play();
+            kindsound.play();
         });
 
         $(document).on("contextmenu",function(e){
@@ -48,6 +48,42 @@ $(function(){
                 $('.popup-slippers').removeClass('gelatine mirrorflip');
             }, duration + 8000)
         };
+    });
+
+
+    // Google section
+    const originalString = $('.searchbar-text').html();
+    var clickTimeout;
+    $('.searchbar-text').on('click', function(){
+        clearTimeout(clickTimeout);
+        $('.searchbar-text').html('Never gonna let you type 🎶');
+        clickTimeout = setTimeout(function(){
+          $('.searchbar-text').html(originalString);
+        }, 5000);
+    });
+    $('.microphone').on('click', function(){
+        clearTimeout(clickTimeout);
+        $('.searchbar-text').html('Lmao no one uses this');
+        clickTimeout = setTimeout(function(){
+          $('.searchbar-text').html(originalString);
+        }, 5000);
+    });
+    $('.magnifying-glass').on('click', function(){
+        clearTimeout(clickTimeout);
+        $('.searchbar-text').html('Results are already there =D');
+        clickTimeout = setTimeout(function(){
+          $('.searchbar-text').html(originalString);
+        }, 5000);
+    });
+    const pronunciation = document.createElement('audio');
+    pronunciation.setAttribute('src', './src/audio/quirky.mp3');
+    $('.pronunciation').on('click', function(){
+        pronunciation.play();
+    })
+    const butiti = document.createElement('audio');
+    butiti.setAttribute('src', 'src/audio/butiti.mp3');
+    $('.butiti').on('click', function(){
+        butiti.play();
     });
 
     // Sticky nav-bar
