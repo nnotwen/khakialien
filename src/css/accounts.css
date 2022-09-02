@@ -66,12 +66,13 @@ a{
   border-radius: 15px;
   position: relative;
   margin: 10px auto;
-  width: 380px;
+  width: 290px;
   height: auto;
   display: flex;
   flex-flow: column;
   background-color: #272532;
   filter: drop-shadow(1px 6px 10px rgba(0,0,0,0.85));
+  flex-grow: 1;
 }
 
 .site-avatar {
@@ -148,7 +149,7 @@ a{
 .banner img{
   position: absolute;
   top: -50%;
-  width: 380px;
+  width: 100%;
 }
 
 .account-card .content{
