@@ -150,9 +150,10 @@ body {
     text-align: center;
 }
 
-.google-dict-interface .header{
+.header{
   font-weight: 400;
   font-size: 24px;
+  text-align: center;
 }
 
 .google-dict-interface .searchbar{
@@ -263,6 +264,160 @@ body {
 .synonyms span:first-child{
   margin-right: 3px;
   font-style: italic;
+}
+
+.music-interface-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 30px auto 0;
+}
+
+.music-interface{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 10px auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  width: 300px;
+  height: auto;
+}
+
+.album-cover {
+  overflow: hidden;
+  position: relative;
+  height: 410px;
+  pointer-events: none;
+}
+
+.album-cover .image{
+  background-size: cover !important;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+  height: 300px;
+  width: 300px;
+}
+
+.album-cover svg {
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  z-index: 2;
+  filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.85));
+  transition: all .2s ease-in-out;
+}
+
+.album-cover svg:hover{
+  transform: scale(1.1);
+}
+
+.album-cover:hover{
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.album-cover > svg{
+  pointer-events: auto;
+}
+
+.album-cover .play-end-modal{
+  position: absolute;
+  top: 20px;
+  z-index: 3;
+  font-size: 10px;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.album-cover .image:after{
+  height: 100px;
+  content: '';
+  top: 200px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(rgba(9, 2, 4, 0), #444);
+}
+
+.album-cover .wave{
+  position: absolute;
+  height: 750px;
+  width: 750px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -70%;
+  margin-top: -130%;
+  background: radial-gradient(#353535, #383737);
+}
+
+.album-cover .wave:nth-child(2),
+.album-cover .wave:nth-child(3){
+  top: 10px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+/* when stop */
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+/* when stop */
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+/* when stop */
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.album-info {
+  text-align: center;
+  padding: 0 10px 10px;
+  overflow: hidden;
+}
+
+.album-info .title {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.album-info .artist {
+  color: #cfcfcf;
+  font-size: 1.2em;
+  margin-top: -10px;
+}
+
+.album-info p {
+    line-height: unset;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0px;
+}
+
+.listen-full{
+  margin-top: 10px;
 }
 
 .main-content-children {
