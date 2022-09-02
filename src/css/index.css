@@ -331,7 +331,7 @@ body {
 
 /* media queries */
 
-@media (max-width: 635px){
+@media (max-width: 645px){
   .main-content-buttons li a{
     font-size: 0px;
     min-width: 50px;
