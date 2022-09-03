@@ -94,10 +94,10 @@ $(function(){
                   </div>
                   <span class="divider"></span>
                   <div class="description">${entry.description || '\u200b'}</div>
-                  <div class="button-container">
-                    <a href="${entry.siteURL}" class="button-link" target="_blank">Visit</a>
-                  </div>
                 </div>
+                <div class="button-container">
+                <a href="${entry.siteURL}" class="button-link" target="_blank">Visit</a>
+              </div>
               </div>`
           );
       });
