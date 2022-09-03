@@ -24,10 +24,6 @@ body::-webkit-scrollbar {
   background-image: linear-gradient(180deg,#CCB79C, #3B3224);
 }
 
-body::-webkit-scrollbar-track {
-  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
-}
-
 body::-webkit-scrollbar-thumb {
   background-color: #3b3224;
   outline: 1px solid slategrey;
