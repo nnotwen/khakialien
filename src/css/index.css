@@ -126,9 +126,8 @@ body {
   flex-grow: 1;
   padding: 1rem;
   width: 50%;
-  margin: 10px;
+  margin: auto 10px;
   max-width: 400px;
-  vertical-align: center;
 }
 
 .subcontent .about-column img{
@@ -272,6 +271,7 @@ body {
   flex-wrap: wrap;
   max-width: 900px;
   margin: 30px auto 0;
+  justify-content: center;
 }
 
 .music-interface{
