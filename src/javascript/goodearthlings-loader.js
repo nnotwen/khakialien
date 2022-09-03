@@ -10,7 +10,7 @@ var goodearthlingsList = [
   },
   {
     name: 'Rayne Fujita',
-    imageURL: 'https://pbs.twimg.com/profile_images/1554959978426925057/Z4S_K2GA_400x400.jpg',
+    imageURL: './src/images/avatar_rayne_fujita.jpg',
     profession: 'UnSeiso Vtuber/Ice Wizard',
     facebookURL: null,
     twitterURL: 'https://twitter.com/FujitaRayne',
@@ -28,7 +28,7 @@ var goodearthlingsList = [
   },
   {
     name: 'Tanaka Daisuke',
-    imageURL: 'https://pbs.twimg.com/profile_images/1508781446844272648/q6JB1JPM_400x400.jpg',
+    imageURL: './src/images/avatar_tanaka_daisuke.jpg',
     profession: 'Retired Detective Vtuber/Cook',
     facebookURL: null,
     twitterURL: 'https://twitter.com/tantan_dai',
@@ -64,7 +64,7 @@ var goodearthlingsList = [
   },
   {
     name: 'wasd',
-    imageURL: 'https://pbs.twimg.com/profile_images/1538395383189352449/GfyK16CS_400x400.jpg',
+    imageURL: './src/images/avatar_wasd.jpg',
     profession: 'Transparent Earthman',
     facebookURL: null,
     twitterURL: 'https://twitter.com/wasdwasd42',
@@ -100,7 +100,7 @@ var goodearthlingsList = [
   },
   {
     name: 'XiaoMogi',
-    imageURL: 'https://cdn.discordapp.com/attachments/958362883941597184/958365749083250718/HAHAHAHA.png',
+    imageURL: './src/images/avatar_xiao.jpg',
     profession: 'Game Enjoyer Earthman',
     facebookURL: 'https://web.facebook.com/kwak1kiii',
     twitterURL: null,
@@ -109,7 +109,7 @@ var goodearthlingsList = [
   },
   {
     name: 'Cation',
-    imageURL: 'https://cdn.discordapp.com/avatars/681694709080391702/899902bc981c21f2a0b9c5d4a1862060.png?size=256',
+    imageURL: './src/images/avatar_cation.jpg',
     profession: 'Meme-sama',
     youtubeURL: 'https://youtube.com/channel/UC204Lwn8PlWRPSjsGjSHZXA',
     rating: 5
@@ -117,7 +117,7 @@ var goodearthlingsList = [
   {
     name: 'magikarp',
     profession: 'Earth fishda / osu!mania Smasher',
-    imageURL: 'https://images-ext-2.discordapp.net/external/9-PKJiO0q19oYcwkVHDniyfPm2e10ZMc29LHgx37y50/%3Fq%3Dtbn%3AANd9GcQ03qZDMB0OGk8ZN6grqEh03Le2MhFuu-Cw-Q%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?width=440&height=498',
+    imageURL: './src/images/avatar_magikarp.jpg',
     rating: 5
   },
   {
@@ -129,7 +129,7 @@ var goodearthlingsList = [
   {
     name: 'Nehemiah Go',
     profession: 'Bassist / Percussionist / Audio Editor',
-    imageURL: 'https://scontent.fmnl6-2.fna.fbcdn.net/v/t39.30808-1/293715338_6030103657006421_3383898319826914208_n.jpg?stp=dst-jpg_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHE_jMGqq5pIyOVsDaL-pQYsf-9e9olWs2x_7172iVazV7nj3FHLNBpIRSWGknuCHaLnhXkIZjMLtn6__a5Fg0K&_nc_ohc=yTBA-Rjq25wAX80q-Cd&tn=INjf7BOyORudRW9Y&_nc_ht=scontent.fmnl6-2.fna&oh=00_AT9yIp6mnHmVtyBG7yqqjXgKJwg0IetvUlz35DcGaVPVRg&oe=63127E35',
+    imageURL: './src/images/avatar_nehemiah_go.jpg',
     facebookURL: 'https://www.facebook.com/miahgo',
     youtubeURL: 'https://youtube.com/channel/UCqjtQTB-r18oVMISrv9QW4w',
     rating: 5
@@ -137,7 +137,7 @@ var goodearthlingsList = [
   {
     name: 'Zek',
     profession: 'Artistic Animator Earthman',
-    imageURL: 'https://pbs.twimg.com/profile_images/1530980571174047744/l1C9U_6r_400x400.jpg',
+    imageURL: './src/images/avatar_zek.jpg',
     twitterURL: 'https://mobile.twitter.com/ZekkaellHades',
     rating: 5
   }
