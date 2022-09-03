@@ -123,7 +123,7 @@ var goodearthlingsList = [
   {
     name: 'Yoshi',
     profession: 'Artistic Earthman',
-    imageURL: 'https://cdn.discordapp.com/attachments/826336865572749375/1014061786003157002/272fe811848bb06da74f6bdd3313ced5.jpg',
+    imageURL: './src/images/avatar_placeholder.jpg',
     rating: 5
   },
   {
