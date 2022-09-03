@@ -13,7 +13,12 @@ $(function(){
         };
     };
 
-
+    $('.share-button').on('click', function(){
+        navigator.share({
+            url: window.location.origin + window.location.pathname,
+            title: document.title
+        });
+    });
 
     $(window).scroll(function(){
         // Show/hide back to top button
