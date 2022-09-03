@@ -390,6 +390,9 @@ body {
 }
 
 .album-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   text-align: center;
   padding: 0 10px 10px;
   overflow: hidden;
@@ -417,7 +420,8 @@ body {
 }
 
 .listen-full{
-  margin-top: 10px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .main-content-children {
