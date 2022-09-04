@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  background-image: linear-gradient(180deg,#CCB79C, #3B3224) !important;
+  background-image: linear-gradient(180deg, #ccb79c, #3b3224) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -10,7 +10,7 @@ body {
   background-blend-mode: overlay;
 }
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size: 100%;
   /* min-width: 400px; */
@@ -21,7 +21,7 @@ html{
 
 body::-webkit-scrollbar {
   width: 8px;
-  background-image: linear-gradient(180deg,#CCB79C, #3B3224);
+  background-image: linear-gradient(180deg, #ccb79c, #3b3224);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -57,9 +57,9 @@ a{
   color: white;
 }
 
-.account-card{
-  font-family: 'Roboto';
-  transition: all .2s ease-in-out;
+.account-card {
+  font-family: "Roboto";
+  transition: all 0.2s ease-in-out;
   border-radius: 15px;
   position: relative;
   margin: 10px auto;
@@ -68,7 +68,7 @@ a{
   display: flex;
   flex-flow: column;
   background-color: #272532;
-  filter: drop-shadow(1px 6px 10px rgba(0,0,0,0.85));
+  filter: drop-shadow(1px 6px 10px rgba(0, 0, 0, 0.85));
   flex-grow: 1;
 }
 
@@ -84,7 +84,7 @@ a{
   left: 25px;
 }
 
-.site-avatar img{
+.site-avatar img {
   background: #272532;
   z-index: 1;
   width: 100%;
@@ -95,7 +95,7 @@ a{
   /* border: 3px solid red; */
 }
 
-.site-logo{
+.site-logo {
   width: 80px;
   height: 80px;
   padding: 3px;
@@ -106,7 +106,7 @@ a{
   right: 20px;
 }
 
-.site-logo img{
+.site-logo img {
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -114,7 +114,7 @@ a{
   height: 100%;
   top: unset;
   bottom: 0;
-  filter: drop-shadow(3px 9px 15px rgba(0,0,0,0.25));
+  filter: drop-shadow(3px 9px 15px rgba(0, 0, 0, 0.25));
 }
 
 .account-card .banner {
@@ -126,14 +126,18 @@ a{
   overflow: hidden;
 }
 
-.account-card .banner::after{
+.account-card .banner::after {
   content: "";
   position: absolute;
-  inset: -.625em;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+  inset: -0.625em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+  );
 }
 
-.banner .site-name{
+.banner .site-name {
   position: absolute;
   top: 20px;
   right: 25px;
@@ -143,27 +147,27 @@ a{
   text-shadow: 1px 1px 10px black;
 }
 
-.banner img{
+.banner img {
   position: absolute;
   top: -50%;
   width: 100%;
 }
 
-.account-card .content{
+.account-card .content {
   padding: 25px;
   margin: 0 0 auto 0;
 }
 
-.content .name{
-  color: #9d9a9a
+.content .name {
+  color: #9d9a9a;
 }
 
-.content .name h2{
+.content .name h2 {
   color: white;
   margin-bottom: 3px;
 }
 
-span.divider{
+span.divider {
   margin: 10px 0;
   width: 100%;
   height: 3px;
@@ -172,24 +176,24 @@ span.divider{
   border-radius: 2px;
 }
 
-.content .description{
+.content .description {
   line-height: 1.5;
   font-size: 15px;
   padding: 10px 0;
 }
 
-.invisible{
+.invisible {
   visibility: hidden;
 }
 
 /* Buttons */
-.button-container{
+.button-container {
   position: relative;
   padding: 15px;
   height: 20px;
   margin: 0 20px 20px;
 }
-.button-link{
+.button-link {
   position: absolute;
   bottom: 0;
   right: 0px;
@@ -201,8 +205,8 @@ span.divider{
   text-align: center;
 }
 .button-link:active {
-    background-color: #104010;
+  background-color: #104010;
 }
 .button-link:hover {
-    background-color: #1f781f;
+  background-color: #1f781f;
 }

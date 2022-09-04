@@ -1,25 +1,25 @@
-:root{
-  --swiper-theme-color: #CCB79C;
+:root {
+  --swiper-theme-color: #ccb79c;
 }
 
-.swiper-body{
+.swiper-body {
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   padding-bottom: 30px;
 }
 
-.swiper-body section{
+.swiper-body section {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.swiper{
+.swiper {
   width: 950px;
 }
 
@@ -27,11 +27,11 @@ section .card .image {
   height: 140px;
   width: 140px;
   border-radius: 50%;
-  padding 3px;
+  padding: 3px;
   background: #cbb69b;
 }
 
-section .card .image img{
+section .card .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -48,8 +48,8 @@ section .card .image img{
   width: 280px;
 }
 
-.card::before{
-  content: '';
+.card::before {
+  content: "";
   position: absolute;
   height: 40%;
   width: 100%;
@@ -57,7 +57,7 @@ section .card .image img{
   border-radius: 20px 20px 0 0;
 }
 
-.card .card-content{
+.card .card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,18 +75,18 @@ section .card .image img{
   align-items: center;
 }
 
-.card .media-icons i{
+.card .media-icons i {
   color: #fff;
   opacity: 0.6;
   margin-top: 10px;
   transition: all 0.3s ease;
 }
 
-.card .media-icons i:hover{
+.card .media-icons i:hover {
   opacity: 1;
 }
 
-.card .name-profession{
+.card .name-profession {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -95,12 +95,12 @@ section .card .image img{
   color: #3b3224;
 }
 
-.name-profession .name{
+.name-profession .name {
   font-size: 20px;
   font-weight: 600;
 }
 
-.name-profession .profession{
+.name-profession .profession {
   font-size: 15px;
   font-weight: 600;
 }
@@ -111,26 +111,27 @@ section .card .image img{
   margin-top: 18px;
 }
 
-.card .rating i{
+.card .rating i {
   font-size: 18px;
   margin: 0 2px;
   color: #3b3224;
 }
 
 .swiper-media-disabled {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
-.media-icons .swiper-media-disabled i:hover{
-    opacity: 0.6;
+.media-icons .swiper-media-disabled i:hover {
+  opacity: 0.6;
 }
 
 .swiper-container {
   width: 375px;
 }
 
-.swiper-slide-shadow-right, .swiper-slide-shadow-left {
-    border-radius: 20px;
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-left {
+  border-radius: 20px;
 }
 
 @media screen and (min-width: 640px) {
