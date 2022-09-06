@@ -122,7 +122,7 @@ var goodearthlingsList = [
   },
   {
     name: "Yoshi",
-    profession: "Artistic Earthman",
+    profession: "Artistic Unidentified Being",
     imageURL: "./src/images/avatar_placeholder.jpg",
     rating: 5,
   },
