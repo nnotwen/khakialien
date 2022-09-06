@@ -71,11 +71,9 @@ const accounts = [
   {
     siteName: "facebook",
     siteURL: "https://www.facebook.com/profile.php?id=100079412396828",
-    siteBanner:
-      "https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/292858659_139443382046074_3715263490918368060_n.jpg?stp=dst-jpg_p640x640&_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ps-rAL_1AHMAX9Q-TMJ&_nc_ht=scontent.fceb2-2.fna&oh=00_AT8JbhphctOTGMN-2NFVhk-c4u7k1oLuZ98wN9CTF7vqVw&oe=63157EB0",
+    siteBanner: "./src/images/facebook_banner.jpg",
     siteLogo: "https://img.icons8.com/fluency/344/facebook-new.png",
-    siteAvatar:
-      "https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/277503038_109861808337565_8923409232688172661_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PlTkyhil574AX8bD9yw&_nc_ht=scontent.fceb2-2.fna&oh=00_AT9eZaoIE4YEZJOHZt_69vxMt2iUfgbuGyfiAz-wVl4A2Q&oe=631403F7",
+    siteAvatar: "./src/images/facebook_avatar.jpg",
     accountNamePrimary: "Khaki Kaniki",
     accountNameSecondary: "",
     description: "yo, i am Khaki Alien that can sing ig lol",
