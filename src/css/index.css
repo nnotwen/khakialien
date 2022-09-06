@@ -586,6 +586,9 @@ body {
     order: 1;
     margin-bottom: 0;
   }
+  .clickable-entity-popup {
+    z-index: 1;
+  }
   .main-content-image {
     height: auto;
     margin: auto;
