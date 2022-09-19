@@ -1,10 +1,10 @@
 $(document).ready(function () {
   heroImage = new Image();
-  heroImage.src = "../images/mad_withslippers_reversed.png";
+  heroImage.src = "../src/images/mad_withslippers_reversed.png";
   heroImage.onload = function () {
     // Create audio element for sound fx
     var stretching = document.createElement("audio");
-    stretching.setAttribute("src", "../audio/gamefx_blop.mp3");
+    stretching.setAttribute("src", "../src/audio/gamefx_blop.mp3");
     stretching.playbackRate = 4;
     $(stretching).on("ended", function () {
       this.currentTime = 0;
