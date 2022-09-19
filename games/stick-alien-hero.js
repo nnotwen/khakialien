@@ -2,14 +2,14 @@ $(document).ready(function () {
   heroImage = new Image();
   heroImage.src = "../src/images/mad_withslippers_reversed.png";
   heroImage.onload = function () {
-    // Create audio element for sound fx
-    var stretching = document.createElement("audio");
-    stretching.setAttribute("src", "../src/audio/gamefx_blop.mp3");
-    stretching.playbackRate = 4;
-    $(stretching).on("ended", function () {
-      this.currentTime = 0;
-      this.play();
-    });
+    // // Create audio element for sound fx
+    // var stretching = document.createElement("audio");
+    // stretching.setAttribute("src", "../src/audio/gamefx_blop.mp3");
+    // stretching.playbackRate = 4;
+    // $(stretching).on("ended", function () {
+    //   this.currentTime = 0;
+    //   this.play();
+    // });
 
     // Extend the base functionality of JavaScript
     Array.prototype.last = function () {
@@ -178,14 +178,14 @@ $(document).ready(function () {
         lastTimestamp = undefined;
         introductionElement.style.opacity = 0;
         phase = "stretching";
-        stretching.play();
+        // stretching.play();
         window.requestAnimationFrame(animate);
       }
     }
     function mouseup() {
       if (phase == "stretching") {
         phase = "turning";
-        stretching.pause();
+        // stretching.pause();
       }
     }
     window.addEventListener("mousedown", function (_event) {
