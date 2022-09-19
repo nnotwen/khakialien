@@ -18,6 +18,11 @@ body:focus {
   outline: none;
 }
 
+html:focus,
+body:focus {
+  outline: none;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
