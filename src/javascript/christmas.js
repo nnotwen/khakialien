@@ -128,5 +128,10 @@ $(function () {
       "font-family": "Arial",
       "text-shadow": "0 0 1px #000",
     });
+
+    $(".main-content-image img").attr({
+      src: "./src/images/avatar_christmas.png",
+      style: "border-radius: 50% 0 50% 50%",
+    });
   });
 });
