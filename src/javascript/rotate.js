@@ -88,17 +88,36 @@ $(audioElement).on("ended", function () {
   this.play();
 });
 
+
+var isMouseDown = false;
 $("#rotate")
-  .on("mousedown", function () {
-    audioElement.play();
-    $(audioElement).animate({ volume: 1.0 }, 500);
-  })
-  .on("mouseup", function () {
-    $(audioElement).animate({ volume: 0.0 }, 500);
-    setTimeout(function () {
-      audioElement.pause();
-    }, 600);
+  .on("mousedown", () => isMouseDown = true)
+  .on("mouseup", () => isMouseDown = false)
+  .on("mousemove", function(){
+    if (isMouseDown){
+      if (!audioElement.paused) return;
+        audioElement.play();
+        $(audioElement).animate({ volume: 1.0 }, 500);
+    } else {
+      if (audioElement.paused) return;
+      $(audioElement).animate({ volume: 0.0 }, 500);
+      setTimeout(function () {
+        audioElement.pause();
+      }, 600);
+    };
   });
+
+// $("#rotate")
+//   .on("mousedown", function () {
+//     audioElement.play();
+//     $(audioElement).animate({ volume: 1.0 }, 500);
+//   })
+//   .on("mouseup", function () {
+//     $(audioElement).animate({ volume: 0.0 }, 500);
+//     setTimeout(function () {
+//       audioElement.pause();
+//     }, 600);
+//   });
 
 // $('.click-me').on('click', function(){
 //     if (canPlay){
