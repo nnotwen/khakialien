@@ -36,15 +36,6 @@ var goodearthlingsList = [
     rating: 5, // max-rating is 5
   },
   {
-    name: "Patrick",
-    imageURL: "./src/images/avatar_patrick.jpg",
-    profession: "Cyclist/Gamer Earthman",
-    facebookURL: "https://web.facebook.com/Patrick.official05",
-    twitterURL: null,
-    youtubeURL: "https://www.youtube.com/channel/UCW8d2-oCovqSSBshJskA8ew",
-    rating: 5, // max-rating is 5
-  },
-  {
     name: "Wendy Wen",
     imageURL: "./src/images/avatar_wen.jpg",
     profession: "Professional Earthman",
