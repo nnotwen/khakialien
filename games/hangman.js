@@ -238,8 +238,14 @@ $(function () {
           .addField(
             new FieldRow("stats-session")
               .setTitle("Session Stats")
-              .addField("Duration per Level", arrAverage(durationPerLevel))
-              .addField("Incorrect Tries", arrAverage(averageIncorrectTries))
+              .addField(
+                "Duration per Level",
+                arrAverage(durationPerLevel).toFixed(2)
+              )
+              .addField(
+                "Incorrect Tries",
+                arrAverage(averageIncorrectTries).toFixed(2)
+              )
               .addField("Times perfected", timesPerfected)
           )
           .addField(
@@ -262,7 +268,6 @@ $(function () {
 
         // // Reset score
         // score = 0;
-        console.log({ score });
         // Modal Body
         if (won) {
           $(".modal-title").html("🎊 Congratulations!");
@@ -440,7 +445,6 @@ class Modal {
       throw new Error("Invalid value: Field must be an instance of FieldRow");
 
     this.fields.push(value);
-    console.log(this);
     return this;
   }
 
