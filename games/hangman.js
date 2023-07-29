@@ -247,15 +247,15 @@ $(function () {
               .setTitle("Lifetime Stats")
               .addField(
                 "Highest score in a level",
-                localStorage.getItem("levelHiScore")
+                localStorage.getItem("levelHiScore") || 0
               )
               .addField(
                 "Highest Total Score",
-                localStorage.getItem("totalHiScore")
+                localStorage.getItem("totalHiScore") || 0
               )
               .addField(
                 "Most perfect in a single session",
-                localStorage.getItem("maxPerfectSs")
+                localStorage.getItem("maxPerfectSs") || 0
               )
           )
           .build();
