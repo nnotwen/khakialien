@@ -1,16 +1,7 @@
 $(document).ready(function () {
   heroImage = new Image();
-  heroImage.src = "../src/images/mad_withslippers_reversed.png";
+  heroImage.src = "../src/img/mad_withslippers_reversed.png";
   heroImage.onload = function () {
-    // // Create audio element for sound fx
-    // var stretching = document.createElement("audio");
-    // stretching.setAttribute("src", "../src/audio/gamefx_blop.mp3");
-    // stretching.playbackRate = 4;
-    // $(stretching).on("ended", function () {
-    //   this.currentTime = 0;
-    //   this.play();
-    // });
-
     // Extend the base functionality of JavaScript
     Array.prototype.last = function () {
       return this[this.length - 1];
@@ -134,7 +125,7 @@ $(document).ready(function () {
         minimumGap +
         Math.floor(Math.random() * (maximumGap - minimumGap));
 
-      const treeColors = ["#181131", "#0f0b1d", "#281c4a"];
+      const treeColors = ["#3f392b", "#513e19", "#433627"];
       const color = treeColors[Math.floor(Math.random() * 3)];
 
       trees.push({ x, color });
@@ -384,7 +375,7 @@ $(document).ready(function () {
 
         // Draw perfect area only if hero did not yet reach the platform
         if (sticks.last().x < x) {
-          ctx.fillStyle = "red";
+          ctx.fillStyle = "#bdae87";
           ctx.fillRect(
             x + w / 2 - perfectAreaSize / 2,
             canvasHeight - platformHeight,
@@ -434,16 +425,16 @@ $(document).ready(function () {
 
     function drawBackground() {
       // Draw sky
-      var gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
-      gradient.addColorStop(0.0, "#1f1665");
-      // gradient.addColorStop(0.75, "#84577e");
-      gradient.addColorStop(1.0, "#d1888d");
-      ctx.fillStyle = gradient;
-      ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+      // var gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
+      // gradient.addColorStop(0.0, "#1f1665");
+      // // gradient.addColorStop(0.75, "#84577e");
+      // gradient.addColorStop(1.0, "#d1888d");
+      // ctx.fillStyle = gradient;
+      // ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
 
       // Draw hills
-      drawHill(hill1BaseHeight, hill1Amplitude, hill1Stretch, "#5d3fa6");
-      drawHill(hill2BaseHeight, hill2Amplitude, hill2Stretch, "#2b1b59");
+      drawHill(hill1BaseHeight, hill1Amplitude, hill1Stretch, "#513e19");
+      drawHill(hill2BaseHeight, hill2Amplitude, hill2Stretch, "#29261d");
 
       // Draw trees
       trees.forEach((tree) => drawTree(tree.x, tree.color));

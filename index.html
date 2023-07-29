@@ -1,265 +1,853 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Khaki Alien - An alien that can sing i guess..." />
-    <meta name="keywords" content="Khaki Alien, Khaki Alien Sakurajima, Khaki, Alien, Vtuber" />
-    <meta name="author" content="Sakurajimai#6742" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Khaki Alien - An alien that can sing i guess..."
+    />
+    <meta
+      name="keywords"
+      content="Khaki Alien, Khaki Alien, Khaki, Alien, Vtuber"
+    />
+    <meta name="author" content="alien" />
     <meta name="theme-color" content="#CCB79C" />
 
-    <meta name="msapplication-square310x310logo" content="https://www.khakien.gq/src/images/avatar.png">
-    <meta property="og:url" content="https://khakien.gq">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Khaki Alien: An alien that can sing... I guess">
-    <meta property="og:description" content="The only things I remembered were that I was the only one left on my planet and my name. It's almost like as if everyone is wiped out except me...">
-    <meta property="og:image" content="https://www.khakien.gq/src/images/avatar.png">
-    <meta property="og:site_name" content="khakien.gq">
+    <meta
+      name="msapplication-square310x310logo"
+      content="https://www.khakien.gq/src/img/avatar.png"
+    />
+    <meta property="og:url" content="https://khakien.gq" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Khaki Alien: An alien that can sing... I guess"
+    />
+    <meta
+      property="og:description"
+      content="The only things I remembered were that I was the only one left on my planet and my name. It's almost like as if everyone is wiped out except me..."
+    />
+    <meta
+      property="og:image"
+      content="https://www.khakien.gq/src/img/avatar.png"
+    />
+    <meta property="og:site_name" content="khakien.gq" />
 
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:domain" content="khakien.gq">
-    <meta property="twitter:url" content="https://khakien.gq">
-    <meta name="twitter:title" content="Khaki Alien">
-    <meta name="twitter:description" content="An alien that can sing ig.">
-    <meta name="twitter:image" content="https://www.khakien.gq/src/images/avatar.png">
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:domain" content="khakien.gq" />
+    <meta property="twitter:url" content="https://khakien.gq" />
+    <meta name="twitter:title" content="Khaki Alien" />
+    <meta name="twitter:description" content="An alien that can sing ig." />
+    <meta
+      name="twitter:image"
+      content="https://www.khakien.gq/src/img/avatar.png"
+    />
 
-    <link rel="icon" type="image/png" href="./src/images/favicon.jpg" />
+    <link rel="icon" type="image/png" href="./src/img/favicon.jpg" />
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- Fontawesome CDN link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--Stylesheets-->
-    <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="stylesheet" href="./src/css/index.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link rel="stylesheet" href="./src/css/swiper.css">
-    <!--------------->
     <title>Khaki Alien</title>
 
-    <script src="./src/javascript/jquery/jquery-3.5.1.js"></script>
-    <script src="./src/javascript/main.js"></script>
-    <script src="./src/javascript/index.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./src/javascript/goodearthlings-loader.js"></script>
-    <script src="./src/javascript/christmas.js"></script>
+    <!-- BOOTSTRAP FILES -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- css modules -->
+    <link rel="stylesheet" href="./src/css/bootstrap-extension.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/special.css" />
+
+    <!-- Javascript modules -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/common.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/changelogs.js"></script>
   </head>
-  <body style="cursor: url('./src/images/ghost khaki.cur'), auto;">
-    <div class="loading-page">
-      <div class="loading-wrapper">
-        <div class="loading-icon"></div>
-        <div class="loading-icon"></div>
-        <div class="loading-icon"></div>
-        <div class="loading-icon"></div>
-        <div class="loading-icon"></div>
-        <div class="loading-shadow"></div>
-        <div class="loading-shadow"></div>
-        <div class="loading-shadow"></div>
-        <div class="loading-shadow"></div>
-        <div class="loading-shadow"></div>
-        <span>Loading khakien.gq...</span>
-      </div>
-      <div class="infinitely-loading">
-        <span>
-          Still loading? Click <a href="javascript:window.location.reload(true)">here</a> to refresh.
-        </span>
-      </div>
+  <body>
+    <!-- ANIMATED BACKGROUND -->
+    <div class="a-alien-bg">
+      <ul class="a-alien-icns"></ul>
     </div>
-    <div class="page-loaded" style="display:none;">
-      <a class="back-to-top-button"></a>
-      <a class="share-button"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496.158 496.158" style="enable-background:new 0 0 496.158 496.158;" xml:space="preserve"> <path style="fill:#25B7D3;" d="M0,248.085C0,111.064,111.07,0.003,248.076,0.003c137.012,0,248.082,111.061,248.082,248.082 c0,137.002-111.07,248.07-248.082,248.07C111.07,496.155,0,385.087,0,248.085z"/> <circle style="fill:#FFFFFF;" cx="146.489" cy="248.969" r="53.807"/> <circle style="fill:#FFFFFF;" cx="310.749" cy="153.319" r="53.807"/> <circle style="fill:#FFFFFF;" cx="310.749" cy="342.839" r="53.807"/> <rect x="214.155" y="104.29" transform="matrix(-0.5032 -0.8642 0.8642 -0.5032 171.424 497.1939)" style="fill:#FFFFFF;" width="28.933" height="190.068"/> <rect x="133.608" y="280.528" transform="matrix(-0.8642 -0.5032 0.5032 -0.8642 277.774 664.974)" style="fill:#FFFFFF;" width="190.068" height="28.933"/> </svg></a>
-      <nav class="nav-bar">
-        <div class="nav-bar-img">
-          <h1 class="glitch">
-            <span aria-hidden="true" style="padding-left:1.5rem">Khaki Alien</span>
-            Khaki Alien
-            <span aria-hidden="true" style="padding-left:1.5rem">Khaki Alien</span>
-          </h1>
-        </div>
-        <div class="nav-bar-toggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <div class="nav-bar-links">
-          <ul>
-            <li><a href="./accounts" >Accounts</a></li>
-            <li><a href="https://discord.gg/somelegitserverurl" target="_blank">Discord</a></li>
-            <li class="click-me"><a>Click Me!</a></li>
+    <!-- Start of actual page content -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-body-tertiary navbar-dark"
+      style="box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3">
+          <span class="glitch">Khaki Alien</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li
+              class="nav-item"
+              href="#offCanvasMain"
+              data-bs-toggle="offcanvas"
+              role="button"
+              aria-controls="offCanvasMain"
+            >
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi-person-circle"></i> ACCOUNTS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" incomplete="true">
+                <i class="bi-person-lines-fill"></i> FRIENDS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi-puzzle-fill"></i> MISCELLANEOUS
+              </a>
+              <ul class="dropdown-menu nav-dropdown-menu dropdown-menu-end">
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    href="#"
+                    incomplete="true"
+                  >
+                    <i class="bi-discord"></i> DISCORD
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    href="./games.html"
+                  >
+                    <i class="bi-dpad-fill"></i> GAMES
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    href="#"
+                    incomplete="true"
+                  >
+                    <i class="bi-emoji-laughing-fill"></i> MEMES
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-changelogs"
+                  >
+                    <i class="bi-archive-fill"></i> CHANGELOGS
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    href="https://github.com/nnotwen/khakialien"
+                    target="_blank"
+                  >
+                    <i class="bi-github"></i> GITHUB
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item nav-dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-license"
+                  >
+                    <i class="bi-sticky-fill"></i> LICENSE
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li class="nav-surprise-ele">
+                  <a class="dropdown-item nav-dropdown-item" href="#">
+                    <i class="bi-box-fill"></i> SURPRISE
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
-      </nav>
-      <div class="content">
-        <div class="fade-in">
-          <div class="subcontent">
-            <div class="main-content-children left" style="width: auto;">
-              <h1 class="glitch clickable-entity-popup" style="font-family:Silkscreen">
-                <img class="popup-slippers" src="./src/images/mad_withslippers.png" style="position: absolute;width: 150px;visibility:hidden">
-                <span aria-hidden="true">Khaki Alien</span>
-                 Khaki Alien
-                 <span aria-hidden="true">Khaki Alien</span>
-              </h1>
-              <p style="font-weight: bolder;font-size: 20px;font-family:monospace">🎵 <span class="el-st">An Alien that can sing ig</span></p>
-              <h5 style="margin: unset;margin-top: 40px;padding: unset;">Follow me on the following social media platforms:</h5>
-              <div class="main-content-buttons">
-                <li>
-                  <a class="youtube-button" href="https://www.youtube.com/channel/UC6nRmYgZEs5sedJnEvCq9Aw" target="_blank">
-                    <svg style="vertical-align: top; margin: auto 3px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" ne="0.21882278677192857"><title>YouTube</title><path d="M508.64,148.79c0-45-33.1-81.2-74-81.2C379.24,65,322.74,64,265,64H247c-57.6,0-114.2,1-169.6,3.6-40.8,0-73.9,36.4-73.9,81.4C1,184.59-.06,220.19,0,255.79q-.15,53.4,3.4,106.9c0,45,33.1,81.5,73.9,81.5,58.2,2.7,117.9,3.9,178.6,3.8q91.2.3,178.6-3.8c40.9,0,74-36.5,74-81.5,2.4-35.7,3.5-71.3,3.4-107Q512.24,202.29,508.64,148.79ZM207,353.89V157.39l145,98.2Z" fill="white"></path></svg>
-                    YouTube
-                  </a>
-                </li>
-                <li>
-                  <a class="tiktok-button" href="https://www.tiktok.com/@khaki_alien" target="_blank">
-                    <svg style="vertical-align: top; margin: auto 3px;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-tiktok" viewBox="0 0 16 16"><title>Tiktok</title><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/> </svg>
-                    Tiktok
-                  </a>
-                </li>
-                <li>
-                  <a class="bandlab-button" href="https://www.bandlab.com/khaki_alien" target="_blank">
-                    <svg style="vertical-align: middle; margin: auto 3px;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" ne="0.8413034581702035"><title>BandLab</title><path d="M10.87714 17.58857C12.84 17.58857 15.3 15.78 15.3 13.32c0-.72-.15429-1.43143-.45429-2.09143l-3.41142-8.34H17.16L15.65143 0H7.48286l4.68 11.56286C10.1657 12 8.34 13.56 8.34 15.36c0 1.30286.94286 2.22857 2.53714 2.22857.02737 0 0 0 5.1-11.50286H19.32L22.88571 12.24A8.82857 8.82857 0 0 1 24 16.26c0 4.5-3.54857 7.74-8.57143 7.74H8.57143C3.54 24 0 20.76 0 16.26c.04286-1.41429.42857-2.78571 1.11429-4.02857L4.67143 6.0857h3.34286l-4.17429 7.26a6.05143 6.05143 0 0 0-.82286 2.86286c0 2.86286 1.95429 4.90286 5.65715 4.90286h6.65142c3.68572 0 5.65715-2.04 5.65715-4.90286a6.05143 6.05143 0 0 0-.83143-2.86286l-4.17429-7.26H19.32h-3.34286" fill="white"></path></svg>
-                    BandLab
-                  </a>
-                </li>
-              </div>
-            </div>
-            <div class="main-content-children right">
-              <div class="main-content-image" id="rotate">
-                <img src="./src/images/avatar.png" alt="" style="border-radius:50%">
-                <script src="./src/javascript/rotate.js"></script>
-              </div>
-            </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade modal-lg"
+      id="modal-disabled"
+      tabindex="-3"
+      aria-labelledby="disabledModalLabel"
+      aria-hidden="true"
+      data-bs-theme="dark"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content dark-body">
+          <div class="modal-header">
+            <h3 class="modal-title fs-5">
+              <i class="bi-tools"></i> &nbsp; Cosmic Construction Zone!
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="subcontent">
-            <div class="story">
-              <div class="subcontent-title scroll-zoom-in">Story</div>
-              <p class="scroll-fade-in">The only things I remembered were that I was the only one left on my planet and my name. It's almost like as if everyone is wiped out except me (endangered species). I didn't really know what kind of planet I originated from. I gained consciousness while floating adrift in space and began wandering until I found you guys. :'> That's when I learned that I could shapeshift into anything. I fell to the ground and unintentionally shapeshifted as dirt, rock, plant, insect, animal, until I gradually realized that i could control my ability with my imagination. I became what I am right now.</p>
-            </div>
-          </div>
-          <div class="subcontent">
-            <div class="subcontent-title scroll-zoom-in">About</div>
-            <div class="about-row">
-              <div class="about-column scroll-zoom-in">
-                <img src="./src/images/chad_alien.png" alt="">
-              </div>
-              <div class="about-column scroll-fade-in">
-                <h1><span style="text-decoration:line-through;">Endangered</span> Rare Species</h1>
-                <p>Some say that i am endangered since i am the only known khaki subspecies to exist.</p>
-                <p>More like, i am a special type of alien. You won't get to see anybody like me elsewhere!</p>
-              </div>
-            </div>
-            <div class="about-row">
-              <div class="about-column scroll-fade-in">
-                <h1>Part of your History</h1>
-                <p>Since the dawn of time, we aliens are known to help humanity by bringing far-from-the-future technology to help build ancient megastructures, like those big tall triangle pointed thingy on Egypt.</p>
-                <p>I am the living proof of this ancient cohabitation!</p>
-              </div>
-              <div class="about-column scroll-zoom-in">
-                <img src="./src/images/history_aliens.jpg" alt="">
-              </div>
-            </div>
-            <div class="about-row">
-              <div class="about-column scroll-zoom-in">
-                <img src="./src/images/khaki_twerks.gif" alt="">
-              </div>
-              <div class="about-column scroll-fade-in">
-                <h1>Multitalented</h1>
-                <p>The Khaki subspecies of aliens are known to possess talents with a scale of more than what a regular human can handle.</p>
-                <p>Who knows? I'm so talented i might just have to take over you Earthlings.</p>
-              </div>
-            </div>
-          </div>
-          <div class="subcontent">
-            <!-- Inspired by https://satania.moe google section -->
-            <div class="subcontent-title scroll-zoom-in">Quirky</div>
-            <div class="google-dict-interface">
-              <span class="header">Even your <svg style="vertical-align: middle;" width="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" viewBox="0.74 0.26 510.32 167.7"> 	<g> 		<path d="M496.052455,102.672055 L510.255737,112.140909 C505.6459,118.931075 494.619668,130.580258 475.557368,130.580258 C451.885231,130.580258 434.255719,112.2655 434.255719,88.967133 C434.255719,64.1736841 452.072116,47.3540078 473.563925,47.3540078 C495.180323,47.3540078 505.77049,64.5474546 509.19672,73.8294242 L511.065574,78.5638516 L455.373756,101.613038 C459.609823,109.960581 466.213103,114.196648 475.557368,114.196648 C484.901633,114.196648 491.380323,109.586811 496.052455,102.672055 L496.052455,102.672055 Z M452.383592,87.6589359 L489.573765,72.2097517 C487.518026,67.0392586 481.413107,63.3638478 474.124581,63.3638478 C464.842612,63.3638478 451.947526,71.5868007 452.383592,87.6589359 L452.383592,87.6589359 Z" fill="#FF302F"></path> <path d="M407.406531,4.93104632 L425.347519,4.93104632 L425.347519,126.780257 L407.406531,126.780257 L407.406531,4.93104632 L407.406531,4.93104632 Z" fill="#20B15A"></path> 		<path d="M379.124557,50.5933528 L396.442594,50.5933528 L396.442594,124.599929 C396.442594,155.311412 378.314721,167.957316 356.885207,167.957316 C336.701596,167.957316 324.554051,154.376986 320.00651,143.350753 L335.891759,136.747473 C338.757334,143.537639 345.67209,151.573706 356.885207,151.573706 C370.652424,151.573706 379.124557,143.039278 379.124557,127.091732 L379.124557,121.111404 L378.501606,121.111404 C374.39013,126.095011 366.540947,130.580258 356.573731,130.580258 C335.767169,130.580258 316.704869,112.452385 316.704869,89.0917231 C316.704869,65.6064713 335.767169,47.2917126 356.573731,47.2917126 C366.478652,47.2917126 374.39013,51.7146646 378.501606,56.5736822 L379.124557,56.5736822 L379.124557,50.5933528 L379.124557,50.5933528 Z M380.370459,89.0917231 C380.370459,74.3900801 370.590128,63.6753233 358.131109,63.6753233 C345.547499,63.6753233 334.957333,74.3900801 334.957333,89.0917231 C334.957333,103.606481 345.547499,114.134352 358.131109,114.134352 C370.590128,114.196648 380.370459,103.606481 380.370459,89.0917231 L380.370459,89.0917231 Z" fill="#3686F7"></path> 		<path d="M218.21632,88.7802476 C218.21632,112.763861 199.527791,130.393373 176.603195,130.393373 C153.678599,130.393373 134.990069,112.701565 134.990069,88.7802476 C134.990069,64.6720448 153.678599,47.1048274 176.603195,47.1048274 C199.527791,47.1048274 218.21632,64.6720448 218.21632,88.7802476 L218.21632,88.7802476 Z M200.026151,88.7802476 C200.026151,73.8294242 189.186804,63.5507331 176.603195,63.5507331 C164.019585,63.5507331 153.180238,73.8294242 153.180238,88.7802476 C153.180238,103.606481 164.019585,114.009763 176.603195,114.009763 C189.186804,114.009763 200.026151,103.606481 200.026151,88.7802476 L200.026151,88.7802476 Z" fill="#FF302F"></path> 		<path d="M309.104867,88.967133 C309.104867,112.950746 290.416338,130.580258 267.491742,130.580258 C244.567146,130.580258 225.878617,112.950746 225.878617,88.967133 C225.878617,64.8589302 244.567146,47.3540078 267.491742,47.3540078 C290.416338,47.3540078 309.104867,64.796635 309.104867,88.967133 L309.104867,88.967133 Z M290.852404,88.967133 C290.852404,74.0163095 280.013057,63.7376184 267.429447,63.7376184 C254.845837,63.7376184 244.00649,74.0163095 244.00649,88.967133 C244.00649,103.793366 254.845837,114.196648 267.429447,114.196648 C280.075352,114.196648 290.852404,103.731071 290.852404,88.967133 L290.852404,88.967133 Z" fill="#FFBA40"></path> 		<path d="M66.5900525,112.327794 C40.4884066,112.327794 20.0556146,91.2720515 20.0556146,65.1704056 C20.0556146,39.0687598 40.4884066,18.0130168 66.5900525,18.0130168 C80.6687446,18.0130168 90.9474357,23.5572805 98.5474373,30.6589216 L111.068752,18.137607 C100.478585,7.98350613 86.3375984,0.258913997 66.5900525,0.258913997 C30.8326666,0.258913997 0.744134408,29.4130196 0.744134408,65.1704056 C0.744134408,100.927792 30.8326666,130.081897 66.5900525,130.081897 C85.9015328,130.081897 100.478585,123.727797 111.878588,111.891729 C123.590067,100.180251 127.203183,83.7343447 127.203183,70.4031939 C127.203183,66.2294223 126.704822,61.9310606 126.144166,58.7540106 L66.5900525,58.7540106 L66.5900525,76.0720477 L109.013014,76.0720477 C107.767112,86.9113947 104.340882,94.3245113 99.2949785,99.3704142 C93.1900592,105.537629 83.534319,112.327794 66.5900525,112.327794 L66.5900525,112.327794 L66.5900525,112.327794 Z" fill="#3686F7"></path> 	</g> </svg> says so.</span>
-              <div class="searchbar">
-                <span class="searchbar-text">khaki alien</span>
-                <div class="searchbar-buttons">
-                  <svg class="microphone" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path><path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path><path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path><path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path></svg>
-                  <svg class="magnifying-glass" fill="#4285f4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-                </div>
-              </div>
-              <div class="search-results">
-                <h1>quirk·y</h1>
-                <h3>
-                  <span>/ˈkwərkē/</span>
-                  <svg class="pronunciation" fill="#BFBFBF" width="20px" height="20px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg"><path d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zm233.32-51.08c-11.17-7.33-26.18-4.24-33.51 6.95-7.34 11.17-4.22 26.18 6.95 33.51 66.27 43.49 105.82 116.6 105.82 195.58 0 78.98-39.55 152.09-105.82 195.58-11.17 7.32-14.29 22.34-6.95 33.5 7.04 10.71 21.93 14.56 33.51 6.95C528.27 439.58 576 351.33 576 256S528.27 72.43 448.35 19.97zM480 256c0-63.53-32.06-121.94-85.77-156.24-11.19-7.14-26.03-3.82-33.12 7.46s-3.78 26.21 7.41 33.36C408.27 165.97 432 209.11 432 256s-23.73 90.03-63.48 115.42c-11.19 7.14-14.5 22.07-7.41 33.36 6.51 10.36 21.12 15.14 33.12 7.46C447.94 377.94 480 319.54 480 256zm-141.77-76.87c-11.58-6.33-26.19-2.16-32.61 9.45-6.39 11.61-2.16 26.2 9.45 32.61C327.98 228.28 336 241.63 336 256c0 14.38-8.02 27.72-20.92 34.81-11.61 6.41-15.84 21-9.45 32.61 6.43 11.66 21.05 15.8 32.61 9.45 28.23-15.55 45.77-45 45.77-76.88s-17.54-61.32-45.78-76.86z"/></svg>
-                <h3>
-                <div class="adjective">adjective</div>
-                <div class="definition">
-                  <div class="description">characterized by peculiar or unexpected traits.</div>
-                  <div class="example">"<strong>Khaki Alien</strong>'s sense of humor was decidedly quirky"</div>
-                  <div class="synonyms">
-                    <span>synonyms:</span>
-                    <span>khaki alien, eccentric, idiosyncratic, unconventional, unorthodox, unusual, off-center, strange, bizarre, weird, peculiar, odd, freakish, outlandish, offbeat, out of the ordinary, Bohemian, alternative, zany, outré, wacky, freaky, kinky, way-out, far out, kooky, oddball, off the wall, in left field, bizarro<br>"her khakien-ish behavior surely is amazing"</br></span>
-                  </div>
-                </div>
-                <div class="definition">
-                  <div class="description">unusual in especially an interesting or appealing way.</div>
-                  <div class="example">"Its already established that <strong>Khaki Alien</strong> is a quirky and creative artist"</div>
-                  <div class="synonyms">
-                    <span>synonyms:</span>
-                    <span>khaki alien, bizarre, bizarro, <span class="butiti">butiti<span>, cranky, crazy, curious, eccentric, erratic, far-out, funky, funny, kinky, kooky (also kookie), odd, off-kilter, off-the-wall, offbeat, out-of-the-way, outlandish, outré, peculiar, quaint, queer, queerish, remarkable, rum [chiefly British], screwy, spaced-out, strange, wacky (also whacky), way-out, weird, weirdo, wild<br>"she enjoys a quirkily methodical, omnivorous turn of mind"</span>
-                  </div>
-                </div>
-                <div class="definition">
-                  <div class="description">not conventional or conformist.</div>
-                  <div class="example">"Not gonna lie.. that's some quirky performance."</div>
-                  <div class="synonyms">
-                    <span>synonyms:</span>
-                    <span>khaki alien, far-out, kinky, offbeat, way-out, unconventional<br>"she formulated a quirky plan that works"</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="subcontent">
-            <div class="subcontent-title scroll-zoom-in">Listen</div>
-            <div class="header">
-              Oh! And did I also mention that I can sing?
-            </div>
-            <div class="music-interface-wrapper"></div>
-          </div>
-          <div class="subcontent">
-            <div class="subcontent-title scroll-zoom-in">
-              <span class="story-title">Cultured Earthmen</span>
-            </div>
-            <p style="text-align:center">"Yep, these people are some of the cultured earthmen I've found."</p>
-            <div class="swiper-body">
-              <section>
-                <div class="swiper mySwiper swiper-container" style="padding: 0 25px;">
-                  <div class="swiper-wrapper swiper-content"></div>
-                  <div class="swiper-pagination"></div>
-                  <div class="swiper-button-next"></div>
-                  <div class="swiper-button-prev"></div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-          <div class="footer">
-            <div class="footer-information">
-              <h1 class="glitch">
-                <span aria-hidden="true">Khaki Alien</span>
-                 Khaki Alien
-                 <span aria-hidden="true">Khaki Alien</span>
-              </h1>
-              <p class="copyright"></p>
-              <script type="text/javascript">
-                document.querySelector('.copyright').innerHTML = `© Copyright Khaki Alien 2021-${new Date().getFullYear()}. All rights reserved <br>This site is made probably by another alien. Who knows tho?`
-              </script>
-              <p>Email us:
-                <a href="mailto:support@khakien.gq">support@khakien.gq</a>
+          <div class="modal-body">
+            <div class="modal-disabled-content">
+              <img src="./src/img/alien_blob.png" alt="alien-blob" />
+              <p>
+                Oh no! You've stumbled upon an unfinished section of the
+                universe. The cosmic architects are hard at work creating
+                celestial wonders here. Please bear with us as we bring this
+                section to life and prepare for a mind-blowing cosmic
+                experience. Stay tuned for updates and get ready to embark on an
+                interstellar adventure like no other!
               </p>
             </div>
-            <div class="footer-links footer-information">
-            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modal-license"
+      tabindex="-2"
+      aria-labelledby="licenseModalLabel"
+      aria-hidden="true"
+      data-bs-theme="dark"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header khaki-header">
+            <h3
+              class="modal-title fs-5 font-silkscreen glitch"
+              id="licenseModalLabel"
+            >
+              <i class="bi-sticky-fill"></i> License
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body dark-body license-content"></div>
+          <div class="modal-footer dark-body"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modal-changelogs"
+      tabindex="-1"
+      aria-labelledby="changelogModalLabel"
+      aria-hidden="true"
+      data-bs-theme="dark"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header khaki-header">
+            <h3
+              class="modal-title fs-5 font-silkscreen glitch"
+              id="changelogModalLabel"
+            >
+              <i class="bi-tools"></i>
+              Changelogs
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body dark-body changelog-content"></div>
+          <div class="modal-footer dark-body">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <script src="./src/javascript/text-shuffle-on-scroll.js"></script>
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offCanvasMain"
+      aria-labelledby="offCanvasMainLabel"
+      data-bs-theme="dark"
+    >
+      <div class="offcanvas-header">
+        <h4
+          class="offcanvas-title glitch font-silkscreen"
+          id="offcanvasMainLabel"
+          style="color: #fff"
+        >
+          Accounts
+        </h4>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>
+          Join Khaki Alien's cosmic crew on our social platforms for stellar
+          updates, captivating content, and exclusive offers. Let's embark on an
+          interstellar adventure together!
+        </p>
+        <ul class="list-group list-group-flush personal-accounts"></ul>
+        <br /><br />
+        <p style="font-style: italic; font-size: 12px">
+          Crafted in <strong>Andromeda</strong> with
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 48"
+            width="20px"
+            height="20px"
+          >
+            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
+            <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
+            <path
+              fill="#FFF"
+              d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"
+            />
+            <path
+              fill="#EEE"
+              d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
+            />
+          </svg>
+          <br />
+          Illustrations and components by
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 48"
+            width="20px"
+            height="20px"
+          >
+            <path
+              fill="#673ab7"
+              d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"
+            ></path>
+            <path
+              fill="#fff"
+              d="M33.03,25.6c-0.65-0.9-1.59-1.52-2.8-1.85c0,0,1.02-0.37,1.94-1.75c0.55-0.88,0.83-1.94,0.83-3.18 c0-2.15-0.78-3.8-2.34-4.93C29.1,12.76,27.34,12,24.35,12H15v24h10.43c2.83-0.02,4.96-0.63,6.41-1.8c1.44-1.19,2.16-2.95,2.16-5.3 C34,27.6,33.68,26.5,33.03,25.6z M21,16c0,0,4.17,0,4.25,0c1.52,0,2.75,1.23,2.75,2.75c0,1.52-1.23,2.75-2.75,2.75 c-0.08,0-4.25,0-4.25,0V16z M26,32h-5v-6h5c1.66,0,3,1.34,3,3C29,30.66,27.66,32,26,32z"
+            ></path>
+          </svg>
+        </p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="subcontent">
+        <div class="main-content-children">
+          <span class="page-name glitch">KHAKI ALIEN</span><br />
+          <span class="page-subname">
+            <i class="bi-music-note-beamed"></i> An Alien that can sing ig </span
+          ><br /><br />
+          <span class="page-sentence"
+            >Ready for an interstellar adventure? Click below to subscribe to
+            Khaki Alien's mind-blowing YouTube channel and join our cosmic
+            community.</span
+          ><br />
+          <a
+            type="button"
+            class="btn khaki-button font-silkscreen subscribe-btn"
+            style="margin-top: 15px; font-size: 24px"
+            href="https://www.youtube.com/channel/UC6nRmYgZEs5sedJnEvCq9Aw?sub_confirmation=1"
+          >
+            <i class="bi-youtube"></i>
+            SUBSCRIBE
+          </a>
+        </div>
+        <div class="main-content-children">
+          <img
+            class="anim-float play-spin"
+            src="./src/img/avatar.png"
+            alt=""
+            id="rotate"
+            style="border-radius: 50%; height: 400px"
+          />
+        </div>
+      </div>
+      <div class="subcontent">
+        <div class="subcontent-title">
+          <div class="title-container scroll-zoom-in">STORY</div>
+        </div>
+        <div class="subcontent-body scroll-fade-in">
+          <p style="text-indent: 80px">
+            The only things I remembered were that I was the only one left on my
+            planet and my name. It's almost like as if everyone is wiped out
+            except me (endangered species). I didn't really know what kind of
+            planet I originated from. I gained consciousness while floating
+            adrift in space and began wandering until I found you guys. :'>
+            That's when I learned that I could shapeshift into anything. I fell
+            to the ground and unintentionally shapeshifted as dirt, rock, plant,
+            insect, animal, until I gradually realized that i could control my
+            ability with my imagination. I became what I am right now.
+          </p>
+          <p style="text-align: right">
+            <i>— Khaki Alien, Conqueror of Memes</i>
+          </p>
+        </div>
+      </div>
+      <div class="subcontent">
+        <div class="subcontent-title">
+          <div class="title-container scroll-zoom-in">ABOUT</div>
+        </div>
+        <div class="subcontent-body" style="max-width: 1000px">
+          <div class="feat-card-container">
+            <div class="image-container scroll-zoom-in">
+              <img src="./src/img/planetKhaki.png" alt="" />
+            </div>
+            <div class="image-description scroll-fade-in">
+              <div class="image-desc-header glitch">
+                Welcome to the world of Khaki Alien, where laughter and
+                intergalactic shenanigans collide!
+              </div>
+              <div class="image-desc-body">
+                This peculiar extraterrestrial being, clad in its signature
+                khaki spacesuit, has crash-landed on Earth and is on a mission
+                to spread joy and hilarious antics across the universe.
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-container">
+            <div class="image-container scroll-zoom-in">
+              <img src="./src/img/history_aliens.jpg" alt="" />
+            </div>
+            <div class="image-description scroll-fade-in">
+              <div class="image-desc-header glitch">
+                Unleashing Interstellar Humor
+              </div>
+              <div class="image-desc-body">
+                Khaki Alien is known for its quirky sense of humor, love for
+                bizarre adventures, and insatiable appetite for interstellar
+                fun. From crash-landing in a suburban backyard to infiltrating
+                an alien dance competition, this lovable creature has found
+                itself in the most comical situations imaginable.
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-container">
+            <div class="image-container scroll-zoom-in">
+              <img src="./src/img/khaki_twerks.gif" alt="" />
+            </div>
+            <div class="image-description scroll-fade-in">
+              <div class="image-desc-header glitch">
+                Embarking on Cosmic Capers
+              </div>
+              <div class="image-desc-body">
+                When Khaki Alien isn't busy evading government agents or trying
+                to decipher human slang, it can be found exploring the farthest
+                corners of the galaxy, searching for new friends and
+                mind-boggling memes. Armed with a ray gun and an unquenchable
+                thirst for hilarity, Khaki Alien is always ready to make you
+                burst into fits of laughter.
+              </div>
+            </div>
+          </div>
+          <div class="feat-card-container">
+            <div class="image-container scroll-zoom-in">
+              <img src="./src/img/alien_join.png" alt="" />
+            </div>
+            <div class="image-description scroll-fade-in">
+              <div class="image-desc-header glitch">
+                Join the Laughter Invasion
+              </div>
+              <div class="image-desc-body">
+                Join Khaki Alien on this cosmic journey and prepare to be
+                abducted by laughter! Get ready for a barrage of jokes, funny
+                videos, and epic memes that will leave you in stitches. Buckle
+                up, Earthlings, because Khaki Alien is here to invade your funny
+                bone!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subcontent">
+        <div class="subcontent-title">
+          <div class="title-container scroll-zoom-in">QUIRKY</div>
+        </div>
+        <div class="subcontent-body scroll-fade-in">
+          <p class="subcontent-body-header">
+            Even your
+            <svg
+              style="vertical-align: middle"
+              width="100px"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid"
+              viewBox="0.74 0.26 510.32 167.7"
+            >
+              <g>
+                <path
+                  d="M496.052455,102.672055 L510.255737,112.140909 C505.6459,118.931075 494.619668,130.580258 475.557368,130.580258 C451.885231,130.580258 434.255719,112.2655 434.255719,88.967133 C434.255719,64.1736841 452.072116,47.3540078 473.563925,47.3540078 C495.180323,47.3540078 505.77049,64.5474546 509.19672,73.8294242 L511.065574,78.5638516 L455.373756,101.613038 C459.609823,109.960581 466.213103,114.196648 475.557368,114.196648 C484.901633,114.196648 491.380323,109.586811 496.052455,102.672055 L496.052455,102.672055 Z M452.383592,87.6589359 L489.573765,72.2097517 C487.518026,67.0392586 481.413107,63.3638478 474.124581,63.3638478 C464.842612,63.3638478 451.947526,71.5868007 452.383592,87.6589359 L452.383592,87.6589359 Z"
+                  fill="#FF302F"
+                ></path>
+                <path
+                  d="M407.406531,4.93104632 L425.347519,4.93104632 L425.347519,126.780257 L407.406531,126.780257 L407.406531,4.93104632 L407.406531,4.93104632 Z"
+                  fill="#20B15A"
+                ></path>
+                <path
+                  d="M379.124557,50.5933528 L396.442594,50.5933528 L396.442594,124.599929 C396.442594,155.311412 378.314721,167.957316 356.885207,167.957316 C336.701596,167.957316 324.554051,154.376986 320.00651,143.350753 L335.891759,136.747473 C338.757334,143.537639 345.67209,151.573706 356.885207,151.573706 C370.652424,151.573706 379.124557,143.039278 379.124557,127.091732 L379.124557,121.111404 L378.501606,121.111404 C374.39013,126.095011 366.540947,130.580258 356.573731,130.580258 C335.767169,130.580258 316.704869,112.452385 316.704869,89.0917231 C316.704869,65.6064713 335.767169,47.2917126 356.573731,47.2917126 C366.478652,47.2917126 374.39013,51.7146646 378.501606,56.5736822 L379.124557,56.5736822 L379.124557,50.5933528 L379.124557,50.5933528 Z M380.370459,89.0917231 C380.370459,74.3900801 370.590128,63.6753233 358.131109,63.6753233 C345.547499,63.6753233 334.957333,74.3900801 334.957333,89.0917231 C334.957333,103.606481 345.547499,114.134352 358.131109,114.134352 C370.590128,114.196648 380.370459,103.606481 380.370459,89.0917231 L380.370459,89.0917231 Z"
+                  fill="#3686F7"
+                ></path>
+                <path
+                  d="M218.21632,88.7802476 C218.21632,112.763861 199.527791,130.393373 176.603195,130.393373 C153.678599,130.393373 134.990069,112.701565 134.990069,88.7802476 C134.990069,64.6720448 153.678599,47.1048274 176.603195,47.1048274 C199.527791,47.1048274 218.21632,64.6720448 218.21632,88.7802476 L218.21632,88.7802476 Z M200.026151,88.7802476 C200.026151,73.8294242 189.186804,63.5507331 176.603195,63.5507331 C164.019585,63.5507331 153.180238,73.8294242 153.180238,88.7802476 C153.180238,103.606481 164.019585,114.009763 176.603195,114.009763 C189.186804,114.009763 200.026151,103.606481 200.026151,88.7802476 L200.026151,88.7802476 Z"
+                  fill="#FF302F"
+                ></path>
+                <path
+                  d="M309.104867,88.967133 C309.104867,112.950746 290.416338,130.580258 267.491742,130.580258 C244.567146,130.580258 225.878617,112.950746 225.878617,88.967133 C225.878617,64.8589302 244.567146,47.3540078 267.491742,47.3540078 C290.416338,47.3540078 309.104867,64.796635 309.104867,88.967133 L309.104867,88.967133 Z M290.852404,88.967133 C290.852404,74.0163095 280.013057,63.7376184 267.429447,63.7376184 C254.845837,63.7376184 244.00649,74.0163095 244.00649,88.967133 C244.00649,103.793366 254.845837,114.196648 267.429447,114.196648 C280.075352,114.196648 290.852404,103.731071 290.852404,88.967133 L290.852404,88.967133 Z"
+                  fill="#FFBA40"
+                ></path>
+                <path
+                  d="M66.5900525,112.327794 C40.4884066,112.327794 20.0556146,91.2720515 20.0556146,65.1704056 C20.0556146,39.0687598 40.4884066,18.0130168 66.5900525,18.0130168 C80.6687446,18.0130168 90.9474357,23.5572805 98.5474373,30.6589216 L111.068752,18.137607 C100.478585,7.98350613 86.3375984,0.258913997 66.5900525,0.258913997 C30.8326666,0.258913997 0.744134408,29.4130196 0.744134408,65.1704056 C0.744134408,100.927792 30.8326666,130.081897 66.5900525,130.081897 C85.9015328,130.081897 100.478585,123.727797 111.878588,111.891729 C123.590067,100.180251 127.203183,83.7343447 127.203183,70.4031939 C127.203183,66.2294223 126.704822,61.9310606 126.144166,58.7540106 L66.5900525,58.7540106 L66.5900525,76.0720477 L109.013014,76.0720477 C107.767112,86.9113947 104.340882,94.3245113 99.2949785,99.3704142 C93.1900592,105.537629 83.534319,112.327794 66.5900525,112.327794 L66.5900525,112.327794 L66.5900525,112.327794 Z"
+                  fill="#3686F7"
+                ></path>
+              </g>
+            </svg>
+            says so.
+          </p>
+          <div class="searchbar google-blk">
+            <div
+              class="bi-search google-searchbar-search-icon"
+              style="margin: 0 20px 0 20px"
+            ></div>
+            <div class="searchbar-text">Khaki Alien</div>
+            <div class="searchbar-right-icons">
+              <i
+                class="bi-mic-fill google-searchbar-mic-icon"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-custom-class="custom-tooltip"
+                data-bs-title="Search by voice"
+              ></i>
+              <i
+                class="bi-image google-searchbar-image-icon"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-custom-class="custom-tooltip"
+                data-bs-title="Search by image"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="search-results google-blk carousel slide"
+            data-bs-touch="false"
+            id="search-res"
+          >
+            <div class="search-res-header">
+              <div class="term-primary">
+                Quirky <i class="bi-three-dots-vertical"></i>
+              </div>
+              <div
+                class="result-navigation active"
+                type="button"
+                data-bs-target="#search-res"
+                data-bs-slide-to="0"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+                Overview
+              </div>
+              <div
+                class="result-navigation"
+                type="button"
+                data-bs-target="#search-res"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              >
+                Words
+              </div>
+              <div
+                class="result-navigation"
+                type="button"
+                data-bs-target="#search-res"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              >
+                Examples
+              </div>
+            </div>
+            <span style="border-bottom: 1px solid #3c4043"></span>
+            <div class="carousel-inner">
+              <div class="result-content carousel-item active">
+                <p style="font-weight: 500; font-size: 16px; line-height: 28px">
+                  Quirky describes something that has or is full of quirks,
+                  which are odd or unusual qualities. To truly grasp the essence
+                  of "quirky," one must look no further than the enigmatic and
+                  comical character known as Khaki Alien. Khaki Alien embodies
+                  the very definition of quirky, showcasing a delightful blend
+                  of eccentricity, charm, and offbeat humor that sets it apart
+                  from the ordinary.
+                </p>
+                <div class="website-mockup">
+                  <div class="website-resource">
+                    <span class="website-icon">
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABHElEQVR4AWNgUO6+z6DS/X8gMNhuEGNAMS6JUQeMOoAUcP/xx//7Tzz6H1+27b+C/Ux6OwAT1E88Sl0HvP/0nWRHnL/26r+A0STqOOD+kw//C5r3/XeIXvE/oWz7/wnzz4CCHOQwQo6gahSALMWIYwPfBXgd0TDxKNXTACg04OoU7GfhVfv+4w9QVFDXAfPXXkZxACGQULZtQB0ASjMD64ANu27T2QGYiXfAHTDC04B/xga6OgC9FAWpGzgHxJdtHzgHrN8Nzn50dgAi5VNWGy4AWkKaAxBVd0HLPuo0yQIy14MSESEHgFpE4ODOb9kH8jX124QNk46CfIbsALo3SkHtAHi00N8BCAxqFYGy1nBqlo86QLlrwLrnILsBIthS4ofLBq4AAAAASUVORK5CYII="
+                        style="height: 18px; width: 18px"
+                        alt=""
+                        data-atf="1"
+                        data-frt="0"
+                      />
+                    </span>
+                    <div class="website-text">
+                      <span class="website-domain">Dictionary.com</span>
+                      <div class="website-url">
+                        https://dictionary.com › browse › quirky
+                      </div>
+                    </div>
+                  </div>
+                  <div class="website-header-link ul-on-hover">
+                    Quirky Definition & Meaning - Dictionary.com
+                  </div>
+                  <div class="featured-snippet-desc">
+                    <span class="border-line"></span>
+                    <span class="featured-snippet-item ul-on-hover"
+                      ><i class="bi-question-circle-fill"></i>About featured
+                      snippets
+                    </span>
+                    <span class="featured-snippet-item"> • </span>
+                    <span class="featured-snippet-item ul-on-hover"
+                      ><i class="bi-chat-left-dots-fill"></i>Feedback
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="result-content carousel-item">
+                <div class="res-topic-header">Similar and Opposite words</div>
+                <div class="res-topic-body">
+                  From <span>Oxford Languages</span>
+                </div>
+                <div class="res-topic-type res-topic-content">adjective</div>
+                <div class="res-topic-content">
+                  characterized by peculiar or unexpected traits.
+                </div>
+                <div class="res-topic-content" style="color: #81c995">
+                  Similar
+                </div>
+                <div class="res-button-container res-topic-content">
+                  <span>eccentric</span>
+                  <span>idiosyncratic</span>
+                  <span>unconventional</span>
+                  <span>unorthodox</span>
+                  <span>unusual</span>
+                  <span>off-center</span>
+                  <span>strange</span>
+                  <span>bizarre</span>
+                  <span>khaki alien</span>
+                  <span>weird</span>
+                  <span>peculiar</span>
+                  <span class="butiti">butiti</span>
+                  <span>odd</span>
+                  <span>freakish</span>
+                  <span>outlandish</span>
+                  <span>off-beat</span>
+                  <span>out of the ordinary</span>
+                  <span>Bohemian</span>
+                  <span>alternative</span>
+                  <span>zany</span>
+                  <span>outré</span>
+                  <span>wacky</span>
+                  <span>freaky</span>
+                  <span>kinky</span>
+                  <span>way-out</span>
+                  <span>far-out</span>
+                  <span>kooky</span>
+                  <span>oddball</span>
+                  <span>off the wall</span>
+                  <span
+                    style="
+                      color: #80868b;
+                      cursor: default;
+                      background-color: #3c4043;
+                      border: 1px solid #050607;
+                    "
+                    >in left field</span
+                  >
+                  <span>bizarro</span>
+                </div>
+                <div class="res-topic-content" style="color: #f28b82">
+                  Opposite
+                </div>
+                <div class="res-button-container res-topic-content">
+                  <span>conventional</span>
+                </div>
+              </div>
+              <div class="result-content carousel-item">
+                <div class="res-topic-header">Usage Examples</div>
+                <div class="res-topic-body">
+                  From <span>Oxford Languages</span>
+                </div>
+                <div class="res-topic-content res-list-samples">
+                  <ul>
+                    <li>
+                      "<i>Khaki Alien</i>'s <strong>quirky</strong> sense of
+                      fashion always turns heads with its mismatched socks, a
+                      neon tutu paired with a spacesuit, and an assortment of
+                      intergalactic accessories."
+                    </li>
+                    <li>
+                      "In a world of predictable pranks,
+                      <i>Khaki Alien</i> takes it to another level with its
+                      <strong>quirky</strong> antics, like replacing all the
+                      Earthlings' coffee with cups of glitter or turning a
+                      mundane supermarket into a disco party."
+                    </li>
+                    <li>
+                      "<i>Khaki Alien</i>'s <strong>quirky</strong> dance moves,
+                      a mesmerizing blend of breakdancing and interpretive
+                      dance, never fail to leave onlookers both perplexed and
+                      thoroughly entertained."
+                    </li>
+                    <li>
+                      "The party truly came alive when
+                      <i>Khaki Alien</i> entered with its
+                      <strong>quirky</strong> charisma, sparking laughter and
+                      initiating impromptu games that had everyone in stitches."
+                    </li>
+                    <li>
+                      "<i>Khaki Alien</i>'s <strong>quirky</strong> vocabulary,
+                      consisting of a mix of intergalactic slang and puns,
+                      creates a unique language that adds an extra layer of
+                      humor to its already amusing presence."
+                    </li>
+                    <li>
+                      "When it comes to gift-giving, <i>Khaki Alien</i>'s
+                      <strong>quirky</strong>
+                      choices often leave recipients pleasantly surprised,
+                      ranging from a rubber chicken orchestra to a DIY spaceship
+                      kit made from recycled materials."
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subcontent">
+        <div class="subcontent-title">
+          <div class="title-container scroll-zoom-in">LISTEN</div>
+        </div>
+        <div class="subcontent-body">
+          <p class="subcontent-body-header scroll-fade-in">
+            Oh! And did I mention she can also sing?
+          </p>
+          <div class="music-player-container"></div>
+        </div>
+      </div>
+      <div class="subcontent">
+        <div class="subcontent-title">
+          <div class="title-container scroll-zoom-in">Khaki Komrades</div>
+        </div>
+        <div class="subcontent-body scroll-fade-in">
+          <p class="subcontent-body-header">
+            A community of devoted fans united by their love for Khaki Alien,
+            coming together to share laughter, memes, and celebrate the quirky
+            and comedic world of their beloved character.
+          </p>
+          <div
+            id="khakikomradeCarouselAutoplay"
+            class="khakikomrades-carousel carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner"></div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#khakikomradeCarouselAutoplay"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#khakikomradeCarouselAutoplay"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-info">
+        <h1 class="glitch">KHAKI ALIEN</h1>
+        <p class="copyright-disclaimer"></p>
+        <script>
+          document.querySelector(
+            ".copyright-disclaimer"
+          ).innerHTML = `© Copyright Khaki Alien 2021-${new Date().getFullYear()}. All rights reserved <br>This site is made probably by another alien. Who knows tho?`;
+        </script>
+        <p>
+          Email us:
+          <a href="mailto:support@khakien.gq">support@khakien.gq</a>
+        </p>
+      </div>
+      <div class="footer-links footer-info"></div>
+    </div>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
   </body>
 </html>

@@ -1,0 +1,121 @@
+/* This file extends the functions on the bootstrap module*/
+
+/* Influence Navbar Behavior */
+.navbar {
+  background-color: #3b3224 !important;
+  font-family: "Silkscreen" !important;
+}
+
+.navbar-nav {
+  margin-right: 0 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  padding: 5px 30px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #9d8158 !important;
+}
+
+.nav-dropdown-menu {
+  background-color: #dbc19a !important;
+}
+
+.nav-dropdown-item:hover {
+  background-color: #e9d8be !important;
+}
+
+.card-dark {
+  border-color: #202124 !important;
+  background-color: #202124 !important;
+}
+
+.card-body-dark {
+  background-color: #202124 !important;
+  color: #bdc1c6 !important;
+}
+
+.card-footer-dark {
+  border-top: unset;
+  background-color: #202124 !important;
+  color: #bdc1c6 !important;
+}
+
+.progress-bg-dark {
+  background-color: #41444b !important;
+}
+
+/* buttons */
+
+.no-border-radius {
+  border-radius: 0 !important;
+}
+
+/* Accordion */
+.accordion-body {
+  font-size: 14px;
+}
+
+.btn-youtube {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #dc3545;
+  --bs-btn-border-color: #dc3545;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #bb2d3b;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b02a37;
+  --bs-btn-active-border-color: #a52834;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
+}
+
+/* colors */
+
+.khaki-header {
+  color: #e9d8be;
+  background-color: #3b3224;
+}
+
+.dark-body {
+  color: #adb5bd;
+  background-color: #212529;
+}
+
+.khaki-body {
+  color: #9d8158;
+  background-color: #f0eae2;
+}
+
+.khaki-footer {
+  color: #9d8158;
+  background-color: #d1c6b6;
+}
+
+.khaki-button {
+  color: #e9d8be;
+  background-color: #3b3224;
+  border: 1px solid #30291d;
+}
+
+.khaki-button:hover {
+  background-color: #30291d;
+  border: 1px solid #30291d;
+}
+
+.khaki-body a {
+  color: #3b3224;
+}
+
+.youtube-progress {
+  background-color: #dc3545;
+}
