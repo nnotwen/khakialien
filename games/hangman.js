@@ -174,6 +174,7 @@ $(function () {
         ) {
           won = true;
         }
+        correct.currentTime = 0;
         correct.play();
       } else {
         $$btn.addClass("btn-danger");
@@ -183,6 +184,7 @@ $(function () {
           .addClass("bi-heart");
 
         $gameArea.addClass("shake-animation");
+        incorrect.currentTime = 0;
         incorrect.play();
         setTimeout(() => $gameArea.removeClass("shake-animation"), 200);
       }
