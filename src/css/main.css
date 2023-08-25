@@ -26,6 +26,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 3px;
 }
 
+.subcontent {
+  scroll-margin-top: 60px;
+}
+
 .cursor-text {
   cursor: text;
 }
