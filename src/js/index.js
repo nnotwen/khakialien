@@ -49,30 +49,89 @@ $(function () {
       path: "M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z",
     },
   ];
-  const xmlns = "http://www.w3.org/2000/svg";
-  $.each(accountInfo, function (_, entry) {
-    $(".offcanvas-body .personal-accounts").append(
-      `<li class="list-group-item">
-        <a href="${entry.url}" target="_blank">
-          <svg xmlns="${xmlns}" width="24" height="24" viewbox="${
-        entry.viewbox
-      }" ${entry.name === "Bandlab" ? "" : 'fill="currentcolor"'}>
-            ${
-              entry.circle
-                ? '<circle cx="24" cy="24" r="20" fill="currentcolor"></circle>'
-                : ""
-            }
-            <path d="${entry.path}">
-          </svg>
-          <span>${entry.name}</span>
-        </a>
-      </li>`
-    );
+
+  const $offcanvas = $("#offcanvasAccounts")
+    .addClass("offcanvas-end csk-2")
+    .attr({
+      tabindex: -1,
+      ariaLabelledBy: "offcanvasAccountsLabel",
+      "data-bs-backdrop": "static",
+    });
+
+  const $header = $("<div></div>")
+    .addClass("offcanvas-header")
+    .appendTo($offcanvas);
+
+  $("<h4></h4>")
+    .addClass("offcanvas-title f-silkscreen")
+    .css("margin-left", "20px")
+    .appendTo($header)
+    .html("ACCOUNTS");
+
+  $("<button></button>").addClass("btn-close").appendTo($header).attr({
+    type: "button",
+    "data-bs-dismiss": "offcanvas",
+    "aria-label": "Close",
   });
 
-  $(".offcanvas-body .personal-accounts").append(
-    '<li class="list-group-item"></li>'
-  );
+  const $body = $("<div></div>")
+    .addClass("offcanvas-body")
+    .appendTo($offcanvas);
+
+  $("<p></p>")
+    .addClass("w-px-320 mx-auto")
+    .appendTo($body)
+    .html(
+      "Join Khaki Alien's cosmic crew on her social/gaming platforms. Let's embark on an interstellar adventure together!"
+    );
+
+  const $tiles = $("<div></div>")
+    .appendTo($body)
+    .addClass("d-flex flex-wrap flex-row justify-content-center mt-4");
+
+  $.each(accountInfo, function (_, entry) {
+    const $anchor = $("<a></a>")
+      .addClass("p-2 m-1 wh-px-100 d-flex flex-column align-items-center")
+      .addClass("justify-content-center rounded kk-border bg-hover-lighter")
+      .addClass("text-decoration-none csk-2 ease-in-1")
+      .appendTo($tiles)
+      .attr({
+        type: "button",
+        href: entry.url,
+        target: "_blank",
+      });
+
+    const $svgContainer = $("<div></div>")
+      .addClass("d-flex flex-grow-1 align-items-center")
+      .appendTo($anchor);
+
+    const $svg = $("<svg></svg>")
+      .appendTo($svgContainer)
+      .attr({
+        xmlns: "http://www.w3.org/2000/svg",
+        width: 30,
+        height: 30,
+        viewbox: entry.viewbox,
+        fill: entry.name == "Bandlab" ? null : "currentcolor",
+      });
+
+    if (entry.circle) {
+      $("<circle></circle>").appendTo($svg).attr({
+        cx: 24,
+        cy: 24,
+        r: 24,
+        fill: "currentcolor",
+      });
+    }
+
+    $("<path></path>").appendTo($svg).attr("d", entry.path);
+
+    $("<span></span>").addClass("fs-px-12").html(entry.name).appendTo($anchor);
+  });
+
+  for (i = 0; i < 2; i++) $tiles.append('<div class="p-2 m-1 w-px-100"></div>');
+
+  $tiles.html($tiles.html());
 });
 
 // Google Search Mockup Interactions
@@ -81,18 +140,18 @@ $(function () {
    * Searchbar Interactions
    */
   const $GSLIClasses_SI = {
-    ".searchbar-text": "Never gonna let you type 🎶",
-    ".google-searchbar-mic-icon": "Lmao no one uses this",
-    ".google-searchbar-image-icon": "This is not DALL-E, duh.",
-    ".google-searchbar-search-icon": "The results are already there =D",
+    "#searchbarText": "Never gonna let you type 🎶",
+    "#searchbarMic": "Lmao no one uses this",
+    "#searchbarImg": "This is not DALL-E, duh.",
+    "#searchbarSearch": "The results are already there =D",
   };
 
-  for (const [$className, response] of Object.entries($GSLIClasses_SI)) {
-    const $searchbar = $(".searchbar-text");
+  for (const [$id, response] of Object.entries($GSLIClasses_SI)) {
+    const $searchbar = $("#searchbarText");
     const stringOrig = $searchbar.html();
     var clickTimeout;
 
-    $($className).on("click", function () {
+    $($id).on("click", function () {
       clearTimeout(clickTimeout);
       $searchbar.html(response);
       clickTimeout = setTimeout(function () {
@@ -122,7 +181,7 @@ $(function () {
    */
   const music = [
     {
-      class: "nav-surprise-ele",
+      class: "nav-surprise",
       file: "kindsound.mp3",
     },
     {
@@ -147,168 +206,175 @@ $(function () {
       cover: "./src/img/music_cover_demo_1.jpg",
       youtube: "https://www.youtube.com/watch?v=1dCJdj_HOoY",
       audio: "./src/audio/demo1.mp3",
+      date: "May 31, 2022",
+      year: "2022",
     },
     {
       title: "てねてね【tenetene】",
       cover: "./src/img/music_cover_demo_2.jpg",
-      youtube: "https://www.youtube.com/watch?v=ET_wN7oQfnU&t=10s",
+      youtube: "https://www.youtube.com/watch?v=ET_wN7oQfnU",
       audio: "./src/audio/demo2.mp3",
+      date: "Mar 25, 2022",
+      year: "2022",
     },
   ];
 
   var Playlist = [];
+  const $preview = $("#songPreviewPane").addClass("tab-sync-h");
 
-  $.each(songs, function (index, entry) {
-    // Add audio files
-    const audio = createAudioElement(entry.audio);
+  $("<colgroup></colgroup>")
+    .append($("<col></col>").attr("width", "100%"))
+    .append($("<col></col>").attr("width", "0%"))
+    .append($("<col></col>").attr("width", "0%"))
+    .appendTo($("table.playlist tbody"));
+
+  $("<caption></caption>")
+    .addClass("small")
+    .html("<i>*30 second snippet only. Listen full on YouTube</i>")
+    .appendTo($("table.playlist").addClass("my-0"));
+
+  $.each(songs, function (i, e) {
+    // Add audio file
+    const audio = createAudioElement(e.audio, resetPlayBtn);
     Playlist.push(audio);
 
-    // Create a container for the music player
-    const $musicPlayer = $(div("music-player card card-dark scroll-fade-in")) // Add styles
-      .append(`<img src="${entry.cover}" class="card-img-top" alt=""></img>`) // Add image
-      .appendTo($(".music-player-container")); // Append to the main container (housing all music)
+    // Add entry to the playlist
+    const $tbody = $("table.playlist tbody")
+      .addClass("cursor-pointer")
+      .attr("role", "tablist");
+    const $tr = $(`<tr></tr>`)
+      .appendTo($tbody)
+      .attr({
+        role: "tab",
+        "data-index": i,
+        "data-info": "tablePlaylistEntry",
+        "data-bs-toggle": "tab",
+        "data-bs-target": "#preview-" + i,
+        "aria-controls": "preview-" + i,
+      });
 
-    // Create progress bar container for the music player
-    const $progressBarContainer = $(
-      div("progress no-border-radius progress-bg-dark")
-    );
+    const $ytbtn = $("<a></a>")
+      .addClass("btn rounded")
+      .css("--bs-btn-hover-bg", "rgba(0,0,0,0.2)")
+      .attr({
+        type: "button",
+        target: "_blank",
+        href: e.youtube,
+      })
+      .html('<i class="bi-box-arrow-up-right"></i>');
 
-    // Add additional metadata for the progressbar container
-    $progressBarContainer.attr({
-      role: "progressbar",
-      "aria-label": "Animated Striped Example",
-      "aria-valuenow": 0,
-      "aria-valuemin": 0,
-      "aria-valuemax": 100,
-    });
+    $("<td></td>")
+      .addClass("text-nowrap text-truncate")
+      .css("max-width", "1px")
+      .html(e.title)
+      .appendTo($tr);
+    $("<td></td>")
+      .addClass("text-nowrap small d-none d-sm-table-cell")
+      .html(e.date)
+      .appendTo($tr)
+      .css("width", "1px");
+    $("<td></td>")
+      .addClass("ps-3")
+      .html($ytbtn)
+      .attr("title", "Watch/Listen full on YouTube")
+      .css("width", "1px")
+      .appendTo($tr);
 
-    // Set progressbar container height
-    $progressBarContainer.css("height", "5px");
+    // Add entry to Preview Pane
+    const $tabPane = $("<div></div>")
+      .appendTo($preview)
+      .attr({
+        role: "tabpanel",
+        id: "preview-" + i,
+      })
+      .addClass("tab-pane fade");
 
-    // Create the progress bar for the progress bar container
-    const $progressBar = $(
-      div(
-        "progress-bar progress-bar-striped progress-bar-animated youtube-progress"
-      )
-    );
-
-    $progressBar
-      .attr("id", `music-progress-${index}`) // Add progress bar identifier
-      .css("width", "100%") // Add initial width (ctx: duration) to the progress bar
-      .appendTo($progressBarContainer); // Append progress bar to its container
-
-    // Append Progress Bar container to the Music Player Container
-    $progressBarContainer.appendTo($musicPlayer);
-
-    // Add Music Player description container
-    const $musicPlayerDescription = $(div("card-body card-body-dark")).appendTo(
-      $musicPlayer // Append Description to its container
-    );
-
-    // Add main text (title of the music)
-    $(`<p>${entry.title}</p>`)
-      .addClass("card-title") // Add Styling to texts
-      .css({ "text-align": "left", "line-height": 1.5 }) // Add stylings to text
-      .appendTo($musicPlayerDescription); // Append to Desc Container
-
-    // Add subtext (author of the music)
-    $("<small>by Khaki Alien</small>")
-      .addClass("card-text") // Add Styling to text
-      .appendTo($musicPlayerDescription); // Append to Desc Container
-
-    // Create Media Control Buttons
-    const $mediaControl = $(div("media-control btn-group")) // Create the button container
-      .attr("role", "group") // Add attributes
-      .appendTo($musicPlayer); // Append the button container to the Music Player
-
-    // Add skipstart, play, and skipend buttons
-    for (const icn of ["skip-start", "play", "skip-end"]) {
-      $(btn("btn btn-dark no-border-radius")) // Create the button
-        .attr("id", `player-${icn.replace(/-/gi, "")}-${index}`) // Add attributes to button
-        .append(`<i class="bi-${icn}-fill"></i>`) // Add button identifiers
-        .appendTo($mediaControl); // Append this button to the button container
+    if (i == 0) {
+      $tr.addClass("active");
+      $tabPane.addClass("active show");
     }
 
-    // Add ref page
-    $(`<a href="${entry.youtube}"></a>`) // Add the url reference
-      .html('<i class="bi-youtube"></i>\u2000Watch full on YouTube')
-      .addClass("card-footer btn btn-youtube")
-      .attr("target", "_blank")
-      .appendTo($musicPlayer);
+    const $container = $("<div></div>")
+      .appendTo($tabPane)
+      .addClass("p-2 d-flex w-100 flex-lg-row flex-column");
+
+    $("<img></img>")
+      .appendTo($container)
+      .addClass("m-auto p-3 h-auto w-px-250 img-fluid")
+      .attr({
+        src: e.cover,
+        alt: "Song Cover",
+      });
+
+    const $songInfo = $("<div></div>")
+      .appendTo($container)
+      .addClass("p-3 my-auto flex-lg-grow-1 mt-lg-0 mx-auto text-center")
+      .addClass("text-lg-start");
+
+    $("<strong></strong>")
+      .addClass("d-block fs-3 mb-2")
+      .appendTo($songInfo)
+      .html(e.title);
+
+    const $ul = $("<ul></ul>")
+      .addClass("my-2 list-inline list-unstyled")
+      .appendTo($songInfo);
+
+    for (const html of ["Khaki Alien", "•", "Khaki Covers"]) {
+      $("<li></li>").appendTo($ul).addClass("list-inline-item").html(html);
+    }
+
+    const $year = $("<span></span>").appendTo($songInfo);
+    const $icon = $("<i></i>").addClass("bi-calendar4 me-2");
+    $("<small></small>")
+      .appendTo($year)
+      .html($icon[0].outerHTML + e.year);
+
+    const $player = $("<div></div>")
+      .addClass("mx-auto ms-lg-0")
+      .appendTo($songInfo);
+
+    const $button = $("<button></button>")
+      .appendTo($player)
+      .addClass("btn btn-khaki px-5 rounded-pill mt-3 play-pause-btn")
+      .attr({
+        type: "button",
+        title: "Toggle Pause/Play",
+        "data-playlist-index": i,
+      });
+
+    $("<i></i>").addClass("bi-play-fill").appendTo($button);
   });
 
-  $(".media-control button").on("click", function () {
-    const [, action, index] = this.id.split("-");
+  $('[data-info="tablePlaylistEntry"]').bind("show.bs.tab", (event) => {
+    const { relatedTarget } = event;
+    const i2 = $(relatedTarget).attr("data-index");
 
-    // DOM Elements
-    const $progressBar = $(`#music-progress-${index}`);
-    const $buttonIcon = $(`#${this.id} i`);
+    Playlist[i2].pause();
+    resetPlayBtn();
+  });
 
-    // ICONS
+  $(".play-pause-btn").on("click", function () {
+    const index = $(this).attr("data-playlist-index");
+    const pIcon = $(this).children("i").attr("class");
+    const audio = Playlist[index];
     const icons = {
       play: "bi-play-fill",
       pause: "bi-pause-fill",
     };
 
-    const music = Playlist[index];
-    var timer;
-
-    // Skip the music to start
-    if (action === "skipstart") {
-      music.currentTime = 0;
-    }
-
-    // Play Music
-    if (action === "play") {
-      // Check for any other element that might be playing a music
-      $(".music-playing").each(function () {
-        if (this.id.split("-")[2] !== index) {
-          // Pause music
-          Playlist[this.id.split("-")[2]].pause();
-          // Toggle Icon
-          $(`#${this.id} i`).removeClass(icons.pause).addClass(icons.play);
-          // Remove the indicator that it is playing music
-          $(this).removeClass("music-playing");
-          // Stop progress bar from updating
-          clearInterval(timer);
-        }
-      });
-      // If this element is not playing any music
-      if (!$(this).hasClass("music-playing")) {
-        // Play the music
-        music.play();
-        // Replace the icon
-        $buttonIcon.removeClass(icons.play).addClass(icons.pause);
-        // Add an indicator that it is playing music
-        $(this).addClass("music-playing");
-        // Update the progress bar
-        const $parentThis = $(this);
-        timer = setInterval(function () {
-          const percentage = (music.currentTime / music.duration) * 100;
-          $progressBar.css({ width: percentage + "%" });
-          if (percentage === 100) {
-            $buttonIcon.removeClass(icons.pause).addClass(icons.play);
-            $parentThis.removeClass("music-playing");
-          }
-        }, 200);
-        // If this element is playing a music
-      } else {
-        // Pause the music
-        music.pause();
-        // Replace the icon
-        $buttonIcon.removeClass(icons.pause).addClass(icons.play);
-        // Remove the indicator that it is playing music
-        $(this).removeClass("music-playing");
-        // Stop progress bar from updating
-        clearInterval(timer);
-      }
-    }
-
-    // Skip music to end
-    if (action === "skipend") {
-      music.currentTime = music.duration;
+    if (pIcon == icons.play) {
+      $(this).children("i").attr("class", icons.pause);
+      audio.play();
+    } else {
+      $(this).children("i").attr("class", icons.play);
+      audio.pause();
     }
   });
+
+  function resetPlayBtn() {
+    $(".play-pause-btn i").attr("class", "bi-play-fill");
+  }
 });
 
 // Khakikomrade carousel interaction
@@ -433,74 +499,137 @@ $(function () {
     },
   ];
 
-  const active = Math.floor(Math.random() * khakiKomrade.length);
+  const $carousel = $("#khakiKomradesCarouselContainer");
 
-  $.each(khakiKomrade, function (index, entry) {
-    const isActive = index === active ? "active" : "";
+  $.each(shuffle(khakiKomrade), function (index, entry) {
+    const $carouselWrapper = $("<div></div>")
+      .addClass("carousel-item user-select-none")
+      .appendTo($("#khakiKomradesList"));
 
-    const $carouselInner = $(".khakikomrades-carousel .carousel-inner");
-    const $carouselItem = $(div(`carousel-item ${isActive}`)) //
-      .appendTo($carouselInner); //
+    if (index == 0) $carouselWrapper.addClass("active");
 
-    const $card = $(div("card card-dark mb-3"))
-      .css({ "max-width": "540px", margin: "auto" }) // Set max width to 540px and margin to auto
-      .appendTo($carouselItem); // Append to carousel item
+    const $container = $("<div></div>")
+      .addClass("d-flex flex-column align-items-center text-center")
+      .addClass("csk-2 rounded mx-auto w-px-350 px-4")
+      .appendTo($carouselWrapper);
 
-    const $cardEarthman = $(div("card-earthman card-body-dark")) //
-      .appendTo($card);
+    const $imgDiv = $("<div></div>")
+      .addClass("d-flex justify-content-center mt-4")
+      .appendTo($container);
 
-    const $imageContainer = $(div("card-earthman-img")) //
-      .appendTo($cardEarthman);
-
-    $('<img class="img-fluid rounded-start"></img>') //
-      .appendTo($imageContainer)
-      .attr({ src: entry.imageURL, alt: "..." })
-      .css("height", "180px");
-
-    const $cardBody = $(div("card-body"));
-    const $socmedIcons = $(div("socmed-icons"));
-
-    $(div("card-earthman-desc")) //
-      .append($cardBody)
-      .appendTo($cardEarthman);
-
-    $cardBody
-      .append(`<h5 class="card-title">${entry.name}</h5>`)
-      .append(`<small class="card-subtitle">${entry.profession}</small>`)
-      .append($socmedIcons);
-
-    for (const socmed of ["Facebook", "Twitter", "YouTube"]) {
-      const url = entry[socmed.toLowerCase() + "URL"] || null;
-      const $anchor = $("<a></a>").attr({
-        target: "_blank",
-        title: `${entry.name}'s ${socmed}${url ? "" : ": Not Found"}`,
-        class: `bi-${socmed.toLowerCase()}`,
+    $("<img></img>")
+      .addClass("rounded-circle border border-2 wh-px-150")
+      .attr("src", entry.imageURL)
+      .appendTo($imgDiv)
+      .attr({
+        src: entry.imageURL,
+        title: entry.name + "'s Avatar",
       });
 
-      if (url) {
-        $anchor.attr("href", url).addClass("hoverable");
-      } else {
-        $anchor.attr("style", "cursor: not-allowed !important");
-      }
+    $("<span></span>")
+      .addClass("fs-5 mt-3")
+      .html(`<strong>${entry.name}</strong>`)
+      .appendTo($container);
 
-      $anchor.appendTo($socmedIcons);
+    $("<span></span>")
+      .addClass("fs-6")
+      .html(entry.profession)
+      .appendTo($container);
+
+    const $socials = $("<div></div>")
+      .addClass("d-flex px-2 pt-4 pb-3 flex-row justify-content-center")
+      .appendTo($container);
+
+    for (const platform of ["facebook", "twitter", "youtube"]) {
+      const $anchor = $("<a></a>")
+        .addClass("p-2 m-1 wh-px-100 d-flex flex-column align-items-center")
+        .addClass("justify-content-center rounded kk-border bg-hover-lighter")
+        .addClass("text-decoration-none csk-2 ease-in-1")
+        .appendTo($socials)
+        .attr({
+          type: "button",
+          href: entry[`${platform}URL`],
+          target: "_blank",
+        });
+
+      if (!entry[`${platform}URL`]) $anchor.addClass("disabled");
+
+      $("<div></div>")
+        .addClass("d-flex flex-grow-1 align-items-center")
+        .html(`<i class="bi-${platform} fs-3"></i>`)
+        .appendTo($anchor);
+
+      $("<span></span>")
+        .addClass("fs-px-12")
+        .html(platform.charAt(0).toUpperCase() + platform.slice(1))
+        .appendTo($anchor);
     }
+
+    const $kk = $("<div></div>")
+      .addClass("rounded-circle kk-border kk-border-hover border-3 m-2")
+      .addClass("shadow wh-px-60 img-overlay")
+      .addClass(index == 0 ? "active" : null)
+      .attr({
+        type: "button",
+        "data-bs-target": "#khakiKomradesCarouselContainer",
+        "data-bs-slide-to": index,
+        "aria-label": `Slide ${parseInt(index) + 1}`,
+      })
+      .appendTo($("#khakiKomradesListAll"));
+
+    $("<img></img>").addClass("img-fluid").appendTo($kk).attr({
+      src: entry.imageURL,
+      alt: "avatar-small",
+    });
+  });
+
+  $carousel.bind("slide.bs.carousel", (event) => {
+    const { from, to } = event;
+    const list = $("#khakiKomradesListAll");
+    list.children(`[data-bs-slide-to="${from}"]`).removeClass("active");
+    list.children(`[data-bs-slide-to="${to}"]`).addClass("active");
   });
 });
 
 // Find unfinished section and attach modal
 // For elements with incomplete sections, just add attribute incomplete=true to the parent tag
 $(function () {
+  // Requires src/extension/bootstrapComponents
+  const modal = new BootstrapModal("modalDisabled").setBackdrop("static");
+  const $body = $("<div></div>").addClass(
+    "d-flex flex-column flex-lg-row align-items-center"
+  );
+
+  $("<img></img>").appendTo($body).addClass("img-fluid p-2 m-auto").attr({
+    src: "./src/img/alien_blob.png",
+    alt: "Alien Blob",
+  });
+
+  $("<p></p>")
+    .addClass("p-2 text-justify text-lg-start")
+    .appendTo($body)
+    .html(
+      "Oh no! You've stumbled upon an unfinished section of the universe. The cosmic architects are hard at work creating celestial wonders here. Please bear with us as we bring this section to life and prepare for a mind-blowing cosmic experience. Stay tuned for updates and get ready to embark on an interstellar adventure like no other!"
+    );
+
+  modal
+    .setDialogCentered(true)
+    .addClass("modal-lg")
+    .setHeader("Cosmic Construction Zone!")
+    .setBody($body)
+    .removeFooter(true)
+    .init();
+
   $('[incomplete="true"]').each(function () {
     $(this)
       .attr("data-bs-toggle", "modal")
-      .attr("data-bs-target", "#modal-disabled");
+      .attr("data-bs-target", "#modalDisabled");
   });
 });
 
 // Spin animation for some elements
 $(function () {
-  const $spin = $(".play-spin");
+  const $spin = $("#spinRightRoundBabyRightRound");
   if (!$spin) return;
 
   const audio = document.createElement("audio");
@@ -515,13 +644,13 @@ $(function () {
     .on("mousedown", function (e) {
       audio.play();
       $audio.animate({ volume: 1 }, 500);
-      $spin.removeClass("anim-float").addClass("play-spin-playing");
+      $spin.removeClass("anim-float").addClass("spc-spinning");
       e.preventDefault();
     })
     .on("mouseup", function () {
       $audio.animate({ volume: 0 }, 500);
       setTimeout(() => audio.pause(), 600);
-      $spin.addClass("anim-float").removeClass("play-spin-playing");
+      $spin.addClass("anim-float").removeClass("spc-spinning");
     });
 });
 
@@ -546,10 +675,27 @@ function btn(className) {
 /**
  * Create an audio element
  * @param {string} src The source for the audio element
+ * @param {Function} onended The function to run when the audio ends
  * @returns An audio element
  */
-function createAudioElement(src) {
+function createAudioElement(src, onended) {
   const a = document.createElement("audio");
-  a.setAttribute("src", src);
+  $(a).attr("src", src);
+
+  if (typeof onended == "function") {
+    a.addEventListener("ended", onended, false);
+  }
+
+  return a;
+}
+
+function shuffle(a) {
+  let i0 = a.length,
+    ir;
+  while (i0 != 0) {
+    ir = Math.floor(Math.random() * i0);
+    i0--;
+    [a[i0], a[ir]] = [a[ir], a[i0]];
+  }
   return a;
 }

@@ -1,6 +1,7 @@
 $(function () {
   const modal = new bootstrap.Modal($(".modal")[0]);
 
+  let mainCategory;
   let tries = 7;
   let randomizer = Math.floor(Math.random() * 100000);
   let won = false;
@@ -128,7 +129,7 @@ $(function () {
       $btn.css("width", $btn.outerHeight());
     }
 
-    let [category, word] = getWord();
+    let [category, word] = getWord(mainCategory);
 
     // Show category
     $gameCategory.append(htmlTag("span", "fs-4", category));
@@ -325,6 +326,33 @@ $(function () {
       "text-align": "center",
       padding: "20px",
     });
+
+  htmlTag(
+    "button",
+    "btn fs-4 game-category-selection dropdown-toggle",
+    "RANDOM"
+  )
+    .append(htmlTag("div", "dropdown category-select"))
+    .appendTo($(".game-menu-subcontent"));
+
+  htmlTag("ul", "dropdown-menu").appendTo($(".category-select"));
+
+  for (const category of [
+    "animals",
+    "countries",
+    "movies",
+    "sports",
+    "fruits",
+    "professions",
+    "famous landmarks",
+    "food and drinks",
+    "musical instruments",
+    "technology",
+  ]) {
+    htmlTag("li", "dropdown-item", category.toUpperCase(), {
+      "data-attribute-category": category.replace(/ +/g, "_"),
+    }).appendTo($(".dropdown-menu"));
+  }
 
   htmlTag(
     "button",

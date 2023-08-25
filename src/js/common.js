@@ -30,107 +30,85 @@ $(function () {
   });
 });
 
-// Load animated background
+// Disclaimer on footer
 $(function () {
-  const $background = $(".a-alien-bg");
-  const $icons = $(".a-alien-icns");
-  const common = {
-    position: "absolute",
-    display: "block",
-    "list-style": "none",
-    bottom: "-150px",
-  };
-  const props = [
+  const year = new Date().getFullYear();
+  $(".copyright-disclaimer").append(
+    `<i class="bi-c-circle me-1"></i>2021 - ${year} Khaki Alien. All rights reserved.`
+  );
+});
+
+// Codepen Attribution Modal <Footer>
+$(function () {
+  const contributors = [
     {
-      left: "25%",
-      width: "80px",
-      height: "80px",
-      "animation-delay": "0s",
+      title: "Animated Border Lines on Hover",
+      url: "https://codepen.io/SitePoint/pen/zwaGXR/",
+      author: "SitePoint",
     },
     {
-      left: "10%",
-      width: "35px",
-      height: "35px",
-      "animation-delay": "2s",
-      "animation-duration": "12s",
+      title: "Animation on Scroll using CSS and jQuery",
+      url: "https://codepen.io/codingtuting/pen/BaBVjRR/",
+      author: "codingtuting",
     },
     {
-      left: "70%",
-      width: "35px",
-      height: "35px",
-      "animation-delay": "4s",
+      title: "Background Animation",
+      url: "https://codepen.io/BjornRombaut/pen/mOLGgX",
+      author: "Bjorn",
     },
     {
-      left: "40%",
-      width: "60px",
-      height: "60px",
-      "animation-delay": "0s",
-      "animation-duration": "18s",
+      title: "Curve SVG Background Animation",
+      url: "https://codepen.io/armantaherian/pen/ZyZWVZ",
+      author: "Arman",
     },
     {
-      left: "65%",
-      width: "35px",
-      height: "35px",
-      "animation-delay": "0s",
-    },
-    {
-      left: "75%",
-      width: "110px",
-      height: "110px",
-      "animation-delay": "3s",
-    },
-    {
-      left: "35%",
-      width: "150px",
-      height: "150px",
-      "animation-delay": "7s",
-    },
-    {
-      left: "50%",
-      width: "25px",
-      height: "25px",
-      "animation-delay": "15s",
-      "animation-duration": "45s",
-    },
-    {
-      left: "20%",
-      width: "30px",
-      height: "30px",
-      "animation-delay": "2s",
-      "animation-duration": "35s",
-    },
-    {
-      left: "85%",
-      width: "150px",
-      height: "150px",
-      "animation-delay": "0s",
-      "animation-duration": "11s",
+      title: "Stick Hero with Canvas",
+      url: "https://codepen.io/HunorMarton/pen/xxOMQKg",
+      author: "Hunor Marton Borbely",
     },
   ];
 
-  // Add initial css stylings
-  $background.css({
-    position: "fixed",
-    "z-index": -10_000,
-    background: "-webkit-linear-gradient(270deg, #ccb79c, #61533c)",
-    width: "100%",
-    height: "100vh",
-  });
+  // Requires src/extension/bootstrapComponents
+  const modal = new BootstrapModal("codepenAttributionModal");
+  const $body = $("<div></div>");
 
-  $icons.css({
-    position: "absolute",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    overflow: "hidden",
-  });
+  $("<p></p>")
+    .addClass("mb-4")
+    .appendTo($body)
+    .html(
+      "Special thanks to these Codepen users for sharing their projects and making parts of this website functional."
+    );
 
-  // Add icons
-  for (const prop of props) {
-    const $el = $("<li></li>").css(common).css(prop);
-    $icons.append($el);
+  const $ul = $("<ul></ul>").appendTo($body);
+  for (const contributor of contributors) {
+    const $li = $("<li></li>").addClass("mb-3").appendTo($ul);
+
+    const $title = $("<a></a>")
+      .addClass("csk-2 text-decoration-none")
+      .addClass("text-hover-underline cursor-pointer")
+      .html(`<strong>${contributor.title}</strong>`)
+      .attr({
+        href: contributor.url,
+        target: "_blank",
+      });
+
+    const $author = $("<a></a>")
+      .addClass("csk-2 text-decoration-none")
+      .addClass("text-hover-underline cursor-pointer")
+      .html(`<i>${contributor.author}</i>`)
+      .attr({
+        href: contributor.url.split("/pen/")[0],
+        target: "_blank",
+      });
+
+    $li.html(`${$title[0].outerHTML} by ${$author[0].outerHTML}`);
   }
+
+  modal
+    .setHeader("Codepen Attributions")
+    .setBody($body)
+    .setFooter("", true)
+    .init();
 });
 
 function isScrolledIntoView(elem) {
