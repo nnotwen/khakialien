@@ -83,3 +83,8 @@
     transform: rotate(360deg);
   }
 }
+
+.spc-frost-glass {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
