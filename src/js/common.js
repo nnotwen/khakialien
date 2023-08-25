@@ -62,6 +62,11 @@ $(function () {
       author: "Arman",
     },
     {
+      title: "Section Separation Inspiration",
+      url: "https://codepen.io/lukeyphills/pen/kdgNxW",
+      author: "Luke Femur",
+    },
+    {
       title: "Stick Hero with Canvas",
       url: "https://codepen.io/HunorMarton/pen/xxOMQKg",
       author: "Hunor Marton Borbely",
