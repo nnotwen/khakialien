@@ -1,3 +1,5 @@
+// This file is used by ~/games.html
+
 // Dictionary
 const dict = {
   "Local Save":
