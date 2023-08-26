@@ -1,19 +1,19 @@
-let setContentHeight;
+// let setContentHeight;
 
-$(function () {
-  const $navbar = $(".navbar");
-  const $content = $(".content");
-  const $footer = $(".footer");
+// $(function () {
+//   const $navbar = $(".navbar");
+//   const $content = $(".content");
+//   const $footer = $(".footer");
 
-  setContentHeight = () => {
-    const height =
-      $(window).outerHeight() - $footer.outerHeight() - $navbar.outerHeight();
+//   setContentHeight = () => {
+//     const height =
+//       $(window).outerHeight() - $footer.outerHeight() - $navbar.outerHeight();
 
-    return $content.css("min-height", height);
-  };
+//     return $content.css("min-height", height);
+//   };
 
-  $(window).on("resize", () => setContentHeight());
-});
+//   $(window).on("resize", () => setContentHeight());
+// });
 
 $(function () {
   const $row = htmlTag("div", "row row-cols-1 row-cols-md-2 g-4", "", {
@@ -67,7 +67,7 @@ $(function () {
 
   const generateCard = (entry) => {
     const $col = htmlTag("div", "col").appendTo($row);
-    const $card = htmlTag("div", "card h-100")
+    const $card = htmlTag("div", "card h-100 shadow")
       .appendTo($col)
       .append(
         htmlTag(
