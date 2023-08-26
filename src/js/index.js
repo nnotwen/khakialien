@@ -230,7 +230,7 @@ $(function () {
 
   $("<caption></caption>")
     .addClass("small")
-    .html("<i>*30 second snippet only. Listen full on YouTube</i>")
+    .html("<em>— 30 seconds snippet only. Listen full on YouTube</em>")
     .appendTo($("table.playlist").addClass("my-0"));
 
   $.each(songs, function (i, e) {
