@@ -269,3 +269,10 @@ tr[data-info="tablePlaylistEntry"].active {
 .hover-moveup:hover {
   transform: translateY(-10px);
 }
+
+.hover-scale {
+  transition: 0.2s ease-in-out;
+}
+.hover-scale:hover {
+  transform: scale(1.1);
+}
