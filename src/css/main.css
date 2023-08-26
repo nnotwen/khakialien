@@ -38,6 +38,10 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
 /* Width */
 .w-px-100 {
   width: 100px;

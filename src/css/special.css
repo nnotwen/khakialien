@@ -88,3 +88,12 @@
   background: transparent;
   backdrop-filter: blur(10px);
 }
+
+.game-tag-popover {
+  --bs-popover-border-color: var(--cs-khaki-bg-color-1);
+  --bs-popover-header-bg: var(--cs-khaki-bg-color-0);
+  --bs-popover-header-color: var(--cs-khaki-body-color-0);
+  --bs-popover-bg: var(--cs-khaki-bg-color-2);
+  --bs-popover-body-color: var(--cs-khaki-body-color-2);
+  --bs-popover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

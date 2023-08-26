@@ -1,28 +1,14 @@
-// let setContentHeight;
-
-// $(function () {
-//   const $navbar = $(".navbar");
-//   const $content = $(".content");
-//   const $footer = $(".footer");
-
-//   setContentHeight = () => {
-//     const height =
-//       $(window).outerHeight() - $footer.outerHeight() - $navbar.outerHeight();
-
-//     return $content.css("min-height", height);
-//   };
-
-//   $(window).on("resize", () => setContentHeight());
-// });
+// Dictionary
+const dict = {
+  "Local Save":
+    "Progress is stored on your browser. Clearing your browser's cache will reset your progress.",
+  Meme: "Game assets includes media that existed as a meme.",
+  Recreated: "Game was inspired from a known existing game.",
+  Sounds: "Game features sound effects and/or background music.",
+  Unavailable: "Technical issues prevents access to this game.",
+};
 
 $(function () {
-  const $row = htmlTag("div", "row row-cols-1 row-cols-md-2 g-4", "", {
-    "data-bs-theme": "dark",
-  })
-    .css("margin", "50px auto 100px auto")
-    .css("max-width", "800px")
-    .appendTo($(".content"));
-
   const games = [
     {
       image: "./src/img/games-stick-alien-hero.png",
@@ -65,93 +51,89 @@ $(function () {
     {},
   ];
 
-  const generateCard = (entry) => {
-    const $col = htmlTag("div", "col").appendTo($row);
-    const $card = htmlTag("div", "card h-100 shadow")
-      .appendTo($col)
-      .append(
-        htmlTag(
-          "div",
-          "card-header font-silkscreen",
-          entry.title || "Placeholder Text"
-        )
-      );
+  const $row = $("<div></div>")
+    .addClass("row row-cols-1 row-cols-md-2 g-4 my-5 mx-auto")
+    .appendTo($(".content"))
+    .css("max-width", "800px");
 
-    const $img = htmlTag("img", "hover-scale img-fluid", "", {
-      src:
-        entry.image ||
-        `https://placehold.co/374x150/212529/adb5bd/?text=${encodeURIComponent(
-          entry.title || "Coming Soon"
-        )}`,
-    }).css("min-height", "150px");
+  for (const game of games) {
+    const $col = $("<div></div>").addClass("col").appendTo($row);
+    const $card = $("<div></div>")
+      .addClass("card h-100 shadow csk-2")
+      .appendTo($col);
 
-    $img.on("load", () => setContentHeight());
-
-    // Add image to card
-    htmlTag("div", "img-container card-img-top")
-      .css("overflow", "hidden")
-      .css("height", "150px")
-      .css("border-radius", 0)
+    $("<div></div>")
+      .addClass("card-header f-silkscreen")
       .appendTo($card)
-      .append($img);
+      .html(game.title || "Placeholder Text");
 
-    const $tags = htmlTag("p", "game-feat");
-    for (const tag of entry.tags || ["Unavailable"]) {
-      htmlTag(
-        "button",
-        `tags btn btn-outline-${
-          tag == "Unavailable" ? "danger" : "success"
-        } btn-sm`,
-        tag,
-        {
-          type: "button",
-        }
-      )
+    const $imgContainer = $("<div></div")
+      .addClass("img-container card-img-top overflow-hidden")
+      .css("height", "150px")
+      .appendTo($card);
+
+    const placeholdURI =
+      "https://placehold.co/374x150/201d17/b4aeae/?font=montserrat&text=";
+    const src = game.image || placeholdURI + encodeURIComponent("Coming Soon");
+    $("<img></img>")
+      .addClass("hover-scale img-fluid w-100")
+      .attr({ src, alt: "Hero Image" })
+      .css({ "min-height": "150px", "border-radius": "0" })
+      .appendTo($imgContainer);
+
+    const $body = $("<div></div>")
+      .addClass("card-body f-montserrat")
+      .appendTo($card);
+
+    const $tags = $("<p></p>").addClass("game-feat").appendTo($body);
+    for (const tag of game.tags || ["Unavailable"]) {
+      const cls = `btn-outline-${tag == "Unavailable" ? "danger" : "success"}`;
+      const $button = $("<a></a>")
+        .addClass(`tags btn btn-sm ${cls} rounded-pill me-2`)
+        .attr({
+          tabindex: 0,
+          role: "button",
+          "data-bs-toggle": "popover",
+          "data-bs-trigger": "focus",
+          "data-bs-custom-class": "game-tag-popover",
+          "data-bs-title": tag,
+          "data-bs-content": dict[tag] || "Unavailable",
+        })
         .appendTo($tags)
+        .html(tag)
         .css({
           "--bs-btn-font-size": "0.60em",
           "--bs-btn-padding-y": "0.35em",
           "--bs-btn-padding-x": "0.65em",
-          "border-radius": "50rem",
         });
-
-      $tags.append("\u2000");
+      // Enable popover
+      new bootstrap.Popover($button);
     }
 
-    // Add body to card
-    const $body = htmlTag("div", "card-body")
-      .append($tags)
-      .append(htmlTag("small", "card-text", entry.text || "Placeholder Desc"))
+    $("<small></small>")
+      .addClass("card-text")
+      .html(game.text || "Placeholder Desc")
+      .appendTo($body);
+
+    const $btnContainer = $("<div></div>")
+      .addClass("d-grid gap-2 d-block p-3")
       .appendTo($card);
 
-    // Make button block
-    const $btnContainer = htmlTag("div", "d-grid gap-2 d-md-block") //
-      .css("padding", "16px")
-      .appendTo($card);
-
-    // Button for card
-    const $btn = htmlTag(
-      "a",
-      `btn btn-success${entry.ref ? "" : " disabled"}`,
-      "<i class='bi-play-fill'></i>\u2000Play",
-      {
-        href: entry.ref || "#",
+    const $btn = $("<a></a>")
+      .addClass("btn btn-khaki f-silkscreen")
+      .appendTo($btnContainer)
+      .attr({
+        href: game.ref,
         type: "button",
-      }
-    ).appendTo($btnContainer);
+      });
 
-    if (!entry.ref) {
-      $btn.attr("incomplete", "true");
+    if (!game.ref) {
+      $btn.addClass("disabled");
+      $btnContainer.addClass("cursor-not-allowed");
     }
-  };
 
-  for (const game of games) generateCard(game);
+    const icon = $("<i>").addClass("bi-play-fill me-2")[0].outerHTML;
+    const text = "Play";
+    $btn.html(icon + text);
+  }
 });
-
-function htmlTag(tag, cls, content = "", attributes = {}) {
-  return $(
-    `<${tag} class="${cls}" ${Object.entries(attributes)
-      .map(([i, j]) => `${i}=${j}`)
-      .join(" ")}>${content}</${tag}>`
-  );
-}

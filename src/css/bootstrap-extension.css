@@ -29,9 +29,9 @@
   --bs-btn-active-bg: var(--cs-khaki-bg-color-0);
   --bs-btn-active-border-color: var(--cs-khaki-bg-color-0);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0d6efd;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-disabled-color: var(--cs-khaki-body-color-0);
+  --bs-btn-disabled-bg: #342c1f;
+  --bs-btn-disabled-border-color: #3e3629;
   --bs-gradient: none;
 }
 
