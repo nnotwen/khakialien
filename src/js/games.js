@@ -91,10 +91,11 @@ $(function () {
       .appendTo($card);
 
     const $tags = $("<p></p>").addClass("game-feat").appendTo($body);
+
     for (const tag of game.tags || ["Unavailable"]) {
       const cls = `btn-outline-${tag == "Unavailable" ? "danger" : "success"}`;
       const $button = $("<a></a>")
-        .addClass(`tags btn btn-sm ${cls} rounded-pill me-2`)
+        .addClass(`tags btn btn-sm ${cls} rounded-pill me-2 cursor-pointer`)
         .attr({
           tabindex: 0,
           role: "button",
