@@ -425,12 +425,12 @@ $(document).ready(function () {
 
     function drawBackground() {
       // Draw sky
-      // var gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
-      // gradient.addColorStop(0.0, "#1f1665");
-      // // gradient.addColorStop(0.75, "#84577e");
-      // gradient.addColorStop(1.0, "#d1888d");
-      // ctx.fillStyle = gradient;
-      // ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+      var gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
+      gradient.addColorStop(0.0, "#b69f82"); //#1f1665
+      // gradient.addColorStop(0.2, "#"); //#84577e
+      gradient.addColorStop(1.0, "#ccb79c"); //#d1888d
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
 
       // Draw hills
       drawHill(hill1BaseHeight, hill1Amplitude, hill1Stretch, "#513e19");

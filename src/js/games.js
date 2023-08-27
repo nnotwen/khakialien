@@ -50,7 +50,10 @@ $(function () {
       title: "Running Alien (dino)",
       text: "Join the wacky adventure of Running Alien! Help Khaki Alien dash through cosmic obstacles in this quirky endless runner. It's like the Dino Game on Chrome, but with an alien twist.",
     },
-    {},
+    {
+      title: "Password Game",
+      text: "POV: You created a new bank account but they say you need to have an ultra secure password. Finish creating the password as soon as possible!",
+    },
   ];
 
   const $row = $("<div></div>")

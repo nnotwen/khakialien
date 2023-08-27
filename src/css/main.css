@@ -297,3 +297,11 @@ tr[data-info="tablePlaylistEntry"].active {
 .hover-scale:hover {
   transform: scale(1.1);
 }
+
+.hover-scale-rotate {
+  transition: 0.2s ease-in-out;
+}
+
+.hover-scale-rotate:hover {
+  transform: rotate(180deg) scale(1.1);
+}
