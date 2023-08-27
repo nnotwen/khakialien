@@ -1,71 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="./src/img/favicon.jpg" />
-
-    <!-- Stylesheets -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./src/css/main.css" />
-    <link rel="stylesheet" href="./src/css/special.css" />
-
-    <!----------------->
-
-    <!-- Javascript  -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.min.js"
-      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./404.js"></script>
-    <!----------------->
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- HTML HEADERS -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="./src/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./src/img/android-chrome-192x192.png">
 
     <title>Khaki Alien | 404</title>
-  </head>
-  <body style="overflow: hidden">
-    <div class="context"></div>
-    <div class="animation"></div>
-    <style>
-      .context {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        z-index: 1000;
-      }
-      .icons li {
-        background: url("data:image/svg+xml,%3Csvg viewBox='0 0 72 72' id='emoji' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='color'%3E%3Cpolygon fill='%239B8468' points='10,21 10,35 13,35 13,38 16,38 16,45 22,45 22,51 27,51 28,51 28,45 44,45 44,51 50,51 50,45 56,45 56,38 59,38 59,35 62,35 62,20 56,20 56,24 56,25 49,25 49,20 45,20 45,14 39,14 39,20 32,20 32,14 26,14 26,20 22,20 22,25 16,25 16,20 10,20'/%3E%3Crect x='16' y='51' width='6' height='6' fill='%239B8468'/%3E%3Crect x='50' y='51' width='6' height='6' fill='%239B8468'/%3E%3C/g%3E%3Cg id='line'%3E%3Crect x='25.175' y='31' width='3.6' height='6' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='22,45 16,45 16,39'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='22.583,25 22.583,20 26,20'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='48.708,25 48.708,20 45.292,20'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='13,35 10,35 10,20 16,20 16,35'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='56,35 56,20 62,20 62,35 59,35'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='26,20 26,14 32,14 32,20'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='39,20 39,14 45,14 45,20'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='16,35 19,35 19,38 13,38 13,35'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='59,35 59,38 53,38 53,35 56,35'/%3E%3Crect x='16' y='51' width='6' height='6' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Crect x='50' y='51' width='6' height='6' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='28,45 28,51 22,51 22,45'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='50,45 56,45 56,39'/%3E%3Cpolyline fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' points='44,45 44,51 50,51 50,45'/%3E%3Crect x='43.425' y='31' width='3.6' height='6' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M44,45L44,45z'/%3E%3Cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M39,20L39,20z'/%3E%3Cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M16,25L16,25z'/%3E%3Cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M49,25L49,25z'/%3E%3Cline x1='28' x2='44' y1='45' y2='45' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline x1='32' x2='39' y1='20' y2='20' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline x1='16' x2='22' y1='25' y2='25' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline x1='49' x2='56' y1='25' y2='25' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E");
-        animation: animate 25s linear infinite;
-      }
-      @keyframes animate {
-        0% {
-          transform: translateY(0) rotate(0deg);
-          opacity: 1;
-          border-radius: 0;
-        }
-        100% {
-          transform: translateY(-1000px) rotate(720deg);
-          opacity: 0;
-          border-radius: 50%;
-        }
-      }
-    </style>
-  </body>
+
+    <!-- REMOTE SCRIPTS AND STYLESHEETS -->
+ 
+        <!-- BOOTSTRAP@V5.3.0 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        
+        <!-- BOOTSTRAP-ICONS@1.10.5 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+
+        <!-- JQUERY@3.6.1 -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- LOCAL SCRIPTS AND STYLESHEETS -->
+        <!-- Color Scheme -->
+        <link rel="stylesheet" href="src/css/color-scheme.css">
+
+        <!-- Animated Background -->
+        <link rel="stylesheet" href="src/extension/animated-background/index.css">
+        <script src="src/extension/animated-background/index.js"></script>
+
+        <!-- BOOTSTRAP EXTENSIONS -->
+        <script src="src/extension/bootstrapComponents/index.js"></script>
+
+        <!-- Other Local CSS -->
+        <link rel="stylesheet" href="src/css/bootstrap-extension.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/special.css">
+</head>
+<body>
+    <div class="john-travolta-bg img-overlay"></div>
+    <div class="d-flex flex-column align-items-center justify-content-center text-white h-100-vh">
+      <div class="w-max-700 mx-auto rounded p-5 spc-frost-glass shadow">
+        <div class="f-silkscreen fs-1 text-start mb-4">
+          <svg fill="currentcolor" height="2.5rem" width="2.5rem" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"><path d="M28.8,10.2C27.9,4.5,23,1,16,1S4.1,4.5,3.2,10.2C2.5,15,3.6,20,6.4,23.9c1.4,2,3.1,3.6,5.1,4.8c1.4,0.9,3,1.3,4.5,1.3 s3.1-0.4,4.5-1.3c2-1.2,3.7-2.9,5.1-4.8C28.4,20,29.5,15,28.8,10.2z M13.8,21.6c-0.5,0.5-1.1,0.7-1.7,0.7c-1.2,0-2.5-0.6-3.7-1.8 c-0.8-0.8-1.4-1.8-1.7-2.7c-0.3-1.1-0.1-2.1,0.5-2.8c1.2-1.2,3.6-0.7,5.4,1.2C14.5,18,15,20.4,13.8,21.6z M25.3,17.8 c-0.3,0.9-0.9,1.9-1.7,2.7c-1.2,1.2-2.6,1.8-3.7,1.8c-0.7,0-1.3-0.2-1.7-0.7c-0.6-0.6-0.8-1.6-0.5-2.8c0.3-0.9,0.9-1.9,1.7-2.7 c1.9-1.9,4.2-2.4,5.4-1.2C25.5,15.6,25.6,16.7,25.3,17.8z"></path></svg>
+          Area 51
+        </div>
+        <p class="f-montserrat text-justify">This is a 404 page and you're not supposed to be here! Return immediately before the government finds out that you got here!</p>
+        <em class="d-block f-montserrat text-justify small mb-5">There's definitely no secret alien technology buried here</em>
+        <a type="button" class="btn btn-lg btn-outline-light btn-outline-hover-slide rounded-pill f-silkscreen mt-5" href="https://khakien.gq">
+          <i class="bi-arrow-left"></i>
+          BACK TO HOME
+        </a>
+      </div>
+    </div>
+    <script src="./src/js/common.js"></script>
+    <script src="./src/js/404.js"></script>
+</body>
 </html>

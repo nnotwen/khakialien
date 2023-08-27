@@ -13,8 +13,6 @@
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #0d6efd;
   --bs-gradient: none;
-  position: relative;
-  overflow: hidden;
 }
 
 .btn-khaki {
@@ -35,8 +33,14 @@
   --bs-gradient: none;
 }
 
+.btn-outline-hover-slide {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.1s ease;
+}
+
 .btn-outline-hover-slide:hover {
-  color: unset;
+  color: var(--bs-btn-hover-color) !important;
   background-color: unset;
 }
 
@@ -50,9 +54,8 @@
   direction: rtl;
   z-index: -1;
   transition: all 0.25s ease;
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
-  border-color: var(--bs-btn-hover-border-color);
+  background-color: var(--bs-btn-hover-bg) !important;
+  border-color: var(--bs-btn-hover-border-color) !important;
 }
 
 .btn-outline-hover-slide:hover:after {
