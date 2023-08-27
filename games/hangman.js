@@ -20,89 +20,80 @@ $(function () {
 
   function init() {
     const durationStart = Date.now();
-    const $content = $(".content").css({
-      "max-width": "700px",
-      margin: "0 auto",
-      height: "100vh",
-    });
+    const $content = $(".content").addClass(
+      "h-100-vh w-max-700 mx-auto d-flex align-items-center"
+    );
 
-    const $gameArea = htmlTag("div", "game-area").appendTo($content).css({
-      margin: "0 20px",
-      display: "flex",
-      "flex-direction": "column",
-      padding: "50px 20px",
-    });
+    const $gameArea = $("<div></div>")
+      .attr("id", "gameArea")
+      .addClass("mx-5 my-5 d-flex flex-column")
+      .appendTo($content);
 
-    const $gameScene = htmlTag("div", "game-scene").appendTo($gameArea).css({
-      height: "200px",
-      background: "#76684aaf",
-      "border-radius": "20px 20px 0 0",
-    });
+    const $gameScene = $("<div></div>")
+      .attr("id", "gameScene")
+      .addClass("rounded-top-4")
+      .appendTo($gameArea)
+      .css({
+        height: "200px",
+        background: "#76684aaf",
+      });
 
-    const $gameCategory = htmlTag("div", "game-category")
+    const $gameCategory = $("<div></div>")
+      .attr("id", "gameCategory")
+      .addClass("w-100 text-center f-silkscreen text-light")
       .appendTo($gameArea)
       .css({
         height: "40px",
-        width: "100%",
-        "text-align": "center",
         background: "#393123c7",
-        color: "#fff",
-        "font-family": "Silkscreen",
       });
 
-    const $gameWord = htmlTag("div", "game-word").appendTo($gameArea).css({
-      "min-height": "40px",
-      padding: "10px",
-      width: "100%",
-      "text-align": "center",
-      background: "#393123c7",
-      color: "#fff",
-    });
-
-    const $gameAlphabets = htmlTag("div", "game-alphabets")
+    const $gameWord = $("<div></div>")
+      .attr("id", "gameWord")
+      .addClass("p-3 w-100 text-center text-light")
       .appendTo($gameArea)
       .css({
-        "text-align": "center",
-        background: "#54421caf",
-        "border-radius": "0 0 20px 20px",
-        padding: "10px",
+        "min-height": "40px",
+        background: "#393123c7",
       });
 
-    const $gameStats = htmlTag("div", "game-stats").appendTo($gameArea).css({
-      width: "100%",
-      "min-height": "50px",
-      display: "flex",
-      "flex-direction": "row",
-      "flex-wrap": "wrap",
-      "margin-top": "20px",
-      "border-radius": "20px",
-      background: "#393123c7",
-    });
+    const $gameAlphabets = $("<div></div>")
+      .attr("id", "gameAlphabets")
+      .addClass("text-center rounded-bottom-4 p-3")
+      .css("background", "#54421caf")
+      .appendTo($gameArea);
 
-    // Add Timer
-    const $tries = htmlTag("span", "tries-remaining").appendTo($gameStats).css({
-      "align-text": "center",
-      padding: "15px",
-      flex: 1,
-    });
-    for (i = 0; i < tries; i++) {
-      htmlTag("i", "tries bi-heart-fill")
+    const $gameStats = $("<div></div>")
+      .attr("id", "gameStats")
+      .addClass("w-100 d-flex flex-column flex-sm-row flex-wrap mt-5")
+      .addClass("rounded-4 justify-content-between")
+      .appendTo($gameArea)
+      .css({
+        "min-height": "50px",
+        background: "#393123c7",
+      });
+
+    const $tries = $("<span></span>")
+      .attr("id", "triesRemaining")
+      .addClass("text-center my-auto pt-3 pt-sm-0 px-4")
+      .appendTo($gameStats);
+
+    for (i = 0; i < tries; i++)
+      $("<i></i>")
+        .addClass("tries bi-heart-fill me-2")
         .css("color", "#de5959")
-        .appendTo($tries)
-        .append("\u2000");
-    }
+        .appendTo($tries);
 
     // Add scoreboard
-    const $scoreboard = htmlTag("div", "scoreboard").appendTo($gameStats).css({
-      margin: "auto",
-      flex: 1,
-      color: "#fff",
-      "text-align": "right",
-      "padding-right": "15px",
-    });
+    const $scoreboard = $("<div></div>")
+      .attr("id", "scoreBoard")
+      .addClass("text-light text-center text-sm-end my-auto pb-3 pb-sm-0 px-4")
+      .appendTo($gameStats);
 
-    htmlTag("small", "", "SCORE:\u2000").appendTo($scoreboard);
-    htmlTag("span", "fs-4 score", totalScore).appendTo($scoreboard);
+    $("<small></small>").addClass("me-2").html("SCORE:").appendTo($scoreboard);
+    $("<span></span>")
+      .addClass("fs-4 score")
+      .html(totalScore)
+      .appendTo($scoreboard);
 
     // Add alphabets
     const alphabets = [...new Array(26)].map((_, i) =>
@@ -111,10 +102,11 @@ $(function () {
 
     // Create button for each alphabet
     for (const letter of alphabets) {
-      const $btn = htmlTag("button", "letter btn btn-primary fs-5", letter, {
-        type: "button",
-        "data-letter-select": letter,
-      })
+      const $btn = $("<button></button>")
+        .html(letter)
+        .addClass("letter hover-tilt btn btn-primary fs-5 m-1")
+        .appendTo($gameAlphabets)
+        .attr({ role: "button", type: "button", "data-letter-select": letter })
         .css({
           "--bs-btn-active-bg": "#9B8468",
           "--bs-btn-bg": "#9B8468",
@@ -123,8 +115,7 @@ $(function () {
           "--bs-btn-hover-bg": "#514435",
           "--bs-btn-hover-border-color": "#4a3e30",
           margin: "5px",
-        })
-        .appendTo($gameAlphabets);
+        });
 
       $btn.css("width", $btn.outerHeight());
     }
@@ -132,22 +123,15 @@ $(function () {
     let [category, word] = getWord(mainCategory);
 
     // Show category
-    $gameCategory.append(htmlTag("span", "fs-4", category));
+    $("<span></span>").addClass("fs-4").html(category).appendTo($gameCategory);
 
     // Create blank word page
     for (const letter of word) {
-      $gameWord
-        .append(
-          htmlTag(
-            "span",
-            "cor-ans fs-4",
-            alphabets.includes(letter) ? "_" : letter,
-            {
-              "data-letter-orig": window.btoa(randomizer + letter),
-            }
-          )
-        )
-        .append("\u2000");
+      $("<span></span>")
+        .addClass("cor-ans fs-4 me-2")
+        .appendTo($gameWord)
+        .html(alphabets.includes(letter) ? "_" : letter)
+        .attr({ "data-letter-orig": window.btoa(randomizer + letter) });
     }
 
     //   Click detection for the buttons
@@ -159,35 +143,35 @@ $(function () {
 
       if (word.toLowerCase().includes(letter.toLowerCase())) {
         $(`*[data-letter-orig="${window.btoa(randomizer + letter)}"]`)
-          .each((_, ele) => {
-            $(ele).html(letter);
-          })
+          .each((_, ele) => $(ele).html(letter))
           .attr("data-letter-orig", "solved");
+
         $$btn.addClass("btn-success");
 
         score += tries;
         totalScore += tries;
-        $(".score").html(totalScore);
 
-        if (
-          $('*[data-letter-orig="solved"]').length ==
-          [...word].filter((x) => alphabets.includes(x)).length
-        ) {
-          won = true;
-        }
+        $(".score").html(totalScore);
+        const noSolved = $('*[data-letter-orig="solved"]').length;
+        const totalChr = [...word].filter((x) => alphabets.includes(x)).length;
+
+        if (noSolved == totalChr) won = true;
+
         correct.currentTime = 0;
         correct.play();
       } else {
         $$btn.addClass("btn-danger");
+
         tries--;
+
         $($(".tries")[$(".tries:not(.bi-heart)").length - 1])
           .removeClass("bi-heart-fill")
           .addClass("bi-heart");
 
-        $gameArea.addClass("shake-animation");
+        $gameArea.addClass("spc-shaking");
         incorrect.currentTime = 0;
         incorrect.play();
-        setTimeout(() => $gameArea.removeClass("shake-animation"), 200);
+        setTimeout(() => $gameArea.removeClass("spc-shaking"), 200);
       }
 
       if (tries == 0 || won) {
@@ -199,18 +183,22 @@ $(function () {
         const levelHiScore = localStorage.getItem("levelHiScore");
         const totalHiScore = localStorage.getItem("totalHiScore");
         const maxPerfectSs = localStorage.getItem("maxPerfectSs");
+
         if (score > levelHiScore) localStorage.setItem("levelHiScore", score);
+
         if (totalScore > totalHiScore)
           localStorage.setItem("totalHiScore", totalScore);
+
         if (timesPerfected > maxPerfectSs)
           localStorage.setItem("maxPerfectSs", timesPerfected);
         // ================= LOCAL SAVE ====================== //
 
-        $(".letter:not(.disabled)").each((i, btn) => {
-          const _letter = $(btn).attr("data-letter-select");
+        $(".letter:not(.disabled)").each((_, btn) => {
+          const letter = $(btn).attr("data-letter-select");
 
           $(btn).removeClass("btn-primary").addClass("disabled");
-          if (word.toLowerCase().includes(_letter.toLowerCase())) {
+
+          if (word.toLowerCase().includes(letter.toLowerCase())) {
             $(btn).addClass("btn-warning");
           } else {
             $(btn).addClass("btn-danger");
@@ -290,103 +278,42 @@ $(function () {
     });
   }
 
-  const modalEvent = document.getElementById("staticBackdrop");
-  modalEvent.addEventListener("hidden.bs.modal", () => {
+  $("#staticBackdrop").bind("hidden.bs.modal", () => {
+    // Reset page
     $(".content").html("");
+    (won = false), (tries = 7), (score = 0);
 
-    won = false;
-    tries = 7;
-    score = 0;
-
+    // Reinitialize
     init();
   });
 
-  $(".game-menu").css({
-    height: "100vh",
-    "max-width": "400px",
-    margin: "auto",
-    display: "flex",
-    "flex-direction": "column",
-    "justify-content": "center",
-  });
+  const $gameMenu = $(".game-menu").addClass(
+    "h-100-vh w-max-500 m-auto d-flex flex-column justify-content-center"
+  );
 
-  htmlTag("div", "game-menu-subcontent").appendTo($(".game-menu")).css({
-    "border-radius": "20px",
-    background: "#393123c7",
-    color: "#fff",
-    display: "flex",
-    "flex-direction": "column",
-    overflow: "hidden",
-  });
+  const $gameMenuSubcontent = $("<div></div>")
+    .appendTo($gameMenu)
+    .css("background", "#393123c7")
+    .addClass("text-white d-flex flex-column overflow-hidden rounded-4");
 
-  htmlTag("div", "fs-1 game-menu-title", "HANGMAN")
-    .appendTo($(".game-menu-subcontent"))
-    .css({
-      "font-family": "Silkscreen",
-      "text-align": "center",
-      padding: "20px",
-    });
+  $("<div></div>")
+    .addClass("fs-1 f-silkscreen text-center p-3")
+    .html("HANGMAN")
+    .appendTo($gameMenuSubcontent);
 
-  htmlTag(
-    "button",
-    "btn fs-4 game-category-selection dropdown-toggle",
-    "RANDOM"
-  )
-    .append(htmlTag("div", "dropdown category-select"))
-    .appendTo($(".game-menu-subcontent"));
+  $("<button></button>")
+    .addClass("fs-5 btn btn-khaki btn-play")
+    .attr({ role: "button", type: "button", title: "Play" })
+    .append($("<i></i>").addClass("bi-play-fill"))
+    .appendTo($gameMenuSubcontent);
 
-  htmlTag("ul", "dropdown-menu").appendTo($(".category-select"));
-
-  for (const category of [
-    "animals",
-    "countries",
-    "movies",
-    "sports",
-    "fruits",
-    "professions",
-    "famous landmarks",
-    "food and drinks",
-    "musical instruments",
-    "technology",
-  ]) {
-    htmlTag("li", "dropdown-item", category.toUpperCase(), {
-      "data-attribute-category": category.replace(/ +/g, "_"),
-    }).appendTo($(".dropdown-menu"));
-  }
-
-  htmlTag(
-    "button",
-    "fs-5 game-menu-btn-play btn btn-primary",
-    '<i class="bi-play-fill"></>',
-    {
-      type: "button",
-    }
-  )
-    .appendTo($(".game-menu-subcontent"))
-    .css({
-      "border-radius": 0,
-      "--bs-btn-active-bg": "#100d09",
-      "--bs-btn-bg": "#362c21",
-      "--bs-btn-active-border-color": "#100d09",
-      "--bs-btn-border-color": "#362c21",
-      "--bs-btn-hover-bg": "#221b14",
-      "--bs-btn-hover-border-color": "#221b14",
-    });
-
-  $(".game-menu-btn-play").click(function () {
+  $(".btn-play").click(function () {
     $(".game-menu").fadeOut(400, "swing", function () {
+      $(this).removeClass("d-flex");
       init();
     });
   });
 });
-
-function htmlTag(tag = "div", cls, content = "", attr = {}) {
-  return $(
-    `<${tag} ${cls ? `class="${cls}"` : ""} ${Object.entries(attr)
-      .map(([i, j]) => `${i}="${j}"`)
-      .join(" ")}>${content}</${tag}>`
-  );
-}
 
 // Special class to be used by class Modal
 class FieldRow {

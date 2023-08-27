@@ -291,6 +291,13 @@ tr[data-info="tablePlaylistEntry"].active {
   transform: translateY(-10px);
 }
 
+.hover-tilt {
+  transition: 0.2s ease-in-out;
+}
+.hover-tilt:not(.disabled):hover {
+  transform: rotate(15deg);
+}
+
 .hover-scale {
   transition: 0.2s ease-in-out;
 }
