@@ -3,15 +3,13 @@
 
 /* CURSOR */
 :root {
-  --cursor-default: url("../img/ghost\ khaki.cur");
+  --cursor-default: url("../img/cursor-normal.cur");
+  --cursor-not-allowed: url("../img/cursor-not-allowed.cur");
+  --cursor-text: url("../img/cursor-text.cur");
 }
 
 a,
-body,
-[role="button"],
-[type="button"],
-[type="reset"],
-[type="submit"] {
+body {
   cursor: var(--cursor-default), auto;
 }
 
@@ -31,15 +29,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cursor-text {
-  cursor: text;
+  cursor: var(--cursor-text), text;
 }
 
 .cursor-pointer {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 
 .cursor-not-allowed {
-  cursor: not-allowed;
+  cursor: var(--cursor-not-allowed), not-allowed;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: var(--cursor-default), pointer;
 }
 
 /* Width */
@@ -179,7 +184,7 @@ body::-webkit-scrollbar-thumb {
   color: #80868b;
   background-color: #3c4043;
   border-color: #050607 !important;
-  cursor: not-allowed;
+  cursor: var(--cursor-not-allowed), not-allowed;
 }
 
 .text-hover-underline:hover {
@@ -198,7 +203,7 @@ body::-webkit-scrollbar-thumb {
 .bg-hover-lighter.disabled {
   color: #787272;
   background-color: #25221d;
-  cursor: not-allowed;
+  cursor: var(--cursor-not-allowed), not-allowed;
 }
 
 .p-px-5-12 {
