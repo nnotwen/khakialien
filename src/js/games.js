@@ -53,6 +53,8 @@ $(function () {
     {
       title: "Password Game",
       text: "POV: You created a new bank account but they say you need to have an ultra secure password. Finish creating the password as soon as possible!",
+      ref: "https://khakien.gq/games/password-game",
+      tags: ["Recreated"],
     },
   ];
 
@@ -143,3 +145,6 @@ $(function () {
     $btn.html(icon + text);
   }
 });
+
+// Toggle hide unavailable games
+// $('.game-feat > [data-bs-title="Unavailable"]').parents('.col').toggle();
