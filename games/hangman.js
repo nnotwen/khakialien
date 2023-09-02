@@ -1,7 +1,7 @@
 $(function () {
   const modal = new bootstrap.Modal($(".modal")[0]);
 
-  let mainCategory;
+  let mainCategory, interval;
   let tries = 7;
   let randomizer = Math.floor(Math.random() * 100000);
   let won = false;
@@ -18,6 +18,9 @@ $(function () {
   const correct = createAudioElement("../src/audio/answer-correct.mp3");
   const failed = createAudioElement("../src/audio/spongebob-disappointed.mp3");
 
+  // Timer icon
+  const icon = $("<i></i>").addClass("bi-stopwatch-fill me-2")[0].outerHTML;
+
   function init() {
     const durationStart = Date.now();
     const $content = $(".content").addClass(
@@ -26,17 +29,26 @@ $(function () {
 
     const $gameArea = $("<div></div>")
       .attr("id", "gameArea")
-      .addClass("mx-5 my-5 d-flex flex-column")
+      .addClass("mx-2 mx-sm-5 my-5 d-flex flex-column")
       .appendTo($content);
 
     const $gameScene = $("<div></div>")
+      .addClass(
+        "rounded-top-4 d-flex align-items-center justify-content-center text-light f-silkscreen fs-2 py-3"
+      )
+      .html(icon + "00:00:00")
       .attr("id", "gameScene")
-      .addClass("rounded-top-4")
       .appendTo($gameArea)
-      .css({
-        height: "200px",
-        background: "#76684aaf",
-      });
+      .css("background", "#76684aaf");
+
+    interval = setInterval(function () {
+      const duration = Date.now() - durationStart;
+      const text = moment
+        .duration(duration, "millisecond")
+        .format("hh:mm:ss", { trim: false });
+
+      $gameScene.html(icon + text);
+    }, 500);
 
     const $gameCategory = $("<div></div>")
       .attr("id", "gameCategory")
@@ -175,6 +187,7 @@ $(function () {
       }
 
       if (tries == 0 || won) {
+        clearInterval(interval);
         // Stats calculation
         averageIncorrectTries.push(7 - tries);
         if (tries == 7) timesPerfected++;
@@ -294,7 +307,7 @@ $(function () {
   const $gameMenuSubcontent = $("<div></div>")
     .appendTo($gameMenu)
     .css("background", "#393123c7")
-    .addClass("text-white d-flex flex-column overflow-hidden rounded-4");
+    .addClass("text-white mx-2 d-flex flex-column overflow-hidden rounded-4");
 
   $("<div></div>")
     .addClass("fs-1 f-silkscreen text-center p-3")
