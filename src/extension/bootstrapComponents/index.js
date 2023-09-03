@@ -34,7 +34,7 @@ class BootstrapModal {
     return this;
   }
 
-  setHeader(header = "Modal Title") {
+  setHeader(header = "Modal Title", button = true) {
     this.header = $("<div></div>").addClass("modal-header");
 
     if (header instanceof jQuery) {
@@ -46,11 +46,13 @@ class BootstrapModal {
         .appendTo(this.header);
     }
 
-    $("<button></button>").addClass("btn-close").appendTo(this.header).attr({
-      type: "button",
-      "data-bs-dismiss": "modal",
-      "aria-label": "Close",
-    });
+    if (button) {
+      $("<button></button>").addClass("btn-close").appendTo(this.header).attr({
+        type: "button",
+        "data-bs-dismiss": "modal",
+        "aria-label": "Close",
+      });
+    }
 
     return this;
   }
@@ -63,19 +65,25 @@ class BootstrapModal {
     return this;
   }
 
-  setFooter(footer = "Modal Footer", btn) {
+  setFooter(footer = "Modal Footer", ...btns) {
     this.footer = $("<div></div>").addClass("modal-footer");
 
     footer = footer instanceof jQuery ? footer[0].outerHTML : footer;
     this.footer.html(footer);
 
-    if (btn === true) {
-      $("<button></button>").html("Close").appendTo(this.footer).attr({
-        type: "button",
-        class: "btn btn-khaki",
-        "data-bs-dismiss": "modal",
-        "aria-label": "Close",
-      });
+    if (btns.length) {
+      for (const { html, id, cls } of btns) {
+        $("<button></button>")
+          .html(html)
+          .appendTo(this.footer)
+          .attr({
+            id,
+            type: "button",
+            class: cls || "btn btn-khaki",
+            "data-bs-dismiss": "modal",
+            "aria-label": html,
+          });
+      }
     }
 
     return this;
@@ -87,6 +95,7 @@ class BootstrapModal {
   }
 
   init() {
+    this._modal.html("");
     this._modal.append(this._dialog);
     this._dialog.append(this._content);
     this._content.append(this.header);
