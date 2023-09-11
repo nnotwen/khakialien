@@ -231,13 +231,23 @@ $(document).ready(async function () {
 
     // Display alphabets after word was displayed
     $("#gameAlphabets > button").addClass("btn-khaki show");
+
     // Add hints
     $("#hintButtons > button").addClass("show");
-    $("#hintButtons > button:has(i.bi-lightbulb-fill)").removeClass("disabled");
 
-    $("#hintDescription").html(
-      'Click the <i class="bi-lightbulb-fill mx-2"></i> button to reveal hint!'
-    );
+    if (!session.levels.length) {
+      $("#hintButtons > button > i").attr({ class: "bi-lightbulb-fill" });
+    }
+    $("#hintButtons > button:has(i.bi-lightbulb-fill)").removeClass("disabled");
+    if (session.hints.filter((x) => Boolean(x)).length) {
+      $("#hintDescription").html(
+        'Click the <i class="bi-lightbulb-fill mx-2"></i> button to reveal hint!'
+      );
+    } else {
+      $("#hintDescription").html(
+        "<i class='bi-lightbulb-off-fill me-2'></i>No more hints left!"
+      );
+    }
 
     // Start the timer
     level.durationStart = Date.now();
