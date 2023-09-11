@@ -1320,7 +1320,7 @@ $(function () {
 
         new Modal()
           .setDescription(
-            `The correct Answer was <strong class="text-${
+            `The correct answer was <strong class="text-${
               won ? "success" : "danger"
             }-emphasis">${word}</strong>!`
           )

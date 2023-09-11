@@ -1,0 +1,770 @@
+[
+  {
+    "name": "Afghanistan",
+    "description": "A landlocked country in South Asia, known for its mountainous terrain."
+  },
+  {
+    "name": "Albania",
+    "description": "A European nation with a rich history and beautiful Adriatic coastline."
+  },
+  {
+    "name": "Algeria",
+    "description": "The largest country in Africa, known for its vast desert landscapes."
+  },
+  {
+    "name": "Andorra",
+    "description": "A tiny European country nestled in the Pyrenees mountains."
+  },
+  {
+    "name": "Angola",
+    "description": "A country in Southern Africa, known for its diverse wildlife and coastline."
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "description": "A Caribbean nation consisting of two islands, famous for its beaches."
+  },
+  {
+    "name": "Argentina",
+    "description": "A South American country known for its tango music and steak."
+  },
+  {
+    "name": "Armenia",
+    "description": "A nation in the South Caucasus known for its ancient history."
+  },
+  {
+    "name": "Australia",
+    "description": "A vast island nation known for its unique wildlife and beautiful landscapes."
+  },
+  {
+    "name": "Austria",
+    "description": "A European country famous for its Alpine landscapes and classical music."
+  },
+  {
+    "name": "Azerbaijan",
+    "description": "A country at the crossroads of Eastern Europe and Western Asia."
+  },
+  {
+    "name": "Bahamas",
+    "description": "A tropical paradise in the Caribbean, known for its clear waters."
+  },
+  {
+    "name": "Bahrain",
+    "description": "A small island nation in the Persian Gulf known for its modern architecture."
+  },
+  {
+    "name": "Bangladesh",
+    "description": "A densely populated country in South Asia, known for its rivers."
+  },
+  {
+    "name": "Barbados",
+    "description": "A Caribbean island nation known for its white sandy beaches."
+  },
+  {
+    "name": "Belarus",
+    "description": "A landlocked country in Eastern Europe, known for its history."
+  },
+  {
+    "name": "Belgium",
+    "description": "A Western European country famous for its chocolates and waffles."
+  },
+  {
+    "name": "Belize",
+    "description": "A Central American nation known for its diverse ecosystems and Mayan ruins."
+  },
+  {
+    "name": "Benin",
+    "description": "A West African country known for its rich culture and history."
+  },
+  {
+    "name": "Bhutan",
+    "description": "A landlocked nation in the Himalayas known for its stunning scenery."
+  },
+  {
+    "name": "Bolivia",
+    "description": "A South American country known for its diverse geography and culture."
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "description": "A Balkan country with a complex history and stunning landscapes."
+  },
+  {
+    "name": "Botswana",
+    "description": "A Southern African country known for its wildlife and safaris."
+  },
+  {
+    "name": "Brazil",
+    "description": "The largest country in South America, known for its Amazon rainforest."
+  },
+  {
+    "name": "Brunei",
+    "description": "A Southeast Asian nation on the island of Borneo, known for its wealth."
+  },
+  {
+    "name": "Bulgaria",
+    "description": "A European country known for its ancient history and Black Sea coastline."
+  },
+  {
+    "name": "Burkina Faso",
+    "description": "A West African country known for its cultural diversity and landscapes."
+  },
+  {
+    "name": "Burundi",
+    "description": "A landlocked country in East Africa, known for its highlands."
+  },
+  {
+    "name": "Cambodia",
+    "description": "A Southeast Asian nation known for its ancient temples, including Angkor Wat."
+  },
+  {
+    "name": "Cameroon",
+    "description": "A Central African country known for its diverse landscapes and wildlife."
+  },
+  {
+    "name": "Canada",
+    "description": "The second-largest country in the world, known for its natural beauty."
+  },
+  {
+    "name": "Cape Verde",
+    "description": "An island nation off the coast of West Africa, known for its beaches."
+  },
+  {
+    "name": "Central African Republic",
+    "description": "A landlocked country in Central Africa, known for its wildlife."
+  },
+  {
+    "name": "Chad",
+    "description": "A landlocked country in North Central Africa, known for its desert."
+  },
+  {
+    "name": "Chile",
+    "description": "A South American nation known for its long coastline and diverse geography."
+  },
+  {
+    "name": "China",
+    "description": "The most populous country in the world, known for its history and culture."
+  },
+  {
+    "name": "Colombia",
+    "description": "A South American country known for its coffee and diverse landscapes."
+  },
+  {
+    "name": "Comoros",
+    "description": "A small island nation in the Indian Ocean, known for its volcanoes."
+  },
+  {
+    "name": "Congo (Brazzaville)",
+    "description": "A Central African country known for its rainforests and rivers."
+  },
+  {
+    "name": "Congo (Kinshasa)",
+    "description": "A vast Central African country known for its wildlife and minerals."
+  },
+  {
+    "name": "Costa Rica",
+    "description": "A Central American nation known for its rainforests and eco-tourism."
+  },
+  {
+    "name": "Croatia",
+    "description": "A European country known for its Adriatic coastline and historic cities."
+  },
+  {
+    "name": "Cuba",
+    "description": "A Caribbean island nation known for its music, culture, and history."
+  },
+  {
+    "name": "Cyprus",
+    "description": "An island nation in the Eastern Mediterranean, known for its beaches."
+  },
+  {
+    "name": "Czech Republic",
+    "description": "A Central European country known for its historic architecture and beer."
+  },
+  {
+    "name": "Denmark",
+    "description": "A Scandinavian nation known for its design and quality of life."
+  },
+  {
+    "name": "Djibouti",
+    "description": "A small country in the Horn of Africa, known for its strategic location."
+  },
+  {
+    "name": "Dominica",
+    "description": "A Caribbean island nation known for its lush rainforests and rivers."
+  },
+  {
+    "name": "Dominican Republic",
+    "description": "A Caribbean nation known for its beautiful beaches and vibrant culture."
+  },
+  {
+    "name": "Ecuador",
+    "description": "A South American country known for its biodiversity and the Galápagos Islands."
+  },
+  {
+    "name": "Egypt",
+    "description": "An ancient civilization in North Africa, known for the pyramids and the Nile River."
+  },
+  {
+    "name": "El Salvador",
+    "description": "A Central American nation known for its volcanoes and coffee production."
+  },
+  {
+    "name": "Equatorial Guinea",
+    "description": "A Central African country with coastal and rainforest regions."
+  },
+  {
+    "name": "Eritrea",
+    "description": "A country in the Horn of Africa known for its rugged landscapes."
+  },
+  {
+    "name": "Estonia",
+    "description": "A Northern European country known for its digital innovation and Baltic coast."
+  },
+  {
+    "name": "Eswatini",
+    "description": "A small, landlocked nation in Southern Africa, formerly known as Swaziland."
+  },
+  {
+    "name": "Ethiopia",
+    "description": "An East African nation known for its historical sites and diverse cultures."
+  },
+  {
+    "name": "Fiji",
+    "description": "An island nation in the South Pacific known for its clear waters and coral reefs."
+  },
+  {
+    "name": "Finland",
+    "description": "A Northern European country known for its lakes, forests, and saunas."
+  },
+  {
+    "name": "France",
+    "description": "A Western European nation known for its art, culture, and cuisine."
+  },
+  {
+    "name": "Gabon",
+    "description": "A Central African country known for its lush rainforests and wildlife."
+  },
+  {
+    "name": "Gambia",
+    "description": "A small West African nation known for its river and diverse ecosystems."
+  },
+  {
+    "name": "Georgia",
+    "description": "A country at the crossroads of Eastern Europe and Western Asia."
+  },
+  {
+    "name": "Germany",
+    "description": "A European powerhouse known for its engineering, history, and culture."
+  },
+  {
+    "name": "Ghana",
+    "description": "A West African nation known for its history, culture, and cocoa production."
+  },
+  {
+    "name": "Greece",
+    "description": "A Southern European country known for its ancient history and islands."
+  },
+  {
+    "name": "Grenada",
+    "description": "A Caribbean island nation known for its spices and scenic beauty."
+  },
+  {
+    "name": "Guatemala",
+    "description": "A Central American nation known for its Mayan heritage and volcanoes."
+  },
+  {
+    "name": "Guinea",
+    "description": "A West African country known for its diverse geography and culture."
+  },
+  {
+    "name": "Guinea-Bissau",
+    "description": "A West African nation with a coastline along the Atlantic Ocean."
+  },
+  {
+    "name": "Guyana",
+    "description": "A South American country known for its rainforests and rivers."
+  },
+  {
+    "name": "Haiti",
+    "description": "A Caribbean nation on the island of Hispaniola, known for its history."
+  },
+  {
+    "name": "Honduras",
+    "description": "A Central American nation known for its diverse landscapes and Mayan ruins."
+  },
+  {
+    "name": "Hungary",
+    "description": "A Central European country known for its thermal baths and cuisine."
+  },
+  {
+    "name": "Iceland",
+    "description": "A Nordic island nation known for its glaciers, volcanoes, and geothermal springs."
+  },
+  {
+    "name": "India",
+    "description": "A diverse South Asian nation known for its culture, history, and cuisine."
+  },
+  {
+    "name": "Indonesia",
+    "description": "A vast archipelago in Southeast Asia known for its diverse culture and islands."
+  },
+  {
+    "name": "Iran",
+    "description": "A Middle Eastern nation with a rich history and diverse landscapes."
+  },
+  {
+    "name": "Iraq",
+    "description": "A Middle Eastern country known for its ancient civilization and history."
+  },
+  {
+    "name": "Ireland",
+    "description": "A Western European nation known for its lush landscapes and folklore."
+  },
+  {
+    "name": "Israel",
+    "description": "A Middle Eastern nation known for its history, culture, and religious significance."
+  },
+  {
+    "name": "Italy",
+    "description": "A Southern European country known for its art, history, and cuisine."
+  },
+  {
+    "name": "Jamaica",
+    "description": "A Caribbean island nation known for its music, beaches, and culture."
+  },
+  {
+    "name": "Japan",
+    "description": "An East Asian nation known for its technology, traditions, and cuisine."
+  },
+  {
+    "name": "Jordan",
+    "description": "A Middle Eastern country known for its ancient ruins and desert landscapes."
+  },
+  {
+    "name": "Kazakhstan",
+    "description": "A Central Asian country known for its vast steppes and diverse cultures."
+  },
+  {
+    "name": "Kenya",
+    "description": "An East African nation known for its wildlife, landscapes, and safaris."
+  },
+  {
+    "name": "Kiribati",
+    "description": "A Pacific island nation known for its atolls and pristine waters."
+  },
+  {
+    "name": "Kuwait",
+    "description": "A small Middle Eastern nation known for its oil reserves and modernity."
+  },
+  {
+    "name": "Kyrgyzstan",
+    "description": "A Central Asian country known for its mountains, nomadic culture, and lakes."
+  },
+  {
+    "name": "Laos",
+    "description": "A Southeast Asian nation known for its mountainous landscapes and temples."
+  },
+  {
+    "name": "Latvia",
+    "description": "A Northern European country known for its Baltic Sea coastline and forests."
+  },
+  {
+    "name": "Lebanon",
+    "description": "A Middle Eastern nation known for its cuisine, history, and diverse culture."
+  },
+  {
+    "name": "Lesotho",
+    "description": "A landlocked country in Southern Africa known for its mountainous terrain."
+  },
+  {
+    "name": "Liberia",
+    "description": "A West African nation founded by freed American slaves."
+  },
+  {
+    "name": "Libya",
+    "description": "A North African country with a diverse landscape and ancient history."
+  },
+  {
+    "name": "Liechtenstein",
+    "description": "A small European country known for its Alpine landscapes and castles."
+  },
+  {
+    "name": "Lithuania",
+    "description": "A Baltic nation in Northern Europe known for its historic architecture."
+  },
+  {
+    "name": "Luxembourg",
+    "description": "A small European country known for its banking sector and castles."
+  },
+  {
+    "name": "Madagascar",
+    "description": "A large island nation in the Indian Ocean known for its unique wildlife."
+  },
+  {
+    "name": "Malawi",
+    "description": "A landlocked country in Southern Africa known for its lake and wildlife."
+  },
+  {
+    "name": "Malaysia",
+    "description": "A Southeast Asian nation known for its diverse culture and rainforests."
+  },
+  {
+    "name": "Maldives",
+    "description": "A tropical paradise in the Indian Ocean known for its overwater bungalows."
+  },
+  {
+    "name": "Mali",
+    "description": "A West African nation known for its history, culture, and music."
+  },
+  {
+    "name": "Malta",
+    "description": "A Mediterranean island nation known for its history and architecture."
+  },
+  {
+    "name": "Marshall Islands",
+    "description": "A Pacific island nation known for its atolls and marine life."
+  },
+  {
+    "name": "Mauritania",
+    "description": "A West African country known for its desert landscapes and nomadic culture."
+  },
+  {
+    "name": "Mauritius",
+    "description": "An island nation in the Indian Ocean known for its beaches and coral reefs."
+  },
+  {
+    "name": "Mexico",
+    "description": "A North American nation known for its cuisine, culture, and history."
+  },
+  {
+    "name": "Micronesia",
+    "description": "A Pacific island nation known for its tropical beauty and diverse cultures."
+  },
+  {
+    "name": "Moldova",
+    "description": "A European country known for its wine production and history."
+  },
+  {
+    "name": "Monaco",
+    "description": "A small European city-state known for its luxury and casinos."
+  },
+  {
+    "name": "Mongolia",
+    "description": "A landlocked country in East Asia known for its vast steppes and nomadic culture."
+  },
+  {
+    "name": "Montenegro",
+    "description": "A European country known for its Adriatic coastline and mountainous terrain."
+  },
+  {
+    "name": "Morocco",
+    "description": "A North African nation known for its diverse landscapes and culture."
+  },
+  {
+    "name": "Mozambique",
+    "description": "A Southeast African country known for its coastline and wildlife."
+  },
+  {
+    "name": "Myanmar",
+    "description": "A Southeast Asian nation known for its temples and diverse ethnic groups."
+  },
+  {
+    "name": "Namibia",
+    "description": "A Southern African country known for its desert landscapes and wildlife."
+  },
+  {
+    "name": "Nauru",
+    "description": "A tiny Pacific island nation known for its phosphate deposits."
+  },
+  {
+    "name": "Nepal",
+    "description": "A landlocked country in the Himalayas known for its mountains and culture."
+  },
+  {
+    "name": "Netherlands",
+    "description": "A Western European country known for its flat landscapes and canals."
+  },
+  {
+    "name": "New Zealand",
+    "description": "A Pacific island nation known for its stunning scenery and outdoor activities."
+  },
+  {
+    "name": "Nicaragua",
+    "description": "A Central American nation known for its lakes, volcanoes, and history."
+  },
+  {
+    "name": "Niger",
+    "description": "A landlocked country in West Africa known for its Sahara Desert regions."
+  },
+  {
+    "name": "Nigeria",
+    "description": "A West African nation known for its diverse culture and oil production."
+  },
+  {
+    "name": "North Macedonia",
+    "description": "A Balkan country known for its historic sites and natural beauty."
+  },
+  {
+    "name": "Norway",
+    "description": "A Nordic country known for its fjords, Northern Lights, and outdoor activities."
+  },
+  {
+    "name": "Oman",
+    "description": "A Middle Eastern nation known for its deserts, mountains, and coastline."
+  },
+  {
+    "name": "Pakistan",
+    "description": "A South Asian nation known for its history, culture, and landscapes."
+  },
+  {
+    "name": "Palau",
+    "description": "A Pacific island nation known for its coral reefs and marine life."
+  },
+  {
+    "name": "Panama",
+    "description": "A Central American nation known for its canal and diverse ecosystems."
+  },
+  {
+    "name": "Papua New Guinea",
+    "description": "A Pacific island nation known for its diverse cultures and wildlife."
+  },
+  {
+    "name": "Paraguay",
+    "description": "A South American country known for its rivers and cultural heritage."
+  },
+  {
+    "name": "Peru",
+    "description": "A South American nation known for its Inca ruins and diverse landscapes."
+  },
+  {
+    "name": "Philippines",
+    "description": "An archipelago in Southeast Asia known for its islands and culture."
+  },
+  {
+    "name": "Poland",
+    "description": "A Central European country known for its history, cities, and cuisine."
+  },
+  {
+    "name": "Portugal",
+    "description": "A Western European nation known for its maritime history and cuisine."
+  },
+  {
+    "name": "Qatar",
+    "description": "A Middle Eastern nation known for its wealth, modernity, and desert landscapes."
+  },
+  {
+    "name": "Romania",
+    "description": "A European country known for its castles, forests, and folklore."
+  },
+  {
+    "name": "Russia",
+    "description": "The largest country in the world, known for its vast landscapes and history."
+  },
+  {
+    "name": "Rwanda",
+    "description": "A landlocked country in East Africa known for its recovery from conflict."
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "description": "A Caribbean nation consisting of two islands, known for its beaches."
+  },
+  {
+    "name": "Saint Lucia",
+    "description": "A Caribbean island nation known for its lush rainforests and volcanic terrain."
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "description": "A Caribbean nation consisting of multiple islands, known for its beauty."
+  },
+  {
+    "name": "Samoa",
+    "description": "A Pacific island nation known for its Polynesian culture and natural beauty."
+  },
+  {
+    "name": "San Marino",
+    "description": "A small European country known for its medieval architecture and culture."
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "description": "An island nation in the Gulf of Guinea, known for its biodiversity."
+  },
+  {
+    "name": "Saudi Arabia",
+    "description": "A Middle Eastern nation known for its deserts, culture, and religious sites."
+  },
+  {
+    "name": "Senegal",
+    "description": "A West African nation known for its music, culture, and history."
+  },
+  {
+    "name": "Serbia",
+    "description": "A Balkan country known for its history, architecture, and culture."
+  },
+  {
+    "name": "Seychelles",
+    "description": "An island nation in the Indian Ocean known for its stunning beaches."
+  },
+  {
+    "name": "Sierra Leone",
+    "description": "A West African country known for its wildlife and history."
+  },
+  {
+    "name": "Singapore",
+    "description": "A Southeast Asian city-state known for its modernity and cleanliness."
+  },
+  {
+    "name": "Slovakia",
+    "description": "A Central European country known for its mountains and castles."
+  },
+  {
+    "name": "Slovenia",
+    "description": "A European nation known for its beautiful landscapes and culture."
+  },
+  {
+    "name": "Solomon Islands",
+    "description": "A Pacific island nation known for its tropical beauty and culture."
+  },
+  {
+    "name": "Somalia",
+    "description": "An East African nation known for its coastal areas and challenges."
+  },
+  {
+    "name": "South Africa",
+    "description": "A Southern African nation known for its diverse landscapes and wildlife."
+  },
+  {
+    "name": "South Korea",
+    "description": "An East Asian nation known for its technology, culture, and cuisine."
+  },
+  {
+    "name": "South Sudan",
+    "description": "A landlocked country in East Africa, known for its recent independence."
+  },
+  {
+    "name": "Spain",
+    "description": "A Southern European country known for its art, history, and cuisine."
+  },
+  {
+    "name": "Sri Lanka",
+    "description": "An island nation in South Asia known for its temples and beaches."
+  },
+  {
+    "name": "Sudan",
+    "description": "A North African nation known for its diverse cultures and landscapes."
+  },
+  {
+    "name": "Suriname",
+    "description": "A South American country known for its rainforests and cultural diversity."
+  },
+  {
+    "name": "Sweden",
+    "description": "A Northern European country known for its forests, lakes, and design."
+  },
+  {
+    "name": "Switzerland",
+    "description": "A European nation known for its mountains, chocolate, and neutrality."
+  },
+  {
+    "name": "Syria",
+    "description": "A Middle Eastern country known for its ancient history and conflicts."
+  },
+  {
+    "name": "Tajikistan",
+    "description": "A Central Asian country known for its mountains and Persian culture."
+  },
+  {
+    "name": "Tanzania",
+    "description": "An East African nation known for its wildlife, landscapes, and culture."
+  },
+  {
+    "name": "Thailand",
+    "description": "A Southeast Asian nation known for its temples, beaches, and cuisine."
+  },
+  {
+    "name": "Timor-Leste",
+    "description": "A Southeast Asian nation known for its young independence."
+  },
+  {
+    "name": "Togo",
+    "description": "A West African country known for its culture and diverse landscapes."
+  },
+  {
+    "name": "Tonga",
+    "description": "A Pacific island nation known for its friendly people and natural beauty."
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "description": "A Caribbean nation consisting of two islands, known for its culture."
+  },
+  {
+    "name": "Tunisia",
+    "description": "A North African nation known for its history, culture, and Mediterranean coast."
+  },
+  {
+    "name": "Turkey",
+    "description": "A transcontinental country known for its history, cuisine, and landscapes."
+  },
+  {
+    "name": "Turkmenistan",
+    "description": "A Central Asian country known for its desert landscapes and history."
+  },
+  {
+    "name": "Tuvalu",
+    "description": "A Pacific island nation known for its low-lying atolls."
+  },
+  {
+    "name": "Uganda",
+    "description": "An East African nation known for its wildlife, lakes, and culture."
+  },
+  {
+    "name": "Ukraine",
+    "description": "A European country known for its history, architecture, and culture."
+  },
+  {
+    "name": "United Arab Emirates",
+    "description": "A Middle Eastern nation known for its modernity and desert landscapes."
+  },
+  {
+    "name": "United Kingdom",
+    "description": "A European nation known for its history, culture, and countryside."
+  },
+  {
+    "name": "United States",
+    "description": "A North American nation known for its diverse landscapes and culture."
+  },
+  {
+    "name": "Uruguay",
+    "description": "A South American country known for its beaches and tango music."
+  },
+  {
+    "name": "Uzbekistan",
+    "description": "A Central Asian country known for its Silk Road history and culture."
+  },
+  {
+    "name": "Vanuatu",
+    "description": "A Pacific island nation known for its volcanic landscapes and tribal culture."
+  },
+  {
+    "name": "Vatican City",
+    "description": "The world's smallest independent state, known for its religious significance."
+  },
+  {
+    "name": "Venezuela",
+    "description": "A South American nation known for its oil reserves and diverse geography."
+  },
+  {
+    "name": "Vietnam",
+    "description": "A Southeast Asian nation known for its history, cuisine, and landscapes."
+  },
+  {
+    "name": "Yemen",
+    "description": "A Middle Eastern country known for its history and unique architecture."
+  },
+  {
+    "name": "Zambia",
+    "description": "A Southern African nation known for its wildlife and natural beauty."
+  },
+  {
+    "name": "Zimbabwe",
+    "description": "A Southern African country known for its history and landscapes."
+  }
+]

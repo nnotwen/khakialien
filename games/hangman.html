@@ -43,6 +43,9 @@
         <!-- JQUERY@3.6.1 -->
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
+        <!-- LODASH -->
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" integrity="sha256-qXBd/EfAdjOA2FGrGAG+b3YBn2tn5A6bhz+LSgYD96k=" crossorigin="anonymous"></script>
+
     <!-- LOCAL SCRIPTS AND STYLESHEETS -->
         
         <!-- Color Scheme -->
@@ -60,23 +63,146 @@
   <body>
     <!-- ANIMATED BACKGROUND -->
     <div class="x-ab-bg"></div>
-    <div class="content">
-      <div class="game-menu"></div>
+    <div class="h-100-vh w-max-700 m-auto d-flex flex-column justify-content-center" style="min-height: 100vh">
+      <div class="w-max-500 w-100 m-auto" id="gameMenu" data-bs-theme="dark">
+        <div class="text-white mx-2 d-flex flex-column overflow-hidden rounded-4" style="background: rgba(57, 49, 35, 0.78);">
+          <div class="fs-1 f-silkscreen text-center p-3">HANGMAN</div>
+          <div class="accordion accordion-flush f-montserrat" id="gameCategory">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed text-center csk-2" type="button" data-bs-toggle="collapse" data-bs-target="#categoryList" aria-expanded="false" aria-controls="categoryList">
+                Select Category
+              </button>
+            </h2>
+            <div class="accordion-collapse collapse" id="categoryList" data-bs-parent="#gameCategory">
+              <div class="accordion-body csk-2">
+                <i class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </i>
+              </div>
+            </div>
+          </div>
+          <button id="gameStartBtn" class="fs-5 btn btn-khaki btn-play disabled" role="button" type="button" title="Play" style="border-radius: 0px;">
+            <i class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </i>
+          </button>
+        </div>
+      </div>
+      <div id="gameArea" class="mx-2 my-5 d-flex flex-column" style="display: none !important">
+          <div id="gameTimer" class="rounded-top-4 d-flex align-items-center justify-content-center text-light f-silkscreen fs-2 py-3" style="background: #76684aaf;">
+            <i class="bi-stopwatch-fill me-2"></i>00:00:00
+          </div>
+          <div id="gameWordCategory" class="fs-3 w-100 text-center f-silkscreen text-light" style="background: #393123c7; min-height: 40px;"></div>
+          <div id="gameWord" class="p-3 w-100 text-center text-light" style="background: #393123c7; min-height: 40px;"></div>
+          <div id="gameAlphabets" class="text-center p-3" style="background: #54421caf;"></div>
+          <div id="gameHint" class="rounded-bottom-4 p-3 d-flex flex-column flex-sm-row justify-content-between text-center" style="background: #393123c7;">
+            <div id="hintButtons" class="w-100 text-nowrap"></div>
+            <div id="hintDescription" class="d-flex justify-content-center align-items-center text-light w-100 p-2"></div>
+          </div>
+          <div id="gameStats" class="w-100 d-flex flex-column flex-sm-row flex-wrap mt-5 rounded-4 justify-content-between" style="background: #393123c7; height: 50px;">
+            <div id="triesRemaining" class="text-center my-auto pt-3 pt-sm-0 px-4"></div>
+            <div id="scoreBoard" class="text-light text-center text-sm-end my-auto pb-3 pb-sm-0 px-4">
+              <small class="me-2">SCORE:</small>
+              <span id="score" class="fs-4"></span>
+            </div>
+          </div>
+      </div>
     </div>
     <div id="modalContainers">
-      <div class="modal fade" id="staticBackdrop" data-bs-theme="dark" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content csk-2">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel" style="--bs-heading-color: #cbbebe">Modal Title</h1>
-          </div>
-          <div class="modal-body" style="color: #cfcccc" id="mb-wq">Modal Body</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-khaki modal-footer-btn" data-bs-dismiss="modal"></button>
+      <div class="modal fade" id="gameEndSummary" data-bs-theme="dark" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="gameEndSummaryLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content csk-2">
+            <div class="modal-header justify-content-center" style="border-bottom: none;">
+              <i class="bi-emoji-frown fill me-2"></i>
+              <h1 class="modal-title fs-5 f-silkscreen" id="gameSummaryLabel" style="--bs-heading-color: #cbbebe">Game Over!</h1>
+              <i class="bi-emoji-frown fill ms-2"></i>
+            </div>
+            <div class="modal-body" style="color: #cfcccc">
+              <div class="fs-5 text-center pb-4 f-montserrat">
+                The correct answer was <strong id="modalCorrectAnswer" class="text-danger-emphasis"></strong>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center py-2">
+                <div class="w-100 text-center">
+                  <div class="csk-1 rounded-circle d-flex flex-column justify-content-center mx-auto shadow" style="width: 120px; height: 120px;">
+                    <div id="modalScore" class="fs-1 f-silkscreen"></div>
+                    <small class="small f-montserrat">PTS</small>
+                  </div>
+                </div>
+                <div class="w-100 text-center text-sm-start f-montserrat">
+                  <strong class="small">SCORE</strong>
+                  <div id="modalScoreEval" class="fs-3 pb-2 f-silkscreen"></div>
+                  <p>
+                    <small>You scored <strong id="modalScoreEvalCompare"></strong> than your average.</small>
+                  </p>
+                  <p>
+                    <small><strong id="modalScoreBeatHS"></strong> points to beat high score.</small>
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center py-2">
+                <div class="w-100 text-center">
+                  <div class="csk-1 rounded-circle d-flex flex-column justify-content-center mx-auto shadow" style="width: 120px; height: 120px;">
+                    <div id="modalAccuracy" class="fs-1 f-silkscreen"></div>
+                    <small class="small f-montserrat">%</small>
+                  </div>
+                </div>
+                <div class="w-100 text-center text-sm-start f-montserrat">
+                  <strong class="small">ACCURACY</strong>
+                  <div id="modalAccuracyEval" class="fs-3 pb-2 f-silkscreen"></div>
+                  <p>
+                    <small><span id="incorrectTapCount"></span> out of <span id="totalTapCount"></span> of your guesses were incorrect.</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer" style="border-top: none;">
+              <button type="button" id="goToMainMenu" class="btn btn-khaki modal-footer-btn" data-bs-dismiss="modal">Menu</button>
+              <button type="button" id="retryGame" class="btn btn-khaki modal-footer-btn" data-bs-dismiss="modal">Retry</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="modal fade" id="levelWonSummary" data-bs-theme="dark" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="levelWonSummaryLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content csk-2">
+            <div class="modal-header justify-content-center" style="border-bottom: none;">
+              <i class="bi-star-fill me-2"></i>
+              <h1 class="modal-title fs-5 f-silkscreen" style="--bs-heading-color: #cbbebe">Great Job!</h1>
+              <i class="bi-star-fill ms-2"></i>
+            </div>
+            <div class="modal-body" style="color: #cfcccc">
+              <div class="fs-5 text-center pb-4 f-montserrat">
+                You got <strong id="levelWonCorrectAnswer" class="text-success-emphasis"></strong> correctly!
+              </div>
+              <div class="py-2 px-3 rounded csk-0 mx-auto f-montserrat" style="max-width: 400px;">
+                <div class="d-flex flex-no-wrap justify-content-between">
+                  <span>Level Score:</span>
+                  <strong id="levelWonLevelScore"></strong>
+                </div>
+                <div class="d-flex flex-no-wrap justify-content-between">
+                  <span>Total Score:</span>
+                  <strong id="levelWonTotalScore"></strong>
+                </div>
+                <div class="d-flex flex-no-wrap justify-content-between">
+                  <span>Hiscore:</span>
+                  <strong id="levelWonHiscore"></strong>
+                </div>
+                <div class="d-flex flex-no-wrap justify-content-between">
+                  <span>Level Duration:</span>
+                  <strong id="levelWonLevelDuration"></strong>
+                </div>
+                <div class="d-flex flex-no-wrap justify-content-between">
+                  <span>Levels Completed:</span>
+                  <strong id="levelWonLevelsCompleted"></strong>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center" style="border-top: none;">
+              <button id="continueGame" class="btn btn-khaki modal-footer-btn" data-bs-dismiss="modal">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <a class="position-absolute top-0 start-0 p-2 m-3 text-light ease-in-1 fs-1 hover-scale" id="home" href="https://khakien.gq/games">
       <i class="bi-house-fill"></i>
@@ -84,6 +210,6 @@
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment-duration-format@2.3.2/lib/moment-duration-format.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" integrity="sha256-qXBd/EfAdjOA2FGrGAG+b3YBn2tn5A6bhz+LSgYD96k=" crossorigin="anonymous"></script>
-    <script src="hangman.js"></script>
+    <script src="hangmanv2.js"></script>
   </body>
 </html>

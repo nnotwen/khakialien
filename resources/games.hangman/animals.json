@@ -1,0 +1,530 @@
+[
+  {
+    "name": "aardvark",
+    "description": "A nocturnal mammal known for its long tongue and termite diet."
+  },
+  {
+    "name": "albatross",
+    "description": "A large seabird with an impressive wingspan."
+  },
+  {
+    "name": "alligator",
+    "description": "A reptile resembling a crocodile, often found in swamps."
+  },
+  {
+    "name": "anteater",
+    "description": "A mammal specialized in eating ants and termites."
+  },
+  {
+    "name": "antelope",
+    "description": "A herbivorous mammal known for its agility and speed."
+  },
+  {
+    "name": "armadillo",
+    "description": "A small, armored mammal native to the Americas."
+  },
+  {
+    "name": "badger",
+    "description": "A burrowing mammal known for its distinctive black and white stripes."
+  },
+  {
+    "name": "bat",
+    "description": "A flying mammal with webbed wings and nocturnal habits."
+  },
+  {
+    "name": "beaver",
+    "description": "A semi-aquatic rodent known for building dams and lodges."
+  },
+  {
+    "name": "bison",
+    "description": "A massive herbivore with a hump on its back, found in North America."
+  },
+  {
+    "name": "boar",
+    "description": "A wild pig often found in forests and known for its tusks."
+  },
+  {
+    "name": "buffalo",
+    "description": "A large mammal related to bison, with distinctive curved horns."
+  },
+  {
+    "name": "butterfly",
+    "description": "A colorful insect with delicate wings, known for its pollination role."
+  },
+  {
+    "name": "camel",
+    "description": "A desert-dwelling mammal with a hump on its back, used for transportation."
+  },
+  {
+    "name": "capybara",
+    "description": "A social, semi-aquatic rodent resembling a giant guinea pig."
+  },
+  {
+    "name": "caribou",
+    "description": "A large, hooved mammal found in the Northern Hemisphere."
+  },
+  {
+    "name": "cassowary",
+    "description": "A flightless bird known for its striking appearance and powerful legs."
+  },
+  {
+    "name": "cat",
+    "description": "A domesticated carnivore known for its independent nature."
+  },
+  {
+    "name": "caterpillar",
+    "description": "The larval stage of butterflies and moths, often with colorful markings."
+  },
+  {
+    "name": "chameleon",
+    "description": "A reptile capable of changing its skin color for camouflage."
+  },
+  {
+    "name": "cheetah",
+    "description": "A fast-running big cat known for its distinctive spots."
+  },
+  {
+    "name": "chimpanzee",
+    "description": "A highly intelligent primate closely related to humans."
+  },
+  {
+    "name": "chinchilla",
+    "description": "A small, fur-covered rodent native to South America."
+  },
+  {
+    "name": "clam",
+    "description": "A marine mollusk with a hard shell, often found in shallow waters."
+  },
+  {
+    "name": "cobra",
+    "description": "A venomous snake known for its hood and deadly bite."
+  },
+  {
+    "name": "cockroach",
+    "description": "A hardy insect known for its resilience and association with unsanitary conditions."
+  },
+  {
+    "name": "cod",
+    "description": "A popular edible fish found in cold waters, often used in cooking."
+  },
+  {
+    "name": "cormorant",
+    "description": "A diving bird with excellent fishing skills and webbed feet."
+  },
+  {
+    "name": "coyote",
+    "description": "A North American canid known for its adaptability and howling calls."
+  },
+  {
+    "name": "crab",
+    "description": "A crustacean with a hard exoskeleton and pincers, often found in oceans."
+  },
+  {
+    "name": "crane",
+    "description": "A tall, wading bird known for its elegant appearance and long neck."
+  },
+  {
+    "name": "crocodile",
+    "description": "A large, aquatic reptile with a V-shaped snout and powerful jaws."
+  },
+  {
+    "name": "crow",
+    "description": "A black bird known for its intelligence and raucous calls."
+  },
+  {
+    "name": "curlew",
+    "description": "A long-billed wading bird often found in wetlands and grasslands."
+  },
+  {
+    "name": "deer",
+    "description": "A herbivorous mammal known for its graceful appearance and antlers."
+  },
+  {
+    "name": "dinosaur",
+    "description": "A prehistoric reptile that lived millions of years ago, often with massive size."
+  },
+  {
+    "name": "dog",
+    "description": "A domesticated carnivore known for its loyalty and diverse breeds."
+  },
+  {
+    "name": "dolphin",
+    "description": "A highly intelligent marine mammal known for its playful behavior."
+  },
+  {
+    "name": "dove",
+    "description": "A small bird often associated with peace and gentle cooing calls."
+  },
+  {
+    "name": "dragonfly",
+    "description": "A flying insect known for its large, iridescent wings and agile flight."
+  },
+  {
+    "name": "duck",
+    "description": "A waterfowl bird with webbed feet, often found in ponds and lakes."
+  },
+  {
+    "name": "dugong",
+    "description": "A marine mammal similar to a manatee, known for its herbivorous diet."
+  },
+  {
+    "name": "eagle",
+    "description": "A majestic bird of prey known for its keen eyesight and powerful talons."
+  },
+  {
+    "name": "echidna",
+    "description": "A spiky-haired mammal known for its egg-laying habits and long tongue."
+  },
+  {
+    "name": "eel",
+    "description": "A snake-like fish that often migrates between freshwater and saltwater."
+  },
+  {
+    "name": "elephant",
+    "description": "A large, herbivorous mammal with a long trunk, known for its intelligence."
+  },
+  {
+    "name": "emu",
+    "description": "A flightless bird native to Australia, known for its speed and long legs."
+  },
+  {
+    "name": "falcon",
+    "description": "A bird of prey known for its speed and ability to catch prey mid-flight."
+  },
+  {
+    "name": "ferret",
+    "description": "A domesticated carnivore known for its playful and curious nature."
+  },
+  {
+    "name": "finch",
+    "description": "A small, colorful bird known for its melodious songs and beak shape."
+  },
+  {
+    "name": "fish",
+    "description": "A diverse group of aquatic vertebrates with gills and fins."
+  },
+  {
+    "name": "flamingo",
+    "description": "A wading bird known for its long legs and distinctive pink plumage."
+  },
+  {
+    "name": "eagle",
+    "description": "A majestic bird of prey known for its keen eyesight and powerful talons."
+  },
+  {
+    "name": "echidna",
+    "description": "A spiky-haired mammal known for its egg-laying habits and long tongue."
+  },
+  {
+    "name": "elephant",
+    "description": "A large, herbivorous mammal with a long trunk, known for its intelligence."
+  },
+  {
+    "name": "emu",
+    "description": "A flightless bird native to Australia, known for its speed and long legs."
+  },
+  {
+    "name": "ferret",
+    "description": "A domesticated carnivore known for its playful and curious nature."
+  },
+  {
+    "name": "finch",
+    "description": "A small, colorful bird known for its melodious songs and beak shape."
+  },
+  {
+    "name": "flamingo",
+    "description": "A wading bird known for its long legs and distinctive pink plumage."
+  },
+  {
+    "name": "gazelle",
+    "description": "A swift and graceful antelope often found in African savannas."
+  },
+  {
+    "name": "giraffe",
+    "description": "A tall, long-necked mammal known for its distinctive spotted coat."
+  },
+  {
+    "name": "gorilla",
+    "description": "A large and powerful primate, closely related to humans."
+  },
+  {
+    "name": "grasshopper",
+    "description": "A hopping insect known for its powerful hind legs and chirping sound."
+  },
+  {
+    "name": "grizzly bear",
+    "description": "A large and powerful bear species often found in North America."
+  },
+  {
+    "name": "hamster",
+    "description": "A small, burrowing rodent often kept as a pet."
+  },
+  {
+    "name": "hedgehog",
+    "description": "A spiky, nocturnal mammal known for curling into a ball for defense."
+  },
+  {
+    "name": "heron",
+    "description": "A wading bird known for its long legs and graceful appearance."
+  },
+  {
+    "name": "hippopotamus",
+    "description": "A large, aquatic mammal known for its size, with webbed toes."
+  },
+  {
+    "name": "honeybee",
+    "description": "A flying insect known for producing honey and pollinating flowers."
+  },
+  {
+    "name": "horse",
+    "description": "A large, hoofed mammal often used for transportation and work."
+  },
+  {
+    "name": "hummingbird",
+    "description": "A tiny, colorful bird known for its rapid wing beats and hovering."
+  },
+  {
+    "name": "hyena",
+    "description": "A carnivorous mammal known for its distinctive laugh-like vocalization."
+  },
+  {
+    "name": "iguana",
+    "description": "A lizard known for its long tail and the ability to change color."
+  },
+  {
+    "name": "impala",
+    "description": "A medium-sized antelope known for its leaping ability and curved horns."
+  },
+  {
+    "name": "jackal",
+    "description": "A carnivorous canid known for its scavenging habits and howling calls."
+  },
+  {
+    "name": "jaguar",
+    "description": "A powerful and spotted big cat known for its strength and agility."
+  },
+  {
+    "name": "jellyfish",
+    "description": "A gelatinous, marine creature known for its stinging tentacles."
+  },
+  {
+    "name": "kangaroo",
+    "description": "A marsupial known for its powerful hind legs and pouch for carrying young."
+  },
+  {
+    "name": "koala",
+    "description": "A marsupial known for its eucalyptus diet and tree-dwelling lifestyle."
+  },
+  {
+    "name": "kookaburra",
+    "description": "A bird known for its distinctive laughter-like call and predatory habits."
+  },
+  {
+    "name": "lemur",
+    "description": "A small, arboreal primate known for its large eyes and long tail."
+  },
+  {
+    "name": "leopard",
+    "description": "A spotted big cat known for its speed and climbing ability."
+  },
+  {
+    "name": "lion",
+    "description": "A majestic big cat known as the 'king of the jungle.'"
+  },
+  {
+    "name": "lizard",
+    "description": "A scaly reptile with four legs, often found in various habitats."
+  },
+  {
+    "name": "llama",
+    "description": "A domesticated camelid known for its wool and use as a pack animal."
+  },
+  {
+    "name": "lobster",
+    "description": "A marine crustacean known for its large claws and culinary use."
+  },
+  {
+    "name": "lynx",
+    "description": "A medium-sized wild cat known for its tufted ears and hunting skills."
+  },
+  {
+    "name": "macaw",
+    "description": "A colorful parrot native to Central and South America."
+  },
+  {
+    "name": "manatee",
+    "description": "A large, herbivorous marine mammal known for its gentle nature."
+  },
+  {
+    "name": "meerkat",
+    "description": "A small, social mammal known for standing upright and keeping watch."
+  },
+  {
+    "name": "mongoose",
+    "description": "A small carnivore known for its agility and ability to fight snakes."
+  },
+  {
+    "name": "moose",
+    "description": "A large, herbivorous mammal known for its distinctive antlers."
+  },
+  {
+    "name": "narwhal",
+    "description": "A marine mammal known for its long, spiral tusk."
+  },
+  {
+    "name": "octopus",
+    "description": "A highly intelligent, eight-armed cephalopod known for its camouflage."
+  },
+  {
+    "name": "opossum",
+    "description": "A marsupial known for playing dead when threatened."
+  },
+  {
+    "name": "orangutan",
+    "description": "A large, arboreal ape known for its intelligence and reddish-brown hair."
+  },
+  {
+    "name": "otter",
+    "description": "A semi-aquatic mammal known for its playful behavior and webbed feet."
+  },
+  {
+    "name": "owl",
+    "description": "A nocturnal bird of prey known for its silent flight and keen vision."
+  },
+  {
+    "name": "panda",
+    "description": "A large bear native to China, known for its black and white fur."
+  },
+  {
+    "name": "pangolin",
+    "description": "A scaly mammal known for its unique appearance and curling into a ball for defense."
+  },
+  {
+    "name": "panther",
+    "description": "A sleek and powerful big cat known for its stealth and dark coat."
+  },
+  {
+    "name": "parrot",
+    "description": "A colorful bird known for its ability to mimic human speech."
+  },
+  {
+    "name": "peacock",
+    "description": "A strikingly beautiful bird known for its vibrant plumage and elaborate courtship displays."
+  },
+  {
+    "name": "pelican",
+    "description": "A large water bird known for its long bill and pouch for catching fish."
+  },
+  {
+    "name": "penguin",
+    "description": "A flightless bird known for its tuxedo-like appearance and waddling walk."
+  },
+  {
+    "name": "platypus",
+    "description": "A unique, egg-laying mammal known for its duck-like bill and webbed feet."
+  },
+  {
+    "name": "polar bear",
+    "description": "A large bear adapted to Arctic environments, known for its powerful swimming."
+  },
+  {
+    "name": "porcupine",
+    "description": "A spiky-haired mammal known for its defensive quills."
+  },
+  {
+    "name": "possum",
+    "description": "A marsupial known for its prehensile tail and nocturnal habits."
+  },
+  {
+    "name": "praying mantis",
+    "description": "A predatory insect known for its distinctive front legs held in a 'praying' position."
+  },
+  {
+    "name": "puma",
+    "description": "A sleek and agile big cat also known as a cougar or mountain lion."
+  },
+  {
+    "name": "quokka",
+    "description": "A small marsupial known for its friendly and smiling appearance."
+  },
+  {
+    "name": "quail",
+    "description": "A small bird known for its distinctive call and ground-dwelling habits."
+  },
+  {
+    "name": "raccoon",
+    "description": "A masked mammal known for its cleverness and nocturnal habits."
+  },
+  {
+    "name": "rhinoceros",
+    "description": "A massive, herbivorous mammal known for its thick skin and horn."
+  },
+  {
+    "name": "salamander",
+    "description": "A small amphibian known for its slender body and moist skin."
+  },
+  {
+    "name": "seagull",
+    "description": "A coastal bird known for its scavenging behavior and distinctive cry."
+  },
+  {
+    "name": "shark",
+    "description": "A powerful marine fish known for its sharp teeth and predatory nature."
+  },
+  {
+    "name": "sloth",
+    "description": "A slow-moving, tree-dwelling mammal known for its leisurely pace."
+  },
+  {
+    "name": "snake",
+    "description": "A legless reptile known for its slithering movement and venomous species."
+  },
+  {
+    "name": "spider",
+    "description": "A arachnid known for its web-spinning abilities and role as a predator."
+  },
+  {
+    "name": "squirrel",
+    "description": "A small, agile rodent known for its bushy tail and nut-hoarding behavior."
+  },
+  {
+    "name": "tiger",
+    "description": "A powerful and striped big cat known for its strength and hunting prowess."
+  },
+  {
+    "name": "turtle",
+    "description": "A reptile with a protective shell, known for its slow and steady pace."
+  },
+  {
+    "name": "vulture",
+    "description": "A scavenging bird known for its bald head and ability to eat carrion."
+  },
+  {
+    "name": "walrus",
+    "description": "A large marine mammal known for its tusks and association with icy waters."
+  },
+  {
+    "name": "whale",
+    "description": "A massive marine mammal known for its size and migratory behavior."
+  },
+  {
+    "name": "wolf",
+    "description": "A carnivorous mammal known for its pack behavior and hunting skills."
+  },
+  {
+    "name": "wombat",
+    "description": "A marsupial known for its burrowing habits and stout build."
+  },
+  {
+    "name": "x-ray tetra",
+    "description": "A small, transparent fish known for its skeletal appearance."
+  },
+  {
+    "name": "yak",
+    "description": "A domesticated mammal known for its long hair and use as a pack animal."
+  },
+  {
+    "name": "zebra",
+    "description": "A striped, herbivorous mammal known for its distinctive black and white pattern."
+  }
+]

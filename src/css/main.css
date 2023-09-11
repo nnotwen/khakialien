@@ -41,15 +41,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cursor-text {
-  cursor: var(--cursor-text), text;
+  cursor: var(--cursor-text), text !important;
 }
 
 .cursor-pointer {
-  cursor: var(--cursor-pointer), pointer;
+  cursor: var(--cursor-pointer), pointer !important;
 }
 
 .cursor-not-allowed {
-  cursor: var(--cursor-not-allowed), not-allowed;
+  cursor: var(--cursor-not-allowed), not-allowed !important;
 }
 
 [type="button"]:not(:disabled),
