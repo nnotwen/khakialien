@@ -51,36 +51,19 @@ $(document).ready(async function () {
     gameOver: createAudioElement("../src/audio/spongebob-disappointed.mp3"),
   };
 
-  const categories = await $.getJSON("/resources/games.hangman")
-    .then((res) => {
-      // Enable button
-      $("#gameStartBtn").removeClass("disabled cursor-not-allowed");
-
-      // Remove spinner and add play button
-      $("#gameStartBtn > i").attr({
-        role: null,
-        class: "bi-play-fill",
-      });
-
-      //  Remove spinner
-      $("#categoryList > .accordion-body").empty();
-
-      // Filter results (read json files only)
-      return res
-        .filter((x) => x.split(".").pop() == "json")
-        .map((x) => x.replace(".json", ""));
-    })
-    .catch((err) => {
-      $("<div></div>")
-        .addClass("text-danger")
-        .css("font-size", "16px")
-        .html("Something went wrong. Please reload the page.")
-        .appendTo($("#gameStartBtn").empty());
-
-      return err;
-    });
-
-  if (!categories.length) return;
+  const categories = [
+    "animals",
+    "brands_and_companies",
+    "countries",
+    "famous_landmarks",
+    "films",
+    "foods_and_drinks",
+    "fruits",
+    "musical_instruments",
+    "professions",
+    "sports",
+    "technology",
+  ];
 
   // Add category list to selection
   for (const category of categories) {
