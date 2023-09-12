@@ -1,0 +1,478 @@
+[
+  {
+    "name": "12 Years a Slave",
+    "description": "The true story of Solomon Northup, a free black man who is abducted and sold into slavery in the pre-Civil War United States."
+  },
+  {
+    "name": "1917",
+    "description": "Two British soldiers race against time to deliver a message that could save hundreds of lives during World War I."
+  },
+  {
+    "name": "2001: A Space Odyssey",
+    "description": "A mind-bending journey through space and time, as a spacecraft's AI system, HAL 9000, turns against its human crew."
+  },
+  {
+    "name": "500 Days of Summer",
+    "description": "A nonlinear narrative explores the highs and lows of a young man's relationship with the woman of his dreams."
+  },
+  {
+    "name": "A Beautiful Mind",
+    "description": "The life of brilliant mathematician John Nash, who battles schizophrenia while making groundbreaking contributions to mathematics."
+  },
+  {
+    "name": "A Clockwork Orange",
+    "description": "In a dystopian future, a violent delinquent undergoes an experimental procedure that removes his free will."
+  },
+  {
+    "name": "A Few Good Men",
+    "description": "A military lawyer defends Marines accused of murder and uncovers a high-level conspiracy."
+  },
+  {
+    "name": "A Quiet Place",
+    "description": "A family must survive in a world where mysterious creatures hunt by sound."
+  },
+  {
+    "name": "A Star is Born",
+    "description": "A fading musician helps a young singer find fame while his own career spirals downward."
+  },
+  {
+    "name": "A Streetcar Named Desire",
+    "description": "A troubled woman moves in with her sister in New Orleans and clashes with her brother-in-law."
+  },
+  {
+    "name": "Alien",
+    "description": "A crew on a spaceship encounters a deadly extraterrestrial creature."
+  },
+  {
+    "name": "American Beauty",
+    "description": "A suburban father's midlife crisis leads to a series of events that disrupt his seemingly perfect life."
+  },
+  {
+    "name": "Amélie",
+    "description": "A whimsical waitress sets out to improve the lives of those around her in Montmartre, Paris."
+  },
+  {
+    "name": "Apocalypse Now",
+    "description": "During the Vietnam War, a captain is sent on a dangerous mission to assassinate a rogue colonel."
+  },
+  {
+    "name": "Avatar",
+    "description": "A paraplegic marine is sent to the moon Pandora on a unique mission and becomes involved in the conflict between the indigenous Na'vi people and humans."
+  },
+  {
+    "name": "Avengers: Endgame",
+    "description": "The Avengers assemble one last time to defeat Thanos and save the universe in this epic conclusion to the Infinity Saga."
+  },
+  {
+    "name": "Back to the Future",
+    "description": "A teenager travels back in time to ensure his parents' future happiness."
+  },
+  {
+    "name": "Black Panther",
+    "description": "T'Challa, the Black Panther and king of Wakanda, must defend his throne and nation from new threats."
+  },
+  {
+    "name": "Blade Runner",
+    "description": "In a dystopian future, a retired blade runner must track down and terminate rogue replicants."
+  },
+  {
+    "name": "Blade Runner 2049",
+    "description": "A new blade runner unearths a long-buried secret that has the potential to plunge what's left of society into chaos."
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "description": "The story of the legendary rock band Queen and its charismatic lead singer Freddie Mercury."
+  },
+  {
+    "name": "Braveheart",
+    "description": "The epic story of William Wallace, a Scottish knight who led a rebellion against English oppression."
+  },
+  {
+    "name": "Casino Royale",
+    "description": "James Bond, in his first mission as 007, must stop a weapons dealer from winning a high-stakes poker tournament."
+  },
+  {
+    "name": "Coco",
+    "description": "A young boy embarks on a journey to the Land of the Dead to discover his family's musical heritage."
+  },
+  {
+    "name": "Crouching Tiger, Hidden Dragon",
+    "description": "A martial-arts epic about love, honor, and revenge in ancient China."
+  },
+  {
+    "name": "Die Hard",
+    "description": "A New York cop battles terrorists who have taken hostages in a Los Angeles skyscraper."
+  },
+  {
+    "name": "District 9",
+    "description": "An alien race is stranded on Earth, and a government agent's life is forever changed when he becomes involved with them."
+  },
+  {
+    "name": "Django Unchained",
+    "description": "A freed slave joins forces with a German bounty hunter to rescue his wife from a brutal plantation owner."
+  },
+  {
+    "name": "Doctor Strange",
+    "description": "A brilliant but arrogant neurosurgeon seeks mystical healing and becomes the Sorcerer Supreme."
+  },
+  {
+    "name": "Donnie Darko",
+    "description": "A troubled teenager encounters a mysterious rabbit figure who predicts the end of the world."
+  },
+  {
+    "name": "Drive",
+    "description": "A stunt driver by day and a getaway driver by night becomes involved with a dangerous heist."
+  },
+  {
+    "name": "E.T. the Extra-Terrestrial",
+    "description": "A young boy befriends an alien and helps him return to his home planet."
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "description": "A man, heartbroken over a failed relationship, undergoes a procedure to erase memories of his former lover."
+  },
+  {
+    "name": "Ex Machina",
+    "description": "A programmer is invited to administer the Turing test to an intelligent humanoid robot with unsettling consequences."
+  },
+  {
+    "name": "Fight Club",
+    "description": "An insomniac office worker forms an underground fight club as a form of male bonding and rebellion."
+  },
+  {
+    "name": "Finding Nemo",
+    "description": "A clownfish embarks on a journey across the ocean to find his son, who has been captured by a diver."
+  },
+  {
+    "name": "For a Few Dollars More",
+    "description": "Two bounty hunters team up to track down a ruthless outlaw."
+  },
+  {
+    "name": "Forrest Gump",
+    "description": "The life story of a man with low intelligence, who unwittingly influences several pivotal moments in U.S. history."
+  },
+  {
+    "name": "Full Metal Jacket",
+    "description": "A group of recruits endure the hardships of Marine Corps boot camp and the horrors of the Vietnam War."
+  },
+  {
+    "name": "Gandhi",
+    "description": "The life of Mahatma Gandhi, who led nonviolent resistance against British colonial rule in India."
+  },
+  {
+    "name": "Get Out",
+    "description": "A young African-American man visits his white girlfriend's family, only to uncover disturbing secrets."
+  },
+  {
+    "name": "Ghostbusters",
+    "description": "A group of scientists become ghost hunters to save New York City from paranormal threats."
+  },
+  {
+    "name": "Gladiator",
+    "description": "A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family and sent him into slavery."
+  },
+  {
+    "name": "Glengarry Glen Ross",
+    "description": "Real estate salesmen engage in cutthroat competition to keep their jobs."
+  },
+  {
+    "name": "Good Will Hunting",
+    "description": "A janitor at MIT, with a gift for mathematics, is discovered by a professor who helps him confront his troubled past."
+  },
+  {
+    "name": "Goodfellas",
+    "description": "The rise and fall of a mob associate in the Italian-American crime syndicate."
+  },
+  {
+    "name": "Gravity",
+    "description": "Two astronauts must fight for survival after their spacecraft is damaged during a spacewalk."
+  },
+  {
+    "name": "Heat",
+    "description": "A dedicated detective pursues a brilliant and ruthless thief in Los Angeles."
+  },
+  {
+    "name": "Her",
+    "description": "A lonely man develops an unlikely relationship with an operating system designed to meet his every need."
+  },
+  {
+    "name": "Inception",
+    "description": "A thief enters people's dreams to steal their secrets in this mind-bending heist thriller."
+  },
+  {
+    "name": "Inglourious Basterds",
+    "description": "In Nazi-occupied France, a group of Jewish-American soldiers plot to assassinate high-ranking German officers."
+  },
+  {
+    "name": "Interstellar",
+    "description": "A group of astronauts embarks on a journey through a wormhole to save humanity from a dying Earth."
+  },
+  {
+    "name": "Joker",
+    "description": "Follow the transformation of Arthur Fleck into the iconic Batman villain, the Joker, in this gritty character study."
+  },
+  {
+    "name": "Jurassic Park",
+    "description": "A billionaire invites scientists to his island theme park filled with cloned dinosaurs, but things go terribly wrong."
+  },
+  {
+    "name": "Kill Bill: Vol. 1",
+    "description": "A former assassin embarks on a quest for revenge against her former colleagues."
+  },
+  {
+    "name": "Kill Bill: Vol. 2",
+    "description": "The bride continues her quest for revenge, leading to a showdown with her former mentor."
+  },
+  {
+    "name": "La La Land",
+    "description": "A struggling jazz musician and an aspiring actress fall in love while pursuing their dreams in Los Angeles."
+  },
+  {
+    "name": "Léon: The Professional",
+    "description": "A hitman forms an unusual bond with a young girl who seeks his help after her family is murdered."
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord."
+  },
+  {
+    "name": "Memento",
+    "description": "A man with short-term memory loss seeks revenge for his wife's murder using Polaroid photographs."
+  },
+  {
+    "name": "Moonlight",
+    "description": "This coming-of-age drama explores the life of a young black man as he grapples with his identity and sexuality."
+  },
+  {
+    "name": "Mystic River",
+    "description": "Three childhood friends are brought back together by a tragic event that occurred in their past."
+  },
+  {
+    "name": "No Country for Old Men",
+    "description": "A hunter stumbles upon a drug deal gone wrong and a suitcase full of money, setting off a violent chain of events."
+  },
+  {
+    "name": "Pan's Labyrinth",
+    "description": "A young girl escapes into a fantasy world during the Spanish Civil War."
+  },
+  {
+    "name": "Parasite",
+    "description": "A poor family schemes to become employed by a wealthy family in this darkly comedic thriller."
+  },
+  {
+    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "description": "A charming pirate teams up with a blacksmith to rescue his kidnapped love and stop a cursed crew of undead pirates."
+  },
+  {
+    "name": "Platoon",
+    "description": "A young soldier's experiences during the Vietnam War are explored as he serves in a divided platoon."
+  },
+  {
+    "name": "Predator",
+    "description": "A team of commandos on a rescue mission in Central America encounter a deadly extraterrestrial hunter."
+  },
+  {
+    "name": "Pulp Fiction",
+    "description": "A collection of intertwining stories involving two hitmen, a boxer, a gangster's wife, and a pair of diner bandits."
+  },
+  {
+    "name": "Pulp Fiction",
+    "description": "A collection of intertwining stories involving two hitmen, a boxer, a gangster's wife, and a pair of diner bandits."
+  },
+  {
+    "name": "Reservoir Dogs",
+    "description": "A group of criminals, assembled for a heist, suspects that one of them is an undercover cop."
+  },
+  {
+    "name": "Saving Private Ryan",
+    "description": "A group of soldiers is sent on a mission to find and bring home a paratrooper whose brothers have been killed in action."
+  },
+  {
+    "name": "Scarface",
+    "description": "A Cuban immigrant rises to power in the Miami drug trade but faces the consequences of his ruthless actions."
+  },
+  {
+    "name": "Schindler's List",
+    "description": "In German-occupied Poland during World War II, a businessman saves the lives of more than a thousand Jewish refugees."
+  },
+  {
+    "name": "Se7en",
+    "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives."
+  },
+  {
+    "name": "Seven Samurai",
+    "description": "A group of farmers hire seven samurai to protect their village from bandits in this classic Japanese film."
+  },
+  {
+    "name": "Shutter Island",
+    "description": "Two U.S. Marshals investigate the mysterious disappearance of a prisoner from a mental institution."
+  },
+  {
+    "name": "Silver Linings Playbook",
+    "description": "Two troubled individuals find solace and love in each other as they navigate their respective mental health challenges."
+  },
+  {
+    "name": "Sin City",
+    "description": "A series of interconnected stories in a dark and violent city."
+  },
+  {
+    "name": "Spirited Away",
+    "description": "A young girl must navigate a mysterious and magical world to rescue her parents."
+  },
+  {
+    "name": "Spotlight",
+    "description": "A team of journalists at The Boston Globe investigates allegations of child abuse within the Catholic Church."
+  },
+  {
+    "name": "Taxi Driver",
+    "description": "A mentally unstable Vietnam War veteran becomes a taxi driver and descends into madness."
+  },
+  {
+    "name": "The Big Lebowski",
+    "description": "A slacker gets caught up in a bizarre series of events after his rug is stolen."
+  },
+  {
+    "name": "The Breakfast Club",
+    "description": "Five high school students from different cliques come together during Saturday detention."
+  },
+  {
+    "name": "The Dark Knight",
+    "description": "Batman faces his greatest challenge yet as he takes on the Joker in this epic superhero film."
+  },
+  {
+    "name": "The Departed",
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston."
+  },
+  {
+    "name": "The Exorcist",
+    "description": "A mother seeks help from two priests to save her daughter from demonic possession."
+  },
+  {
+    "name": "The Godfather",
+    "description": "The patriarch of a powerful mafia family transfers control of his empire to his reluctant son."
+  },
+  {
+    "name": "The Good, the Bad and the Ugly",
+    "description": "Three gunslingers search for buried Confederate gold in the American Southwest during the Civil War."
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "description": "The misadventures of the eccentric staff and guests of a luxurious European hotel."
+  },
+  {
+    "name": "The Green Mile",
+    "description": "A death row corrections officer discovers a mysterious inmate with miraculous healing abilities."
+  },
+  {
+    "name": "The Imitation Game",
+    "description": "The true story of Alan Turing, a brilliant mathematician who helps crack the Enigma code during WWII."
+  },
+  {
+    "name": "The Intouchables",
+    "description": "The unlikely friendship between a quadriplegic aristocrat and his caregiver leads to life-changing experiences for both."
+  },
+  {
+    "name": "The Irishman",
+    "description": "A mob hitman recalls his involvement in the disappearance of Jimmy Hoffa in this epic crime saga."
+  },
+  {
+    "name": "The Lion King",
+    "description": "A young lion cub must reclaim his throne after the murder of his father."
+  },
+  {
+    "name": "The Matrix",
+    "description": "A computer hacker discovers the truth about his reality and joins a group of rebels fighting against a computer-controlled world."
+  },
+  {
+    "name": "The Pianist",
+    "description": "A Polish pianist's life is upended by the Holocaust, and he struggles to survive in war-torn Warsaw."
+  },
+  {
+    "name": "The Princess Bride",
+    "description": "A fairy tale adventure that includes a princess, a pirate, a giant, and true love."
+  },
+  {
+    "name": "The Revenant",
+    "description": "A frontiersman fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+  },
+  {
+    "name": "The Shape of Water",
+    "description": "In a high-security government laboratory, a mute woman forms a unique bond with an amphibious creature."
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "description": "Two imprisoned men forge a deep friendship while finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "name": "The Shining",
+    "description": "A family's stay at a remote hotel becomes a nightmare as supernatural forces drive the father to madness."
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "description": "An FBI trainee seeks the help of a brilliant but insane serial killer to catch another killer on the loose."
+  },
+  {
+    "name": "The Sixth Sense",
+    "description": "A child psychologist works with a young boy who claims to see and communicate with the dead."
+  },
+  {
+    "name": "The Social Network",
+    "description": "A dramatized account of the creation of Facebook and the legal battles that followed."
+  },
+  {
+    "name": "The Terminator",
+    "description": "A cyborg assassin is sent back in time to kill the mother of the future leader of the human resistance."
+  },
+  {
+    "name": "The Theory of Everything",
+    "description": "The life of renowned physicist Stephen Hawking, his love life, and his scientific achievements despite a debilitating illness."
+  },
+  {
+    "name": "The Thing",
+    "description": "A group of scientists in Antarctica is terrorized by an alien organism that can mimic any living being."
+  },
+  {
+    "name": "The Truman Show",
+    "description": "A man's entire life is revealed to be a television show, and he decides to escape his artificial world."
+  },
+  {
+    "name": "The Usual Suspects",
+    "description": "A group of criminals is brought together for a heist, but things take a deadly turn."
+  },
+  {
+    "name": "The Witch",
+    "description": "A Puritan family in 1630s New England encounters supernatural forces in the wilderness."
+  },
+  {
+    "name": "The Wolf of Wall Street",
+    "description": "The rise and fall of Jordan Belfort, a stockbroker who indulges in excessive wealth and corruption."
+  },
+  {
+    "name": "The Wrestler",
+    "description": "A washed-up professional wrestler attempts a comeback while dealing with personal struggles."
+  },
+  {
+    "name": "There Will Be Blood",
+    "description": "A ruthless oilman's ambition leads to conflict in early 20th-century California."
+  },
+  {
+    "name": "Three Billboards Outside Ebbing, Missouri",
+    "description": "A mother takes matters into her own hands when local law enforcement fails to solve her daughter's murder."
+  },
+  {
+    "name": "Titanic",
+    "description": "A love story unfolds on the ill-fated maiden voyage of the R.M.S. Titanic."
+  },
+  {
+    "name": "Toy Story 3",
+    "description": "Woody, Buzz Lightyear, and their toy friends face uncertain futures as their owner prepares to leave for college."
+  },
+  {
+    "name": "Whiplash",
+    "description": "A young drummer's relentless pursuit of perfection in his music teacher's jazz band."
+  },
+  {
+    "name": "Zootopia",
+    "description": "A bunny police officer teams up with a slick con artist fox to solve a mystery in the city of Zootopia."
+  }
+]

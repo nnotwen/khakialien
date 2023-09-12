@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Ackee",
+    "description": "A tropical fruit with creamy flesh and a slightly nutty flavor. Often used in Caribbean cuisine."
+  },
+  {
+    "name": "African Horned Cucumber",
+    "description": "A spiky, orange fruit with a jelly-like green flesh and a mildly sweet and tart taste."
+  },
+  {
+    "name": "Apple",
+    "description": "A crisp and sweet fruit with various colors, including red, green, and yellow. Often used in pies, salads, and as a snack."
+  },
+  {
+    "name": "Apricot",
+    "description": "A small, orange fruit with a sweet and slightly tart flavor. Often eaten fresh or used in jams and desserts."
+  },
+  {
+    "name": "Avocado",
+    "description": "A creamy, green fruit often used in salads, guacamole, and as a toast topping."
+  },
+  {
+    "name": "Açaí Berry",
+    "description": "A small, purple fruit with a rich, earthy flavor. Often used in smoothie bowls and health drinks."
+  },
+  {
+    "name": "Banana",
+    "description": "A yellow or green fruit with a creamy texture and a sweet flavor. A popular snack and smoothie ingredient."
+  },
+  {
+    "name": "Barberry",
+    "description": "Small, tart red berries used in cooking, desserts, and as a garnish."
+  },
+  {
+    "name": "Bilberry",
+    "description": "A small, blueberry-like fruit with a sweet and tangy flavor. Used in jams and desserts."
+  },
+  {
+    "name": "Bilimbi",
+    "description": "A green, sour fruit commonly used in Southeast Asian cuisine and as a flavoring agent."
+  },
+  {
+    "name": "Black Sapote",
+    "description": "A brown or green fruit with sweet, custard-like flesh. Known for its chocolate-like flavor."
+  },
+  {
+    "name": "Blackberry",
+    "description": "A dark purple to black fruit with a sweet and slightly tart taste. Used in pies, jams, and desserts."
+  },
+  {
+    "name": "Blueberry",
+    "description": "A small, round fruit with a sweet and tangy flavor. Commonly used in muffins, pancakes, and as a topping."
+  },
+  {
+    "name": "Boysenberry",
+    "description": "A dark purple fruit with a sweet and tart flavor. Used in pies, jams, and as a topping."
+  },
+  {
+    "name": "Buddha's Hand",
+    "description": "A yellow citrus fruit with multiple finger-like segments. Used as a fragrant citrus zest and decoration."
+  },
+  {
+    "name": "Cactus Pear",
+    "description": "A fruit with prickly skin and sweet, juicy flesh. Eaten fresh and used in desserts."
+  },
+  {
+    "name": "Cainito",
+    "description": "A fruit with purple or green skin and sweet, milky flesh. Eaten fresh."
+  },
+  {
+    "name": "Cantaloupe",
+    "description": "A sweet and juicy orange fruit with a fragrant aroma. Often served fresh or as part of fruit salads."
+  },
+  {
+    "name": "Carambola",
+    "description": "A tropical fruit with a star-like shape and a sweet, tangy flavor. Eaten fresh or used in salads."
+  },
+  {
+    "name": "Chayote",
+    "description": "A green, wrinkled fruit with mild, crisp flesh. Used in salads, stir-fries, and soups."
+  },
+  {
+    "name": "Cherimoya",
+    "description": "A green, heart-shaped fruit with creamy, sweet flesh. Known as the 'custard apple.'"
+  },
+  {
+    "name": "Cherry",
+    "description": "A small, round fruit with a sweet and tart flavor. Eaten fresh, used in pies, and as a garnish."
+  },
+  {
+    "name": "hocolate Pudding Fruit",
+    "description": "A brown or green fruit with sweet, custard-like flesh. Known for its chocolate-like flavor."
+  },
+  {
+    "name": "Clementine",
+    "description": "A small citrus fruit with a sweet and easy-to-peel skin. Eaten fresh as a snack."
+  },
+  {
+    "name": "Cloudberry",
+    "description": "A small, orange fruit with a tart and sweet flavor. Often used in jams and desserts."
+  },
+  {
+    "name": "Coconut",
+    "description": "A tropical fruit with a hard, brown shell and sweet, white flesh. Used in cooking, desserts, and coconut milk."
+  },
+  {
+    "name": "Cranberry",
+    "description": "A small, red fruit with a tart taste. Commonly used in sauces, juices, and as a side dish."
+  },
+  {
+    "name": "Custard Apple",
+    "description": "A tropical fruit with sweet, creamy flesh and a bumpy green skin."
+  },
+  {
+    "name": "Date",
+    "description": "A sweet and chewy fruit often eaten dried. Used in desserts and as a natural sweetener."
+  },
+  {
+    "name": "Dragon Fruit",
+    "description": "A visually striking fruit with pink or yellow skin and white or red flesh speckled with black seeds. Mild and sweet in flavor."
+  },
+  {
+    "name": "Durian",
+    "description": "A large, spiky fruit known for its strong odor and custard-like flesh with a unique flavor. Considered a delicacy in some regions."
+  },
+  {
+    "name": "Elderberry",
+    "description": "A dark purple fruit with a tart flavor. Used in jams, syrups, and as a supplement."
+  },
+  {
+    "name": "Feijoa",
+    "description": "A green fruit with a sweet and slightly tangy flavor. Eaten fresh or used in desserts."
+  },
+  {
+    "name": "Feijoa",
+    "description": "A green fruit with a sweet and slightly tangy flavor. Eaten fresh or used in desserts."
+  },
+  {
+    "name": "Fig",
+    "description": "A pear-shaped fruit with sweet and chewy flesh. Eaten fresh, dried, or used in jams and desserts."
+  },
+  {
+    "name": "Goji Berry",
+    "description": "A small, red fruit with a sweet and tangy taste. Often used in smoothies and health foods."
+  },
+  {
+    "name": "Gooseberry",
+    "description": "A small, green fruit with a tart flavor. Used in pies, jams, and desserts."
+  },
+  {
+    "name": "Grape",
+    "description": "Small, round fruit that comes in various colors, including red, green, and purple. Used to make wine, juices, and eaten fresh."
+  },
+  {
+    "name": "Grapefruit",
+    "description": "A citrus fruit with a tangy and slightly bitter taste. Often eaten for breakfast or in salads."
+  },
+  {
+    "name": "Graviola",
+    "description": "A tropical fruit with spiky green skin and sweet, white flesh. Known for its unique flavor."
+  },
+  {
+    "name": "Guanabana",
+    "description": "A tropical fruit with sweet, white flesh and a spiky green skin. Known for its unique flavor."
+  },
+  {
+    "name": "Guava",
+    "description": "A tropical fruit with green or yellow skin and sweet, pink or white flesh. Eaten fresh or used in beverages and desserts."
+  },
+  {
+    "name": "Honeydew Melon",
+    "description": "A sweet and juicy melon with pale green flesh. Often eaten fresh or in fruit salads."
+  },
+  {
+    "name": "Jabuticaba",
+    "description": "A dark purple fruit that grows directly on the trunk of the tree. Sweet and tart in flavor."
+  },
+  {
+    "name": "Jackfruit",
+    "description": "A large, green fruit with sweet, yellow flesh. Used in savory dishes, desserts, and as a meat substitute."
+  },
+  {
+    "name": "Jujube",
+    "description": "A small, red or yellow fruit with sweet, chewy flesh. Eaten fresh and used in desserts."
+  },
+  {
+    "name": "Kiwano",
+    "description": "A spiky, orange fruit with a jelly-like green flesh and a mildly sweet and tart taste."
+  },
+  {
+    "name": "Kiwi",
+    "description": "A small, green fruit with fuzzy brown skin and bright green flesh with black seeds. Sweet and tart in flavor."
+  },
+  {
+    "name": "Kumquat",
+    "description": "A small citrus fruit with a sweet and tart flavor. Eaten fresh, often with the peel."
+  },
+  {
+    "name": "Kumquat",
+    "description": "A small citrus fruit with a sweet and tart flavor. Eaten fresh, often with the peel."
+  },
+  {
+    "name": "Lemon",
+    "description": "A yellow citrus fruit known for its sour taste. Used in cooking, beverages, and as a flavoring."
+  },
+  {
+    "name": "Lime",
+    "description": "A green citrus fruit with a tart and zesty flavor. Used in cooking, cocktails, and garnishes."
+  },
+  {
+    "name": "Longan",
+    "description": "A small, translucent fruit with sweet and juicy flesh. Similar in flavor to lychee."
+  },
+  {
+    "name": "Lychee",
+    "description": "A small, round fruit with a rough, pinkish-red skin and sweet, translucent flesh. Popular in Asian cuisine."
+  },
+  {
+    "name": "Mamey Sapote",
+    "description": "A tropical fruit with sweet, orange flesh and a unique flavor reminiscent of sweet potato."
+  },
+  {
+    "name": "Mango",
+    "description": "A tropical fruit with sweet and juicy orange flesh. Eaten fresh, used in smoothies, and desserts."
+  },
+  {
+    "name": "Mangosteen",
+    "description": "A tropical fruit with juicy, white flesh and a sweet and tangy flavor. Known as the 'queen of fruits.'"
+  },
+  {
+    "name": "Mangosteen",
+    "description": "A tropical fruit with juicy, white flesh and a sweet and tangy flavor. Known as the 'queen of fruits.'"
+  },
+  {
+    "name": "Melon Pear",
+    "description": "A fruit with pale yellow or purple-striped skin and sweet, juicy flesh. Eaten fresh."
+  },
+  {
+    "name": "Miracle Fruit",
+    "description": "A small red berry that, when eaten, temporarily alters taste perception, making sour foods taste sweet."
+  },
+  {
+    "name": "Mulberry",
+    "description": "A small, dark purple or red fruit with a sweet and slightly tart flavor. Eaten fresh or used in jams."
+  },
+  {
+    "name": "Nectarine",
+    "description": "A smooth-skinned fruit with sweet and juicy flesh. Often eaten fresh or used in desserts."
+  },
+  {
+    "name": "Papaw",
+    "description": "A tropical fruit with orange or yellow flesh and a sweet and custard-like flavor."
+  },
+  {
+    "name": "Papaya",
+    "description": "A tropical fruit with orange flesh and sweet, musky flavor. Often eaten fresh or used in fruit salads."
+  },
+  {
+    "name": "Passion Fruit",
+    "description": "A round or oval fruit with a tough outer rind and aromatic, seed-filled pulp with a sweet and tart flavor."
+  },
+  {
+    "name": "Passion Fruit",
+    "description": "A round or oval fruit with a tough outer rind and aromatic, seed-filled pulp with a sweet and tart flavor."
+  },
+  {
+    "name": "Pawpaw",
+    "description": "A tropical fruit with orange or yellow flesh and a sweet and custard-like flavor."
+  },
+  {
+    "name": "Peach",
+    "description": "A fuzzy-skinned fruit with sweet, juicy flesh. Eaten fresh, used in pies, and as a flavoring."
+  },
+  {
+    "name": "Pear",
+    "description": "A pear-shaped fruit with a sweet and slightly grainy texture. Eaten fresh and used in salads and desserts."
+  },
+  {
+    "name": "Pepino",
+    "description": "A fruit with pale yellow or purple-striped skin and sweet, juicy flesh. Eaten fresh."
+  },
+  {
+    "name": "Persimmon",
+    "description": "A fruit with orange or red skin and sweet, juicy flesh. Eaten fresh and used in desserts."
+  },
+  {
+    "name": "Persimmon",
+    "description": "A fruit with orange or red skin and sweet, juicy flesh. Eaten fresh and used in desserts."
+  },
+  {
+    "name": "Pineapple",
+    "description": "A tropical fruit with spiky skin and sweet, yellow flesh. Often used in fruit salads, desserts, and as a pizza topping."
+  },
+  {
+    "name": "Pitanga",
+    "description": "A small, red or yellow fruit with a sweet and tart flavor. Often used in jams and beverages."
+  },
+  {
+    "name": "Plum",
+    "description": "A small, round or oval fruit with sweet and juicy flesh. Eaten fresh, dried, and used in jams and desserts."
+  },
+  {
+    "name": "Pomegranate",
+    "description": "A round fruit with a tough, outer rind and juicy, seed-filled interior. Known for its sweet-tart flavor."
+  },
+  {
+    "name": "Pomelo",
+    "description": "A large citrus fruit with thick, green or yellow skin and sweet, slightly tangy flesh."
+  },
+  {
+    "name": "Prickly Pear",
+    "description": "A fruit with prickly skin and sweet, juicy flesh. Eaten fresh and used in desserts."
+  },
+  {
+    "name": "Pummelo",
+    "description": "A large citrus fruit with thick, green or yellow skin and sweet, slightly tangy flesh."
+  },
+  {
+    "name": "Rambutan",
+    "description": "A hairy fruit with sweet, translucent flesh. Similar in flavor to lychee."
+  },
+  {
+    "name": "Raspberry",
+    "description": "A small, red or black fruit with a sweet and slightly tart flavor. Used in desserts, jams, and as a garnish."
+  },
+  {
+    "name": "Red Currant",
+    "description": "Small, red berries with a tart and slightly sweet flavor. Used in jams and desserts."
+  },
+  {
+    "name": "Salak",
+    "description": "A reddish-brown fruit with scaly skin and sweet, tangy flesh. Often eaten fresh."
+  },
+  {
+    "name": "Sapodilla",
+    "description": "A tropical fruit with grainy, sweet flesh and a flavor reminiscent of brown sugar and pear."
+  },
+  {
+    "name": "Snake Fruit",
+    "description": "A reddish-brown fruit with scaly skin and sweet, tangy flesh. Often eaten fresh."
+  },
+  {
+    "name": "Soursop",
+    "description": "A tropical fruit with spiky green skin and sweet, white flesh. Known for its unique flavor."
+  },
+  {
+    "name": "Star Apple",
+    "description": "A fruit with purple or green skin and sweet, milky flesh. Eaten fresh."
+  },
+  {
+    "name": "Strawberry",
+    "description": "A small, red fruit with a sweet and juicy flavor. Eaten fresh, used in desserts, and as a topping."
+  },
+  {
+    "name": "Sugar Apple",
+    "description": "A tropical fruit with bumpy green skin and sweet, custard-like flesh."
+  },
+  {
+    "name": "Surinam Cherry",
+    "description": "A small, red or yellow fruit with a sweet and tart flavor. Often used in jams and beverages."
+  },
+  {
+    "name": "Sweetsop",
+    "description": "A tropical fruit with bumpy green skin and sweet, custard-like flesh."
+  },
+  {
+    "name": "Tamarillo",
+    "description": "An egg-shaped fruit with a sweet and tangy flavor. Often eaten fresh or used in sauces."
+  },
+  {
+    "name": "Tamarind",
+    "description": "A pod-like fruit with a sweet and sour taste. Used in cooking, sauces, and beverages."
+  },
+  {
+    "name": "Ugli Fruit",
+    "description": "A citrus fruit with a wrinkled, greenish-yellow skin and sweet, tangy flesh."
+  },
+  {
+    "name": "Watermelon",
+    "description": "A large, green fruit with sweet and juicy red or pink flesh. Often eaten fresh in slices."
+  },
+  {
+    "name": "White Currant",
+    "description": "Small, pale yellow or white berries with a mild, sweet flavor. Used in desserts and jams."
+  },
+  {
+    "name": "White Sapote",
+    "description": "A tropical fruit with creamy, sweet flesh and a flavor resembling custard and pear."
+  },
+  {
+    "name": "Wolfberry",
+    "description": "A small, red fruit with a sweet and tangy taste. Often used in traditional Chinese medicine."
+  },
+  {
+    "name": "Yuzu",
+    "description": "A small, aromatic citrus fruit with a tart and fragrant flavor. Used in cooking and as a garnish."
+  }
+]

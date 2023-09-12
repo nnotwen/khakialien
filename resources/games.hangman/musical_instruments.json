@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Accordion",
+    "description": "A portable musical instrument with bellows and buttons or keys, producing sound by forcing air through reeds."
+  },
+  {
+    "name": "Acoustic Guitar",
+    "description": "A stringed instrument with a wooden body and sound hole, played by plucking or strumming the strings."
+  },
+  {
+    "name": "Alphorn",
+    "description": "A traditional Swiss horn made of wood, often used in Alpine regions to produce deep and resonant tones."
+  },
+  {
+    "name": "Angklung",
+    "description": "A traditional Indonesian musical instrument made of bamboo tubes, each producing a unique pitch when shaken."
+  },
+  {
+    "name": "Bagpipes",
+    "description": "A wind instrument consisting of a bag, drones, and a chanter, commonly associated with Scottish and Irish music."
+  },
+  {
+    "name": "Balafon",
+    "description": "A West African xylophone with wooden keys that are struck with mallets, producing melodic tones."
+  },
+  {
+    "name": "Balalaika",
+    "description": "A Russian stringed instrument with a triangular body, often used in folk music."
+  },
+  {
+    "name": "Banjo",
+    "description": "A stringed instrument with a round body and a long neck, often used in folk, country, and bluegrass music."
+  },
+  {
+    "name": "Bass Clarinet",
+    "description": "A clarinet with a lower pitch range, known for its rich and deep tones in orchestral and jazz music."
+  },
+  {
+    "name": "Bass Drum",
+    "description": "A large drum that produces deep and booming sounds, commonly used in marching bands and orchestras."
+  },
+  {
+    "name": "Bass Guitar",
+    "description": "A stringed instrument with a longer scale length and lower pitch range, providing the rhythmic and harmonic foundation in many music genres."
+  },
+  {
+    "name": "Bassoon",
+    "description": "A double-reed woodwind instrument with a deep and mellow tone, often used in classical and orchestral music."
+  },
+  {
+    "name": "Bodhran",
+    "description": "A traditional Irish frame drum, played with a beater to create rhythmic patterns."
+  },
+  {
+    "name": "Bouzouki",
+    "description": "A Greek stringed instrument with a long neck and a pear-shaped body, often used in traditional Greek music."
+  },
+  {
+    "name": "Cajon",
+    "description": "A percussion instrument originating from Peru, played by slapping the front or rear panel with the hands."
+  },
+  {
+    "name": "Castanets",
+    "description": "Handheld percussion instruments made of two small concave shells that are clicked together."
+  },
+  {
+    "name": "Cello",
+    "description": "A stringed instrument played with a bow, known for its warm and expressive tones in classical music."
+  },
+  {
+    "name": "Charango",
+    "description": "A small Andean stringed instrument, often made from an armadillo shell, used in folk music."
+  },
+  {
+    "name": "Clarinet",
+    "description": "A woodwind instrument with a single-reed mouthpiece, capable of a wide range of tones in various music styles."
+  },
+  {
+    "name": "Clavinet",
+    "description": "An electric keyboard instrument known for its funky and percussive sound, often used in funk and rock music."
+  },
+  {
+    "name": "Concertina",
+    "description": "A small, hexagonal accordion-like instrument with buttons, producing sound by squeezing and expanding the bellows."
+  },
+  {
+    "name": "Contrabass",
+    "description": "A large and deep-pitched stringed instrument, often used in orchestras to provide the lowest tones."
+  },
+  {
+    "name": "Cornet",
+    "description": "A brass instrument similar to the trumpet, known for its mellow and melodic qualities in brass bands and jazz ensembles."
+  },
+  {
+    "name": "Cymbals",
+    "description": "Percussion instruments consisting of two metal plates clashed together to create crashing or shimmering sounds."
+  },
+  {
+    "name": "Didgeridoo",
+    "description": "A traditional Australian wind instrument made from a hollowed-out branch or tube, known for its unique drone-like sound."
+  },
+  {
+    "name": "Dizi",
+    "description": "A Chinese transverse bamboo flute, known for its rich and expressive tones."
+  },
+  {
+    "name": "Djembe",
+    "description": "A West African drum with a goblet shape and a skin head, played with the hands to produce a wide range of rhythms."
+  },
+  {
+    "name": "Dombra",
+    "description": "A two-stringed traditional Kazakh instrument with a long neck, often used in Central Asian music."
+  },
+  {
+    "name": "Double Bass",
+    "description": "A large stringed instrument, also known as the upright bass or contrabass, used in orchestras and jazz ensembles."
+  },
+  {
+    "name": "Drum Set",
+    "description": "A collection of various drums and percussion instruments arranged for a single player, commonly used in rock, jazz, and pop music."
+  },
+  {
+    "name": "Dulcimer",
+    "description": "A stringed instrument with a trapezoidal shape and a fretted neck, often played on the lap or with hammers."
+  },
+  {
+    "name": "Electric Guitar",
+    "description": "A guitar with electronic pickups that amplify the sound, widely used in rock, blues, and other contemporary music genres."
+  },
+  {
+    "name": "Euphonium",
+    "description": "A brass instrument resembling a small tuba, known for its mellow and expressive tones in brass bands and concert bands."
+  },
+  {
+    "name": "Fife",
+    "description": "A small, high-pitched flute with six finger holes, often used in military and folk music."
+  },
+  {
+    "name": "Flugelhorn",
+    "description": "A brass instrument resembling a trumpet but with a wider and more conical bore, often used in jazz and brass bands."
+  },
+  {
+    "name": "Flute",
+    "description": "A woodwind instrument with a narrow cylindrical tube and a blowing edge, producing clear and melodious tones."
+  },
+  {
+    "name": "French Horn",
+    "description": "A brass instrument with a coiled tube and a flared bell, known for its rich and mellow tones in orchestral and chamber music."
+  },
+  {
+    "name": "Gamelan",
+    "description": "An Indonesian ensemble of percussion instruments, including metallophones, gongs, and drums, often used in traditional music."
+  },
+  {
+    "name": "Glockenspiel",
+    "description": "A percussion instrument with tuned metal bars that are struck with mallets to produce bright and bell-like sounds."
+  },
+  {
+    "name": "Gong",
+    "description": "A large metal disc-shaped percussion instrument, producing a deep and resonant sound when struck."
+  },
+  {
+    "name": "Grand Piano",
+    "description": "A large and full-sized piano with a horizontal soundboard, offering a wide range of notes and dynamics in classical and modern music."
+  },
+  {
+    "name": "Guzheng",
+    "description": "A traditional Chinese zither with strings stretched over a wooden frame, plucked to create melodic and expressive music."
+  },
+  {
+    "name": "Hammered Dulcimer",
+    "description": "A percussion instrument with strings stretched over a trapezoidal soundboard, played by striking the strings with hammers."
+  },
+  {
+    "name": "Hang Drum",
+    "description": "A modern percussion instrument with a UFO-like shape, known for its soothing and melodic sounds."
+  },
+  {
+    "name": "Hangul",
+    "description": "A Korean traditional drum, often played in various ceremonial and cultural events."
+  },
+  {
+    "name": "Harmonica",
+    "description": "A small wind instrument with reeds, played by blowing and drawing air through the holes to produce varying musical notes."
+  },
+  {
+    "name": "Harp",
+    "description": "A large stringed instrument with a frame and multiple strings, played by plucking the strings to create ethereal and resonant sounds."
+  },
+  {
+    "name": "Harpsichord",
+    "description": "A keyboard instrument with strings that are plucked by quills, producing a distinctive harpsichord sound in classical music."
+  },
+  {
+    "name": "Jew's Harp",
+    "description": "A small musical instrument played by vibrating a flexible metal or bamboo tongue, often held against the player's mouth."
+  },
+  {
+    "name": "Kalimba",
+    "description": "An African thumb piano with metal tines, played by plucking the tines to create melodic and rhythmic patterns."
+  },
+  {
+    "name": "Keyboard",
+    "description": "A musical instrument with a set of keys, often referring to electronic keyboards and synthesizers used in various music genres."
+  },
+  {
+    "name": "Khaen",
+    "description": "A traditional Laotian and Thai mouth organ made of bamboo, producing harmonious sounds."
+  },
+  {
+    "name": "Konghou",
+    "description": "An ancient Chinese harp with strings plucked by fingers or a plectrum, known for its elegant tones."
+  },
+  {
+    "name": "Koto",
+    "description": "A traditional Japanese stringed instrument with 13 strings, plucked to produce beautiful and melodic music."
+  },
+  {
+    "name": "Lute",
+    "description": "A stringed instrument with a rounded body and a fretted neck, popular in European music during the Renaissance and Baroque eras."
+  },
+  {
+    "name": "Lyre",
+    "description": "A stringed instrument with a U-shaped body and strings stretched between two arms, used in ancient and classical music."
+  },
+  {
+    "name": "Mandolin",
+    "description": "A small stringed instrument with a rounded body and a fretted neck, often used in folk, bluegrass, and classical music."
+  },
+  {
+    "name": "Maracas",
+    "description": "Percussion instruments consisting of gourd shells filled with seeds or beads, shaken to produce rhythmic and shaking sounds."
+  },
+  {
+    "name": "Marimba",
+    "description": "A percussion instrument with wooden bars arranged like a keyboard, played with mallets to create melodic and resonant tones."
+  },
+  {
+    "name": "Mbira",
+    "description": "A traditional African thumb piano with metal tines, played by plucking to create intricate melodies."
+  },
+  {
+    "name": "Mellotron",
+    "description": "An early keyboard instrument that uses tape loops to produce various sounds, popular in progressive rock music."
+  },
+  {
+    "name": "Ney",
+    "description": "A Middle Eastern flute made of cane, known for its haunting and meditative sounds."
+  },
+  {
+    "name": "Nyckelharpa",
+    "description": "A Swedish stringed instrument with keys that press against the strings, producing a unique and resonant tone."
+  },
+  {
+    "name": "Nylon String Guitar",
+    "description": "A classical guitar with nylon strings, known for its warm and mellow tones in classical and acoustic music."
+  },
+  {
+    "name": "Oboe",
+    "description": "A double-reed woodwind instrument with a conical bore, known for its distinct and piercing tones in orchestral and chamber music."
+  },
+  {
+    "name": "Ocarina",
+    "description": "A small wind instrument with finger holes, often shaped like a sweet potato or an animal, known for its pure and haunting tones."
+  },
+  {
+    "name": "Octobass",
+    "description": "A massive and rare stringed instrument, known for its extremely low tones and enormous size."
+  },
+  {
+    "name": "Oud",
+    "description": "A stringed instrument with a pear-shaped body, commonly used in Middle Eastern and North African music."
+  },
+  {
+    "name": "Overtone Flute",
+    "description": "A flute that allows players to produce overtones and harmonics, creating ethereal and mystical sounds."
+  },
+  {
+    "name": "Pan Flute",
+    "description": "A musical instrument consisting of a series of tubes or pipes of varying lengths, played by blowing across the open ends."
+  },
+  {
+    "name": "Pandora's Box",
+    "description": "An electronic musical instrument capable of producing a wide range of sounds and effects."
+  },
+  {
+    "name": "Penny Whistle",
+    "description": "A small wind instrument, also known as a tin whistle, played by blowing air through a fipple to create simple and melodious tunes."
+  },
+  {
+    "name": "Piccolo",
+    "description": "A small woodwind instrument, similar to the flute but smaller, known for its high-pitched and bright tones."
+  },
+  {
+    "name": "Pipa",
+    "description": "A Chinese plucked string instrument with a pear-shaped body, often used in traditional and classical music."
+  },
+  {
+    "name": "Pipe Organ",
+    "description": "A keyboard instrument that generates sound by pushing air through a series of pipes of varying lengths and materials."
+  },
+  {
+    "name": "Quena",
+    "description": "A traditional Andean flute made of bamboo, used in indigenous music from South America."
+  },
+  {
+    "name": "Rain Drum",
+    "description": "A Southeast Asian percussion instrument shaped like a large barrel, played by tapping the surface to mimic the sound of raindrops."
+  },
+  {
+    "name": "Rainstick",
+    "description": "A percussion instrument made from a hollowed cactus stem filled with small pebbles or beans, producing a sound reminiscent of falling rain."
+  },
+  {
+    "name": "Recorder",
+    "description": "A woodwind instrument with a whistle mouthpiece, often used for teaching music to beginners."
+  },
+  {
+    "name": "Sarangi",
+    "description": "A traditional stringed instrument from India, often used in classical and folk music."
+  },
+  {
+    "name": "Saxophone",
+    "description": "A family of woodwind instruments with a single-reed mouthpiece, known for their versatility in various music genres."
+  },
+  {
+    "name": "Saz",
+    "description": "A Turkish stringed instrument with a long neck, often used in Turkish folk and classical music."
+  },
+  {
+    "name": "Shakuhachi",
+    "description": "A traditional Japanese bamboo flute with five finger holes, known for its serene and meditative sounds."
+  },
+  {
+    "name": "Shamisen",
+    "description": "A traditional Japanese three-stringed instrument with a long neck, often played with a plectrum."
+  },
+  {
+    "name": "Shofar",
+    "description": "A Jewish ceremonial horn typically made from a ram's horn, used in religious rituals and music."
+  },
+  {
+    "name": "Sihu",
+    "description": "A traditional Chinese bowed string instrument, known for its unique and haunting tones."
+  },
+  {
+    "name": "Sitar",
+    "description": "A plucked string instrument from India, known for its resonant and melodic tones in classical and traditional music."
+  },
+  {
+    "name": "Snare Drum",
+    "description": "A small drum with snares (wires or strings) stretched across the bottom head, producing a sharp and snappy sound."
+  },
+  {
+    "name": "Sousaphone",
+    "description": "A large brass instrument resembling a tuba, often used in marching bands."
+  },
+  {
+    "name": "Steel Drum",
+    "description": "A percussion instrument made from a metal oil drum, played by striking the tuned areas with mallets."
+  },
+  {
+    "name": "Steel Pan",
+    "description": "A Caribbean percussion instrument made from oil drums, known for its bright and melodic tones."
+  },
+  {
+    "name": "Suvorov Trumpet",
+    "description": "A Russian military trumpet with a distinctive shape, used in military parades and ceremonies."
+  },
+  {
+    "name": "Synthesizer",
+    "description": "An electronic musical instrument that generates sound through synthesizing and manipulating audio signals."
+  },
+  {
+    "name": "Taiko Drum",
+    "description": "A traditional Japanese drum of various sizes, often used in ensemble performances and festivals."
+  },
+  {
+    "name": "Taishogoto",
+    "description": "A Japanese stringed instrument with a keyboard, often used in traditional and modern music."
+  },
+  {
+    "name": "Tambourine",
+    "description": "A handheld percussion instrument with jingling metal disks or pairs of small cymbals, often used in various music genres."
+  },
+  {
+    "name": "Thavil",
+    "description": "A South Indian double-headed drum, often used in classical and folk music."
+  },
+  {
+    "name": "Theremin",
+    "description": "An electronic instrument played without physical contact, using hand gestures to control pitch and volume."
+  },
+  {
+    "name": "Tible",
+    "description": "A traditional Tibetan flute made of bamboo, producing serene and melodic sounds."
+  },
+  {
+    "name": "Timpani",
+    "description": "Large kettle drums played with mallets, often used in orchestral music to provide deep and resonant percussive sounds."
+  },
+  {
+    "name": "Tin Whistle",
+    "description": "A small wind instrument with six finger holes, often used in Celtic and folk music."
+  },
+  {
+    "name": "Triangle",
+    "description": "A simple percussion instrument made of a metal rod bent into a triangular shape, often struck with a metal beater."
+  },
+  {
+    "name": "Trombone",
+    "description": "A brass instrument with a sliding tube, known for its smooth and bold tones in various music genres."
+  },
+  {
+    "name": "Trumpet",
+    "description": "A brass instrument with three valves, capable of producing bright and clear tones, often used in orchestras and bands."
+  },
+  {
+    "name": "Tsymbaly",
+    "description": "A Ukrainian dulcimer with strings played by striking with mallets, creating lively and vibrant music."
+  },
+  {
+    "name": "Tuba",
+    "description": "A large brass instrument with a wide and conical bore, providing the deep and resonant low tones in brass bands and orchestras."
+  },
+  {
+    "name": "Uilleann Pipes",
+    "description": "A traditional Irish bagpipe with bellows, known for its melodious and expressive tones."
+  },
+  {
+    "name": "Ukulele",
+    "description": "A small, four-stringed instrument from Hawaii, often associated with tropical and folk music."
+  },
+  {
+    "name": "Vibraphone",
+    "description": "A percussion instrument with metal bars and resonators, often played with mallets to produce soft and shimmering tones."
+  },
+  {
+    "name": "Viola",
+    "description": "A stringed instrument slightly larger than a violin, known for its warm and mellow tones in orchestras and chamber music."
+  },
+  {
+    "name": "Viola da Gamba",
+    "description": "A stringed instrument with frets and multiple strings, often used in Renaissance and Baroque music."
+  },
+  {
+    "name": "Violin",
+    "description": "A stringed instrument played with a bow, known for its versatile and expressive tones in classical and various music genres."
+  },
+  {
+    "name": "Washboard",
+    "description": "A percussion instrument consisting of a ridged metal surface, played with thimbles or spoons."
+  },
+  {
+    "name": "Xylophone",
+    "description": "A percussion instrument with wooden bars and resonators, played with mallets to produce bright and melodic tones."
+  },
+  {
+    "name": "Yangqin",
+    "description": "A Chinese hammered dulcimer with strings stretched over a trapezoidal soundboard, played with bamboo mallets."
+  },
+  {
+    "name": "Zither",
+    "description": "A stringed instrument with strings stretched across a flat soundboard, played by plucking or strumming to create harmonious melodies."
+  },
+  {
+    "name": "Zurna",
+    "description": "A traditional wind instrument with a double reed, often used in Middle Eastern and Eastern European music."
+  }
+]

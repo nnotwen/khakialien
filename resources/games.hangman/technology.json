@@ -1,0 +1,682 @@
+[
+  {
+    "name": "3D Printer",
+    "description": "A device that creates three-dimensional objects by adding material layer by layer based on a digital 3D model."
+  },
+  {
+    "name": "3D Printing",
+    "description": "A manufacturing process that creates physical objects by adding material layer by layer based on a digital 3D model."
+  },
+  {
+    "name": "Application Programming Interface (API)",
+    "description": "A set of rules and protocols that allows different software applications to communicate and interact with each other."
+  },
+  {
+    "name": "API Economy",
+    "description": "The ecosystem of organizations, developers, and businesses that create, use, and monetize APIs for various applications and services."
+  },
+  {
+    "name": "API Gateway",
+    "description": "A server that acts as an API front-end, receiving API requests, enforcing throttling, and routing them to the appropriate microservices."
+  },
+  {
+    "name": "API Rate Limiting",
+    "description": "A mechanism that restricts the number of API requests a user or application can make within a specified time frame to prevent abuse and ensure fair usage."
+  },
+  {
+    "name": "Agile Development",
+    "description": "A software development approach that emphasizes flexibility, collaboration, and iterative progress to deliver high-quality products."
+  },
+  {
+    "name": "AirPods",
+    "description": "Wireless earbuds known for their convenience and seamless integration with Apple devices."
+  },
+  {
+    "name": "Algorithm",
+    "description": "A set of rules or instructions designed to perform a specific task or solve a problem, often used in computer programming."
+  },
+  {
+    "name": "Android",
+    "description": "An open-source mobile operating system widely used on smartphones and tablets."
+  },
+  {
+    "name": "Arduino",
+    "description": "An open-source electronics platform for creating interactive projects and prototypes."
+  },
+  {
+    "name": "Artificial Intelligence",
+    "description": "The simulation of human intelligence in machines that can learn, reason, and make decisions, often used in automation and machine learning."
+  },
+  {
+    "name": "Automation",
+    "description": "The use of technology and software to perform tasks and processes with minimal human intervention."
+  },
+  {
+    "name": "Big Data",
+    "description": "Large and complex datasets that require specialized tools and techniques to store, process, and analyze, often used for insights and decision-making."
+  },
+  {
+    "name": "Biometric Authentication",
+    "description": "A security process that uses unique physical or behavioral characteristics, such as fingerprints or facial recognition, for user identification."
+  },
+  {
+    "name": "Biotechnology",
+    "description": "The application of biological principles and techniques to develop products and technologies for various industries."
+  },
+  {
+    "name": "Blockchain",
+    "description": "A decentralized and secure digital ledger technology used for recording transactions across multiple computers, commonly associated with cryptocurrencies."
+  },
+  {
+    "name": "Bluetooth",
+    "description": "A wireless technology standard for connecting and exchanging data between devices over short distances."
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "A portable speaker that connects to devices via Bluetooth technology, allowing wireless audio playback."
+  },
+  {
+    "name": "Central Processing Unit (CPU)",
+    "description": "The primary component of a computer that performs calculations and executes instructions."
+  },
+  {
+    "name": "Calculator",
+    "description": "A portable electronic device or software tool used for mathematical calculations and computations."
+  },
+  {
+    "name": "Camera",
+    "description": "A device that captures still or moving images, commonly used in photography and videography."
+  },
+  {
+    "name": "Charger",
+    "description": "A device or cable used to replenish the battery of electronic devices like smartphones and laptops."
+  },
+  {
+    "name": "Chat Application",
+    "description": "A software or platform that enables real-time text or voice communication between users over the internet."
+  },
+  {
+    "name": "Chatbot",
+    "description": "A computer program or AI system that simulates human conversation and is often used for customer support and information retrieval."
+  },
+  {
+    "name": "Chromebook",
+    "description": "A laptop that runs the Chrome OS operating system, designed for web-based applications and cloud computing."
+  },
+  {
+    "name": "Circuit Board",
+    "description": "A flat board with electronic components and conductive pathways, used for assembling and connecting electronic circuits."
+  },
+  {
+    "name": "Cloud Computing",
+    "description": "The delivery of computing services, including storage, processing, and software, over the internet, allowing for scalability and cost-effectiveness."
+  },
+  {
+    "name": "Computer",
+    "description": "An electronic device that processes and stores data, performing various tasks and calculations."
+  },
+  {
+    "name": "Computer Graphics",
+    "description": "The creation, manipulation, and rendering of visual images and animations using computer technology."
+  },
+  {
+    "name": "Container Orchestration",
+    "description": "The automated management and deployment of containerized applications across clusters of servers, ensuring scalability, resilience, and resource optimization."
+  },
+  {
+    "name": "Cybersecurity",
+    "description": "The practice of protecting computer systems, networks, and data from unauthorized access, attacks, and breaches."
+  },
+  {
+    "name": "DVD Player",
+    "description": "A device used to play digital versatile discs (DVDs), commonly used for entertainment purposes."
+  },
+  {
+    "name": "Dark Web",
+    "description": "A hidden part of the internet that is intentionally concealed and accessible only through specialized software, often associated with illegal activities and anonymity."
+  },
+  {
+    "name": "Data Analytics",
+    "description": "The process of examining and interpreting data to discover meaningful patterns and insights, often used for decision-making."
+  },
+  {
+    "name": "Data Center",
+    "description": "A facility used to house and manage computer systems, servers, networking equipment, and data storage for organizations."
+  },
+  {
+    "name": "Data Mining",
+    "description": "The process of discovering patterns and information from large datasets, often used for business intelligence and research."
+  },
+  {
+    "name": "Database",
+    "description": "A structured collection of data organized for efficient retrieval and management, often used in applications and websites."
+  },
+  {
+    "name": "Deep Learning",
+    "description": "A subset of machine learning that involves neural networks with multiple layers to perform complex tasks, such as image and speech recognition."
+  },
+  {
+    "name": "DevOps",
+    "description": "A set of practices that combine software development (Dev) and IT operations (Ops) to improve the software delivery process."
+  },
+  {
+    "name": "Drone",
+    "description": "An unmanned aerial vehicle (UAV) controlled remotely or autonomously, often used for aerial photography and surveillance."
+  },
+  {
+    "name": "E-commerce",
+    "description": "The buying and selling of goods and services over the internet, often involving online stores and payment systems."
+  },
+  {
+    "name": "Earbuds",
+    "description": "Small, in-ear headphones that provide audio playback and are commonly used with portable music players and smartphones."
+  },
+  {
+    "name": "Ebook Reader",
+    "description": "A digital device or application designed for reading electronic books (eBooks) and other digital publications."
+  },
+  {
+    "name": "Edge AI",
+    "description": "Artificial intelligence (AI) algorithms and processing that occur on edge devices, enabling real-time data analysis and decision-making without relying on cloud servers."
+  },
+  {
+    "name": "Edge Computing",
+    "description": "A computing model where data processing and computation are performed closer to the data source or edge devices, reducing latency."
+  },
+  {
+    "name": "Encryption",
+    "description": "The process of converting data into a code to secure it from unauthorized access, often used in data transmission and storage."
+  },
+  {
+    "name": "Ethernet",
+    "description": "A standard for wired networking that enables high-speed data transmission over Ethernet cables and local area networks (LANs)."
+  },
+  {
+    "name": "Federated Learning",
+    "description": "A machine learning approach where model training is decentralized, and data remains on local devices, ensuring privacy while still improving AI models."
+  },
+  {
+    "name": "Fiber Optics",
+    "description": "Fiber optics is a technology that uses thin strands of glass or plastic to transmit data as pulses of light, enabling high-speed data transmission."
+  },
+  {
+    "name": "Fintech (Financial Technology)",
+    "description": "Technology-driven innovations in the financial industry, including online banking, digital payments, and cryptocurrency."
+  },
+  {
+    "name": "Firewall",
+    "description": "A network security device or software that monitors and controls incoming and outgoing network traffic, preventing unauthorized access."
+  },
+  {
+    "name": "Firmware",
+    "description": "Permanent software programmed into a hardware device's non-volatile memory, providing low-level control and functionality."
+  },
+  {
+    "name": "Fitbit",
+    "description": "A popular wearable fitness tracker that monitors activity, heart rate, and other health-related metrics."
+  },
+  {
+    "name": "Flash Drive",
+    "description": "A portable data storage device that uses flash memory to store and transfer data between computers and devices."
+  },
+  {
+    "name": "Global Positioning System (GPS)",
+    "description": "A satellite-based navigation system that provides location and time information to GPS receivers."
+  },
+  {
+    "name": "Game Console",
+    "description": "A dedicated gaming device designed for playing video games on a television or monitor."
+  },
+  {
+    "name": "Gaming",
+    "description": "The industry and technology related to video games, including game development, platforms, and gaming experiences."
+  },
+  {
+    "name": "Gaming PC",
+    "description": "A high-performance personal computer optimized for gaming, featuring powerful hardware and graphics capabilities."
+  },
+  {
+    "name": "Geographic Information System (GIS)",
+    "description": "A system that captures, stores, analyzes, and presents geographic or spatial data for mapping and decision-making."
+  },
+  {
+    "name": "GoPro",
+    "description": "A brand of action cameras known for their durability and versatility in capturing high-quality video footage in extreme conditions."
+  },
+  {
+    "name": "Graphical Processing Unit (GPU)",
+    "description": "A specialized hardware component designed for rendering graphics and performing parallel processing tasks, commonly used in AI and gaming."
+  },
+  {
+    "name": "Graphics Card",
+    "description": "A hardware component that processes and renders images, videos, and graphics for display on a computer monitor or screen."
+  },
+  {
+    "name": "Hacker",
+    "description": "A person skilled in computer programming and security who explores and exploits computer systems, often for ethical or malicious purposes."
+  },
+  {
+    "name": "Hard Drive",
+    "description": "A data storage device that uses magnetic disks to store and retrieve digital information, commonly used in computers and servers."
+  },
+  {
+    "name": "Headphones",
+    "description": "Audio listening devices that cover or go inside the ears, providing immersive sound experiences."
+  },
+  {
+    "name": "Home Automation",
+    "description": "A system that allows homeowners to control and automate various household functions and devices, enhancing convenience and energy efficiency."
+  },
+  {
+    "name": "Human-Computer Interaction (HCI)",
+    "description": "The study of how people interact with computers and design principles to improve user experiences and usability."
+  },
+  {
+    "name": "Hyperconverged Infrastructure (HCI)",
+    "description": "An integrated system that combines computing, storage, and networking resources in a single software-driven solution, simplifying data center management."
+  },
+  {
+    "name": "Internet",
+    "description": "The global network of interconnected computers and devices that enables data exchange and communication across the world."
+  },
+  {
+    "name": "Internet Service Provider (ISP)",
+    "description": "A company or organization that provides internet access to individuals and businesses."
+  },
+  {
+    "name": "Internet of Things (IoT)",
+    "description": "A network of interconnected devices and objects that can collect and exchange data, enabling automation and remote control."
+  },
+  {
+    "name": "Intrusion Detection System (IDS)",
+    "description": "A security tool or system that monitors network traffic and alerts administrators to potential threats or unauthorized access attempts."
+  },
+  {
+    "name": "IoT Device",
+    "description": "A physical device equipped with sensors and connectivity that can interact with other devices and systems in the Internet of Things."
+  },
+  {
+    "name": "iPad",
+    "description": "A popular tablet computer developed by Apple, known for its portability and touch-screen interface."
+  },
+  {
+    "name": "iPhone",
+    "description": "A line of smartphones developed by Apple, featuring iOS operating system and a wide range of apps and features."
+  },
+  {
+    "name": "iPod",
+    "description": "A portable media player designed for playing audio and video files, originally developed by Apple."
+  },
+  {
+    "name": "JavaScript",
+    "description": "A popular programming language used for web development to create interactive and dynamic web pages."
+  },
+  {
+    "name": "JavaScript Framework",
+    "description": "A pre-built library or set of tools that simplifies and accelerates web development using the JavaScript programming language."
+  },
+  {
+    "name": "Kernel",
+    "description": "The core component of an operating system that manages system resources and provides essential services for software."
+  },
+  {
+    "name": "Keyboard",
+    "description": "An input device with keys for typing text and commands into a computer or other electronic devices."
+  },
+  {
+    "name": "Kindle",
+    "description": "An e-reader device developed by Amazon for reading digital books (eBooks) and other written content."
+  },
+  {
+    "name": "Kubernetes",
+    "description": "An open-source container orchestration platform used for automating the deployment, scaling, and management of containerized applications."
+  },
+  {
+    "name": "LCD Monitor",
+    "description": "A type of computer monitor that uses liquid crystal display technology to produce images and graphics."
+  },
+  {
+    "name": "Light Emitting Diodes (LEDs)",
+    "description": "Semiconductor devices that emit light when an electrical current is applied, commonly used in displays and lighting."
+  },
+  {
+    "name": "Laptop",
+    "description": "A portable personal computer designed for mobility, with a built-in keyboard and display."
+  },
+  {
+    "name": "Load Balancer",
+    "description": "A device or software that distributes network traffic across multiple servers to ensure efficient use and prevent overload."
+  },
+  {
+    "name": "Logic Board",
+    "description": "A printed circuit board that contains the central processing unit (CPU), memory, and other critical components of a computer or electronic device."
+  },
+  {
+    "name": "MacBook",
+    "description": "A line of laptop computers developed by Apple, known for their sleek design and performance."
+  },
+  {
+    "name": "Machine Learning",
+    "description": "A subset of artificial intelligence that allows computers to learn from data and improve their performance on specific tasks."
+  },
+  {
+    "name": "Machine Vision",
+    "description": "A technology that enables computers and machines to interpret and understand visual information from the physical world."
+  },
+  {
+    "name": "Microphone",
+    "description": "An audio input device that converts sound waves into electrical signals for recording or amplification."
+  },
+  {
+    "name": "Microscope",
+    "description": "A scientific instrument used for magnifying and observing small objects or microscopic organisms."
+  },
+  {
+    "name": "Microservices",
+    "description": "A software architecture pattern where applications are composed of small, independent services that communicate through APIs."
+  },
+  {
+    "name": "Monitor",
+    "description": "A display screen used for visualizing computer output, video playback, and other visual content."
+  },
+  {
+    "name": "Motherboard",
+    "description": "The main circuit board in a computer that houses the CPU, RAM, and other essential components, providing connectivity and power distribution."
+  },
+  {
+    "name": "Mouse",
+    "description": "A pointing device that allows users to interact with a computer by moving a cursor on the screen."
+  },
+  {
+    "name": "Nanotechnology",
+    "description": "Manipulating and engineering materials and devices at the nanoscale (atomic and molecular level) to create innovative technologies."
+  },
+  {
+    "name": "Natural Language Processing (NLP)",
+    "description": "A field of AI that focuses on enabling computers to understand, interpret, and generate human language."
+  },
+  {
+    "name": "Network",
+    "description": "A collection of interconnected devices, such as computers and servers, that can communicate and share resources."
+  },
+  {
+    "name": "Network Protocol",
+    "description": "A set of rules and conventions that govern communication and data exchange between devices on a network."
+  },
+  {
+    "name": "Nintendo Switch",
+    "description": "A hybrid gaming console developed by Nintendo, allowing gaming on the go or on a television."
+  },
+  {
+    "name": "Object-Oriented Programming (OOP)",
+    "description": "A programming paradigm that organizes code into objects, which encapsulate data and behavior, promoting modularity and reusability."
+  },
+  {
+    "name": "Oculus Rift",
+    "description": "A virtual reality headset developed by Oculus VR, offering immersive VR experiences and gaming."
+  },
+  {
+    "name": "Open Source",
+    "description": "Software or projects with source code that is made available to the public for free use, modification, and distribution."
+  },
+  {
+    "name": "Operating System",
+    "description": "System software that manages computer hardware, software resources, and provides services for computer programs."
+  },
+  {
+    "name": "Penetration Testing",
+    "description": "Ethical hacking techniques used to assess the security of computer systems and networks by identifying vulnerabilities."
+  },
+  {
+    "name": "Phone",
+    "description": "A communication device for making voice calls and sending text messages, often referred to as a smartphone."
+  },
+  {
+    "name": "Pixel",
+    "description": "A single point in a digital image, defined by its color and intensity, collectively forming the visual elements on a screen."
+  },
+  {
+    "name": "PlayStation",
+    "description": "A series of gaming consoles developed by Sony Interactive Entertainment, known for a wide range of games and entertainment features."
+  },
+  {
+    "name": "Printer",
+    "description": "A device that produces physical copies of digital documents and images on paper or other media."
+  },
+  {
+    "name": "Programming Language",
+    "description": "A formal language used for writing code and giving instructions to a computer, such as Java, Python, and C++."
+  },
+  {
+    "name": "Projector",
+    "description": "An optical device that projects images and videos onto a screen or surface, commonly used for presentations and home entertainment."
+  },
+  {
+    "name": "Quadcopter",
+    "description": "A type of drone with four rotors, offering stability and maneuverability, often used for aerial photography and recreational flying."
+  },
+  {
+    "name": "Quantum Computing",
+    "description": "A type of computing that uses quantum bits (qubits) to perform calculations, offering potential advantages in solving complex problems."
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "A fundamental branch of physics that studies the behavior of matter and energy at quantum (atomic and subatomic) scales."
+  },
+  {
+    "name": "Raspberry Pi",
+    "description": "A credit-card-sized computer used for various projects and educational purposes, often running Linux-based operating systems."
+  },
+  {
+    "name": "Responsive Web Design",
+    "description": "A web design approach that ensures websites and applications adapt and display optimally on various devices and screen sizes."
+  },
+  {
+    "name": "Robot",
+    "description": "A machine capable of carrying out tasks autonomously or semi-autonomously, often with programmable behaviors."
+  },
+  {
+    "name": "Robot Process Automation (RPA)",
+    "description": "The use of software robots (bots) to automate repetitive tasks and processes in business and operations."
+  },
+  {
+    "name": "Robotics",
+    "description": "The interdisciplinary field that involves the design, construction, and operation of robots for various applications."
+  },
+  {
+    "name": "Router",
+    "description": "A networking device that directs data traffic between different devices and networks, enabling internet connectivity."
+  },
+  {
+    "name": "Satellite",
+    "description": "An object in orbit around a celestial body, often used for communication, navigation, and scientific research."
+  },
+  {
+    "name": "Scanner",
+    "description": "A device that converts physical documents, images, or objects into digital format for storage or manipulation."
+  },
+  {
+    "name": "Screen",
+    "description": "The display surface of an electronic device, such as a monitor, TV, or smartphone, where images and information are displayed."
+  },
+  {
+    "name": "Scrum",
+    "description": "An agile project management framework that emphasizes collaboration, adaptability, and iterative development."
+  },
+  {
+    "name": "Selfie Stick",
+    "description": "A handheld extendable device used to take self-portrait photographs, commonly used with smartphones."
+  },
+  {
+    "name": "Server",
+    "description": "A computer or system that provides resources, services, and data to other computers, known as clients, over a network."
+  },
+  {
+    "name": "Serverless Computing",
+    "description": "A cloud computing model where cloud providers manage the infrastructure, allowing developers to focus on writing code for applications."
+  },
+  {
+    "name": "Smart Home",
+    "description": "A residence equipped with interconnected devices and systems that can be remotely controlled and automated for improved convenience and energy efficiency."
+  },
+  {
+    "name": "Smartphone",
+    "description": "A versatile mobile phone with advanced features, including internet access, apps, and multimedia capabilities."
+  },
+  {
+    "name": "Smartwatch",
+    "description": "A wearable device that offers features beyond timekeeping, including fitness tracking and smartphone connectivity."
+  },
+  {
+    "name": "Snapchat",
+    "description": "A multimedia messaging app known for its disappearing photo and video messages, as well as stories and filters."
+  },
+  {
+    "name": "Software Development",
+    "description": "The process of designing, coding, testing, and maintaining software applications and systems."
+  },
+  {
+    "name": "Solar Panel",
+    "description": "A device that converts sunlight into electrical energy, commonly used for renewable power generation."
+  },
+  {
+    "name": "Solid State Drive",
+    "description": "A storage device that uses NAND flash memory for data storage, offering faster data access than traditional hard drives."
+  },
+  {
+    "name": "Speaker",
+    "description": "A device that produces sound waves from an electrical signal, commonly used for audio playback and public address systems."
+  },
+  {
+    "name": "Streaming",
+    "description": "The delivery of audio, video, or other multimedia content in real-time over the internet, allowing users to consume media without downloading."
+  },
+  {
+    "name": "Streaming Device",
+    "description": "A hardware device or software application that enables the streaming of audio and video content over the internet to a television or computer."
+  },
+  {
+    "name": "Supercomputer",
+    "description": "A high-performance computer capable of handling complex and resource-intensive calculations, often used in scientific research and simulations."
+  },
+  {
+    "name": "Tablet",
+    "description": "A portable touchscreen device, larger than a smartphone and smaller than a laptop, used for various applications and media consumption."
+  },
+  {
+    "name": "Television",
+    "description": "A visual display device for broadcasting and receiving moving images and sound, commonly used for entertainment and information."
+  },
+  {
+    "name": "Text Editor",
+    "description": "A software application used for creating, editing, and manipulating plain text files, often used by programmers and writers."
+  },
+  {
+    "name": "Thermostat",
+    "description": "A device that regulates temperature, often used for controlling heating, cooling, and climate systems in homes and buildings."
+  },
+  {
+    "name": "Touchscreen",
+    "description": "A display that can detect and respond to touch gestures, allowing users to interact with electronic devices directly."
+  },
+  {
+    "name": "Universal Serial Bus (USB)",
+    "description": "The standard interface for connecting various peripherals, such as printers, keyboards, and storage devices, to computers."
+  },
+  {
+    "name": "USB Cable",
+    "description": "A common connection cable used for transferring data and charging devices."
+  },
+  {
+    "name": "User Experience (UX) Design",
+    "description": "The process of enhancing user satisfaction and usability by improving the usability, accessibility, and overall interaction with a product."
+  },
+  {
+    "name": "User Interface (UI)",
+    "description": "The graphical and interactive elements of a software application or system that users interact with."
+  },
+  {
+    "name": "VR Headset",
+    "description": "A head-mounted display device that provides virtual reality experiences, allowing users to interact with digital environments."
+  },
+  {
+    "name": "Virtual Assistant",
+    "description": "An AI-powered digital assistant that can perform tasks, answer questions, and provide information to users."
+  },
+  {
+    "name": "Virtual Private Network (VPN)",
+    "description": "A technology that establishes a secure, encrypted connection over a public network, allowing users to access private networks."
+  },
+  {
+    "name": "Virtual Reality (VR)",
+    "description": "A technology that immerses users in a simulated environment, often using headsets and sensory feedback."
+  },
+  {
+    "name": "Voice over Internet Protocol (VoIP)",
+    "description": "A technology that allows voice calls and multimedia sessions to be transmitted over the internet."
+  },
+  {
+    "name": "Wearable Technology",
+    "description": "Electronic devices and accessories that can be worn on the body, often including smartwatches, fitness trackers, and augmented reality glasses."
+  },
+  {
+    "name": "Web Browser",
+    "description": "A software application used for accessing and navigating the World Wide Web, allowing users to view websites and interact with online content."
+  },
+  {
+    "name": "Web Development",
+    "description": "The creation and maintenance of websites and web applications, involving front-end and back-end development."
+  },
+  {
+    "name": "Web Hosting",
+    "description": "A service that provides the infrastructure and resources to make websites and web applications accessible on the internet."
+  },
+  {
+    "name": "Webcam",
+    "description": "A camera device connected to a computer, used for capturing video and images for online communication and recording."
+  },
+  {
+    "name": "WiFi",
+    "description": "Wireless local area network (WLAN) technology that allows devices to connect to the internet and network resources without physical cables."
+  },
+  {
+    "name": "Wireless Charger",
+    "description": "A charging device that replenishes the battery of compatible devices without the need for physical connections."
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "A computer mouse that connects to a computer or device wirelessly, often using Bluetooth or a USB receiver."
+  },
+  {
+    "name": "XML (eXtensible Markup Language)",
+    "description": "A markup language used for structuring and encoding documents, often used for data exchange and configuration files."
+  },
+  {
+    "name": "XaaS (Everything as a Service)",
+    "description": "A cloud computing model where various services and resources, such as software, storage, and infrastructure, are delivered over the internet."
+  },
+  {
+    "name": "Xbox",
+    "description": "A gaming console developed by Microsoft, known for a wide range of games and online multiplayer capabilities."
+  },
+  {
+    "name": "YAML (YAML Ain't Markup Language)",
+    "description": "A human-readable data serialization format used for configuration files and data exchange between languages with different data structures."
+  },
+  {
+    "name": "YouTube",
+    "description": "A popular video-sharing platform that allows users to upload, view, and share videos on various topics."
+  },
+  {
+    "name": "Zero Knowledge Proof",
+    "description": "A cryptographic technique that allows one party (the prover) to prove to another party (the verifier) that they know a specific secret or piece of information without revealing the secret itself."
+  },
+  {
+    "name": "Zero-Day Vulnerability",
+    "description": "A security vulnerability in software or hardware that is exploited by hackers before the developer or vendor can release a patch or fix."
+  },
+  {
+    "name": "Zoom",
+    "description": "A video conferencing platform used for online meetings, webinars, and virtual collaboration among participants."
+  }
+]

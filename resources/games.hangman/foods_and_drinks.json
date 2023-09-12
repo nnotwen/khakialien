@@ -1,0 +1,490 @@
+[
+  {
+    "name": "Adobo",
+    "description": "A flavorful Filipino dish made with meat marinated in soy sauce, vinegar, garlic, and spices."
+  },
+  {
+    "name": "Agua Fresca",
+    "description": "A refreshing Mexican drink blending fruits, water, and sugar, often served over ice for a fruity and sweet flavor."
+  },
+  {
+    "name": "Apple Pie",
+    "description": "A classic American dessert with a flaky pastry crust filled with sliced apples, sugar, and spices, often served warm."
+  },
+  {
+    "name": "Bacon",
+    "description": "Savory meat product made from cured and smoked pork belly, known for its crispy texture and smoky, salty flavor."
+  },
+  {
+    "name": "Bagel",
+    "description": "A ring-shaped bread roll often served with various toppings such as cream cheese, smoked salmon, or jam."
+  },
+  {
+    "name": "Baklava",
+    "description": "A sweet pastry made of layers of filo dough filled with chopped nuts and sweetened with honey or syrup."
+  },
+  {
+    "name": "Banana Bread",
+    "description": "Moist and sweet bread made from ripe bananas and ingredients like sugar, flour, and eggs."
+  },
+  {
+    "name": "Banh Mi",
+    "description": "A Vietnamese sandwich filled with grilled meats, pickled vegetables, and fresh herbs, served in a crispy baguette."
+  },
+  {
+    "name": "Barbecue",
+    "description": "A cooking method where meat and vegetables are slow-cooked over an open flame or in a smoker, often basted with flavorful sauces."
+  },
+  {
+    "name": "Beef Stroganoff",
+    "description": "A Russian dish with tender strips of beef cooked in a creamy mushroom sauce, typically served with noodles or rice."
+  },
+  {
+    "name": "Biryani",
+    "description": "A fragrant South Asian rice dish made with spiced rice and meat, often seasoned with aromatic spices."
+  },
+  {
+    "name": "Biscuit",
+    "description": "A small, baked bread product that is fluffy on the inside, often served with butter, jam, or gravy."
+  },
+  {
+    "name": "Borscht",
+    "description": "An Eastern European soup made with beets, often garnished with sour cream."
+  },
+  {
+    "name": "Bread Pudding",
+    "description": "A dessert made by combining stale bread, milk, eggs, sugar, and spices, creating a custardy treat."
+  },
+  {
+    "name": "Brownie",
+    "description": "A dense and chocolatey dessert square or bar, known for its fudgy texture and intense cocoa flavor."
+  },
+  {
+    "name": "Bubble Tea",
+    "description": "A Taiwanese drink with tea, milk, or fruit flavors, often served with chewy tapioca pearls."
+  },
+  {
+    "name": "Bulgogi",
+    "description": "A Korean dish with thinly sliced marinated beef, often grilled or stir-fried and served with rice."
+  },
+  {
+    "name": "Burrito",
+    "description": "A Mexican dish with a flour tortilla filled with ingredients like beans, rice, meat, cheese, and salsa."
+  },
+  {
+    "name": "Butter Chicken",
+    "description": "An Indian dish with tender chicken pieces cooked in a creamy tomato sauce, often accompanied by naan or rice."
+  },
+  {
+    "name": "Cannoli",
+    "description": "An Italian pastry made of deep-fried dough tubes filled with a sweet and creamy ricotta cheese filling."
+  },
+  {
+    "name": "Cappuccino",
+    "description": "An Italian coffee drink made with espresso, steamed milk, and milk foam, known for its rich and frothy texture."
+  },
+  {
+    "name": "Carrot Cake",
+    "description": "A moist and spiced cake made with grated carrots and often includes ingredients like nuts and cream cheese frosting."
+  },
+  {
+    "name": "Ceasar Salad",
+    "description": "A classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing."
+  },
+  {
+    "name": "Chai Latte",
+    "description": "A spiced tea drink made with black tea, milk, and a blend of aromatic spices like cinnamon, cardamom, and ginger."
+  },
+  {
+    "name": "Cheesecake",
+    "description": "A rich and creamy dessert made with a sweetened cream cheese or ricotta filling on a graham cracker or pastry crust."
+  },
+  {
+    "name": "Chicken Alfredo",
+    "description": "A pasta dish featuring fettuccine noodles, tender pieces of chicken, and a creamy Alfredo sauce."
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "description": "A comforting soup made with chicken, vegetables, and noodles, often seasoned with herbs and served hot."
+  },
+  {
+    "name": "Chimichanga",
+    "description": "A deep-fried burrito typically filled with shredded meat, beans, cheese, and spices, often served with salsa and sour cream."
+  },
+  {
+    "name": "Chocolate Chip Cookie",
+    "description": "A classic cookie made with chocolate chips and often featuring a soft and chewy texture."
+  },
+  {
+    "name": "Chow Mein",
+    "description": "A Chinese stir-fried noodle dish with vegetables, meat or tofu, and a savory sauce."
+  },
+  {
+    "name": "Clam Chowder",
+    "description": "A creamy soup made with clams, potatoes, onions, and bacon, often served in a bread bowl."
+  },
+  {
+    "name": "Cobb Salad",
+    "description": "A salad made with lettuce, tomatoes, bacon, hard-boiled eggs, avocado, chicken, and blue cheese, often served with vinaigrette dressing."
+  },
+  {
+    "name": "Coconut Curry",
+    "description": "A curry dish made with coconut milk, vegetables, and a variety of spices, often served with rice or noodles."
+  },
+  {
+    "name": "Coffee",
+    "description": "A popular beverage made from roasted coffee beans, known for its stimulating effects and various preparation methods."
+  },
+  {
+    "name": "Corn Dog",
+    "description": "A deep-fried hot dog on a stick, coated in a thick layer of cornmeal batter, often served with ketchup or mustard."
+  },
+  {
+    "name": "Croissant",
+    "description": "A buttery and flaky pastry often enjoyed as a breakfast item or as a base for sandwiches."
+  },
+  {
+    "name": "Cupcake",
+    "description": "A small cake often topped with frosting, typically served as an individual dessert."
+  },
+  {
+    "name": "Dalgona Coffee",
+    "description": "A South Korean coffee drink made with whipped instant coffee, sugar, and hot water, often served over milk."
+  },
+  {
+    "name": "Dim Sum",
+    "description": "A Chinese meal of small, flavorful dishes, often served with tea, featuring items like dumplings, buns, and spring rolls."
+  },
+  {
+    "name": "Doughnut",
+    "description": "A fried or baked pastry ring typically coated with glaze, icing, or sugar."
+  },
+  {
+    "name": "Dumplings",
+    "description": "Small dough pockets filled with various ingredients like meat, vegetables, or sweets, often steamed or fried."
+  },
+  {
+    "name": "Eggnog",
+    "description": "A creamy and spiced beverage made with milk, cream, sugar, and beaten eggs, often enjoyed during the holiday season."
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "description": "Slices of eggplant coated in breadcrumbs, fried, and baked with tomato sauce and cheese until bubbly and golden."
+  },
+  {
+    "name": "Empanada",
+    "description": "A pastry turnover filled with various ingredients like meat, cheese, or vegetables, often baked or fried."
+  },
+  {
+    "name": "Enchiladas",
+    "description": "Tortillas rolled around a filling (typically meat or beans), covered with sauce and cheese, and baked until bubbly."
+  },
+  {
+    "name": "Espresso",
+    "description": "A strong coffee brewed by forcing hot water through finely-ground coffee beans, known for its concentrated flavor."
+  },
+  {
+    "name": "Falafel",
+    "description": "Fried balls or patties made from ground chickpeas or fava beans, often served in pita bread with tahini sauce and vegetables."
+  },
+  {
+    "name": "Fish and Chips",
+    "description": "A British dish featuring battered and fried white fish, typically served with thick-cut potato fries and tartar sauce."
+  },
+  {
+    "name": "Fried Chicken",
+    "description": "Chicken pieces coated in a seasoned flour or batter mixture, deep-fried until crispy and golden."
+  },
+  {
+    "name": "Fried Rice",
+    "description": "A dish made with cooked rice, vegetables, and often, meat or tofu, stir-fried together with soy sauce and spices."
+  },
+  {
+    "name": "Frittata",
+    "description": "An Italian egg dish similar to an omelette, often featuring various ingredients like vegetables, cheese, and herbs."
+  },
+  {
+    "name": "Fruit Salad",
+    "description": "A medley of fresh fruits, often served with a light dressing or garnished with mint leaves."
+  },
+  {
+    "name": "Gin and Tonic",
+    "description": "A classic cocktail made with gin and tonic water, typically garnished with a slice of lime."
+  },
+  {
+    "name": "Gingerbread",
+    "description": "A sweet and spiced bread or cookie often made in the shape of gingerbread people or houses."
+  },
+  {
+    "name": "Goulash",
+    "description": "A stew made with meat (usually beef or pork), vegetables, and seasoned with paprika and other spices."
+  },
+  {
+    "name": "Gumbo",
+    "description": "A flavorful Louisiana stew made with a variety of ingredients like meat, seafood, and vegetables, often served over rice."
+  },
+  {
+    "name": "Guacamole",
+    "description": "A creamy dip made from mashed avocados, lime juice, and seasonings, often served with tortilla chips."
+  },
+  {
+    "name": "Gyros",
+    "description": "A Greek dish with sliced, seasoned meat (often lamb or chicken), served in a pita with vegetables and yogurt-based sauce."
+  },
+  {
+    "name": "Hamburger",
+    "description": "A sandwich made with a ground meat patty (usually beef) served in a bun with various toppings and condiments."
+  },
+  {
+    "name": "Hot Chocolate",
+    "description": "A warm beverage made with milk or water and cocoa powder or melted chocolate, often topped with whipped cream or marshmallows."
+  },
+  {
+    "name": "Hot Dog",
+    "description": "A cooked sausage served in a sliced bun, typically garnished with mustard, ketchup, onions, and other toppings."
+  },
+  {
+    "name": "Ice Cream",
+    "description": "A frozen dessert made from sweetened and churned cream or milk, available in a wide variety of flavors."
+  },
+  {
+    "name": "Iced Tea",
+    "description": "A chilled tea drink, often sweetened and flavored, served with ice cubes and a lemon slice."
+  },
+  {
+    "name": "Jambalaya",
+    "description": "A spicy Creole or Cajun rice dish made with a mix of meats, vegetables, and seasonings."
+  },
+  {
+    "name": "Kare-Kare",
+    "description": "A Filipino oxtail stew with a rich peanut sauce, often served with vegetables and shrimp paste."
+  },
+  {
+    "name": "Key Lime Pie",
+    "description": "A tangy and sweet pie made with Key lime juice and a graham cracker crust, often garnished with whipped cream."
+  },
+  {
+    "name": "Kimchi",
+    "description": "A spicy and fermented Korean side dish made with Napa cabbage and a variety of seasonings."
+  },
+  {
+    "name": "Lasagna",
+    "description": "A layered Italian pasta dish made with sheets of lasagna noodles, ricotta cheese, meat sauce, and mozzarella."
+  },
+  {
+    "name": "Lemonade",
+    "description": "A refreshing drink made with lemon juice, water, and sugar, often served cold and garnished with a lemon slice."
+  },
+  {
+    "name": "Lobster Bisque",
+    "description": "A creamy soup made with lobster meat, often flavored with sherry and garnished with herbs."
+  },
+  {
+    "name": "Macaroni and Cheese",
+    "description": "A comfort food dish made with cooked macaroni pasta and a cheesy sauce, often baked until golden and bubbly."
+  },
+  {
+    "name": "Mango Sticky Rice",
+    "description": "A Thai dessert made with glutinous rice, ripe mango slices, and a sweet coconut milk sauce."
+  },
+  {
+    "name": "Mapo Tofu",
+    "description": "A Sichuan dish featuring soft tofu and ground pork cooked in a spicy and savory sauce."
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "A classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil."
+  },
+  {
+    "name": "Matcha Latte",
+    "description": "A Japanese drink made with matcha green tea and steamed milk, known for its vibrant green color and earthy flavor."
+  },
+  {
+    "name": "Meatball Sub",
+    "description": "A sandwich filled with meatballs, marinara sauce, and melted cheese, often served in a sub roll or baguette."
+  },
+  {
+    "name": "Miso Soup",
+    "description": "A Japanese soup made with fermented soybean paste (miso), seaweed, tofu, and often, green onions."
+  },
+  {
+    "name": "Mojito",
+    "description": "A Cuban cocktail made with white rum, lime juice, mint leaves, sugar, and soda water, known for its refreshing taste."
+  },
+  {
+    "name": "Nachos",
+    "description": "A popular snack made with tortilla chips topped with melted cheese and a variety of toppings like jalapeños, salsa, and sour cream."
+  },
+  {
+    "name": "Nasi Goreng",
+    "description": "Indonesian fried rice cooked with a blend of spices, often garnished with fried shallots, egg, and prawn crackers."
+  },
+  {
+    "name": "Noodle Soup",
+    "description": "A soup dish featuring noodles and broth, often served with vegetables, meat, or seafood, and flavored with various seasonings."
+  },
+  {
+    "name": "Omelette",
+    "description": "A dish made by whisking eggs and cooking them in a pan, often with fillings like cheese, vegetables, and meats."
+  },
+  {
+    "name": "Onion Rings",
+    "description": "Slices of onions coated in batter and deep-fried until crispy, often served as a snack or side dish."
+  },
+  {
+    "name": "Pad Thai",
+    "description": "A Thai stir-fried noodle dish made with rice noodles, eggs, tofu or shrimp, and a flavorful sauce."
+  },
+  {
+    "name": "Pancakes",
+    "description": "Fluffy and round breakfast cakes made from batter and often served with syrup, butter, or fruit."
+  },
+  {
+    "name": "Panna Cotta",
+    "description": "An Italian dessert made with sweetened cream or milk, often flavored with vanilla and set with gelatin."
+  },
+  {
+    "name": "Peking Duck",
+    "description": "A Chinese dish featuring roasted duck with crispy skin, often served with pancakes, hoisin sauce, and sliced vegetables."
+  },
+  {
+    "name": "Pho",
+    "description": "A Vietnamese soup made with broth, rice noodles, and thinly sliced beef or chicken, typically garnished with fresh herbs and lime."
+  },
+  {
+    "name": "Pina Colada",
+    "description": "A tropical cocktail made with rum, coconut cream or coconut milk, and pineapple juice, often blended with ice."
+  },
+  {
+    "name": "Pineapple Fried Rice",
+    "description": "A Thai dish featuring fried rice cooked with pineapple chunks, vegetables, and often, shrimp or chicken."
+  },
+  {
+    "name": "Pizza",
+    "description": "A round, flatbread topped with tomato sauce, cheese, and a variety of toppings, often baked in an oven."
+  },
+  {
+    "name": "Poutine",
+    "description": "A Canadian dish featuring French fries topped with cheese curds and smothered in gravy."
+  },
+  {
+    "name": "Pozole",
+    "description": "A Mexican soup or stew made with hominy (dried maize kernels) and meat, often garnished with radishes, cabbage, and lime."
+  },
+  {
+    "name": "Pretzel",
+    "description": "A baked bread product often twisted into a knot shape and sprinkled with coarse salt."
+  },
+  {
+    "name": "Pulled Pork",
+    "description": "Slow-cooked and tender shredded pork often served as a sandwich or with barbecue sauce."
+  },
+  {
+    "name": "Quesadilla",
+    "description": "A Mexican dish made by filling a tortilla with cheese and various ingredients, then grilling or frying until the cheese melts."
+  },
+  {
+    "name": "Ramen",
+    "description": "A Japanese noodle soup dish featuring Chinese-style wheat noodles, broth, and toppings like sliced pork, seaweed, and green onions."
+  },
+  {
+    "name": "Risotto",
+    "description": "An Italian rice dish made with Arborio rice, broth, and ingredients like mushrooms, cheese, and wine."
+  },
+  {
+    "name": "Samosa",
+    "description": "A fried or baked pastry filled with spiced potatoes, peas, and often, meat or lentils, popular in South Asian cuisine."
+  },
+  {
+    "name": "Sashimi",
+    "description": "A Japanese dish featuring thinly sliced raw fish or seafood, often served with soy sauce and wasabi."
+  },
+  {
+    "name": "Scrambled Eggs",
+    "description": "Eggs beaten and cooked until they form soft, curd-like pieces, often seasoned with salt and pepper."
+  },
+  {
+    "name": "Shawarma",
+    "description": "A Middle Eastern street food made with thin slices of seasoned meat, typically served in a pita or flatbread with toppings and sauces."
+  },
+  {
+    "name": "Shrimp Scampi",
+    "description": "A dish made with shrimp cooked in a garlic butter sauce, often served over pasta or with crusty bread for dipping."
+  },
+  {
+    "name": "Smoothie",
+    "description": "A blended drink made with fruit, yogurt, milk, or juice, often served as a refreshing and nutritious beverage."
+  },
+  {
+    "name": "Sorbet",
+    "description": "A frozen dessert made with fruit puree or juice, water, and sugar, known for its fruity and refreshing taste."
+  },
+  {
+    "name": "Spaghetti",
+    "description": "A type of pasta served with a variety of sauces, including marinara, Alfredo, and pesto."
+  },
+  {
+    "name": "Spring Rolls",
+    "description": "Asian appetizers made with rice paper wrappers filled with vegetables, shrimp, and other ingredients, often served with dipping sauce."
+  },
+  {
+    "name": "Steak",
+    "description": "A slice of beef or other meat cooked to the desired level of doneness, often seasoned with spices and served with side dishes."
+  },
+  {
+    "name": "Strawberry Shortcake",
+    "description": "A dessert made with layers of sponge cake, fresh strawberries, and whipped cream."
+  },
+  {
+    "name": "Sushi",
+    "description": "A Japanese dish made with vinegared rice, raw fish or seafood, and other ingredients like vegetables and seaweed."
+  },
+  {
+    "name": "Taco",
+    "description": "A Mexican dish made with a folded or rolled tortilla filled with various ingredients like meat, cheese, and salsa."
+  },
+  {
+    "name": "Tandoori Chicken",
+    "description": "A dish made by marinating chicken in yogurt and spices, then roasting it in a tandoor (clay oven), resulting in flavorful and tender meat."
+  },
+  {
+    "name": "Tiramisu",
+    "description": "An Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese, often dusted with cocoa powder."
+  },
+  {
+    "name": "Tom Yum Soup",
+    "description": "A spicy and sour Thai soup made with ingredients like shrimp, mushrooms, lemongrass, and lime leaves."
+  },
+  {
+    "name": "Tonkatsu",
+    "description": "A Japanese dish featuring breaded and deep-fried pork cutlet, often served with a tangy sauce and shredded cabbage."
+  },
+  {
+    "name": "Tortilla Soup",
+    "description": "A Mexican soup made with tomatoes, chicken, tortilla strips, and a variety of seasonings, often topped with avocado and cheese."
+  },
+  {
+    "name": "Ube Halaya",
+    "description": "A Filipino dessert made from purple yam (ube), coconut milk, and sugar, often used as a sweet spread or filling."
+  },
+  {
+    "name": "Veggie Burger",
+    "description": "A burger patty made from plant-based ingredients like vegetables, grains, and legumes, often served in a bun with toppings."
+  },
+  {
+    "name": "Waffles",
+    "description": "A breakfast dish made with batter cooked in a waffle iron, resulting in a grid-like pattern and crispy texture."
+  },
+  {
+    "name": "Yakitori",
+    "description": "A Japanese skewered and grilled chicken dish, often seasoned with a savory sauce and served as a snack or appetizer."
+  },
+  {
+    "name": "Yakisoba",
+    "description": "A Japanese stir-fried noodle dish made with wheat noodles, vegetables, and a sweet and savory sauce."
+  },
+  {
+    "name": "Zucchini Bread",
+    "description": "A moist and spiced bread made with grated zucchini, often sweetened with sugar and flavored with cinnamon and nutmeg."
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "name": "3M",
+    "description": "A multinational conglomerate known for its diverse range of products, including office supplies, adhesive tapes, and more."
+  },
+  {
+    "name": "AT&T",
+    "description": "A telecommunications company providing wireless, internet, and entertainment services."
+  },
+  {
+    "name": "Adidas",
+    "description": "A global sportswear and footwear company, known for its athletic apparel and sneakers."
+  },
+  {
+    "name": "Adobe",
+    "description": "A multinational computer software company, famous for its creative software products like Adobe Photoshop and Adobe Illustrator."
+  },
+  {
+    "name": "Airbnb",
+    "description": "A platform for people to list, discover, and book accommodations and travel experiences."
+  },
+  {
+    "name": "Alibaba Group",
+    "description": "A Chinese multinational conglomerate specializing in e-commerce, technology, and internet-related services."
+  },
+  {
+    "name": "Alphabet",
+    "description": "The parent company of Google, focused on internet-related products and services."
+  },
+  {
+    "name": "Amazon",
+    "description": "The world's largest online retailer and cloud computing company, offering a wide range of products and services."
+  },
+  {
+    "name": "American Airlines Group",
+    "description": "A major American airline holding company, operating passenger and cargo services globally."
+  },
+  {
+    "name": "American Express",
+    "description": "A financial services corporation, famous for its credit cards and payment solutions."
+  },
+  {
+    "name": "Apple",
+    "description": "A multinational technology company known for its iconic iPhone, iPad, and Macintosh products."
+  },
+  {
+    "name": "BMW",
+    "description": "A German multinational corporation known for its luxury vehicles, motorcycles, and engines."
+  },
+  {
+    "name": "Bank of America",
+    "description": "A multinational investment bank and financial services company, offering a wide range of banking and financial products."
+  },
+  {
+    "name": "Bayer",
+    "description": "A multinational pharmaceutical and life sciences company, known for healthcare and agriculture products."
+  },
+  {
+    "name": "Berkshire Hathaway",
+    "description": "A multinational conglomerate holding company, led by Warren Buffett, with diverse investments."
+  },
+  {
+    "name": "Boeing",
+    "description": "A major aerospace and defense company, known for its aircraft and space technology."
+  },
+  {
+    "name": "Bosch",
+    "description": "A multinational engineering and technology company, specializing in automotive and industrial products."
+  },
+  {
+    "name": "Canon",
+    "description": "A Japanese multinational corporation, known for imaging and optical products like cameras and printers."
+  },
+  {
+    "name": "Caterpillar",
+    "description": "A multinational corporation specializing in construction and mining equipment, diesel and natural gas engines, industrial gas turbines, and more."
+  },
+  {
+    "name": "Chanel",
+    "description": "A French luxury fashion house, famous for its haute couture, perfumes, and accessories."
+  },
+  {
+    "name": "Coca-Cola",
+    "description": "A multinational beverage company famous for its Coca-Cola soft drink."
+  },
+  {
+    "name": "Costco",
+    "description": "A multinational retail corporation, known for its membership-only warehouse clubs."
+  },
+  {
+    "name": "Daimler AG",
+    "description": "A German multinational corporation, known for its automotive products, including Mercedes-Benz."
+  },
+  {
+    "name": "Danone",
+    "description": "A multinational food-products corporation, specializing in dairy and plant-based products."
+  },
+  {
+    "name": "Dell Technologies",
+    "description": "A multinational technology company known for its computers, laptops, servers, and IT solutions."
+  },
+  {
+    "name": "Delta Air Lines",
+    "description": "A major American airline, providing passenger and cargo services to destinations worldwide."
+  },
+  {
+    "name": "Dropbox",
+    "description": "A file hosting service and cloud storage company, known for its easy-to-use file-sharing platform."
+  },
+  {
+    "name": "Electronic Arts",
+    "description": "A global video game company, known for popular gaming franchises like FIFA and The Sims."
+  },
+  {
+    "name": "Facebook",
+    "description": "A social media and technology company that owns Facebook, Instagram, WhatsApp, and Oculus VR."
+  },
+  {
+    "name": "FedEx",
+    "description": "A multinational courier delivery services company, providing express mail and logistics solutions."
+  },
+  {
+    "name": "Ford Motor",
+    "description": "An American automobile manufacturer, known for its cars, trucks, and SUVs."
+  },
+  {
+    "name": "General Electric",
+    "description": "A multinational conglomerate with diverse business interests, including aviation, healthcare, and energy."
+  },
+  {
+    "name": "General Motors",
+    "description": "An American multinational automotive corporation, known for brands like Chevrolet, GMC, and Cadillac."
+  },
+  {
+    "name": "Gilead Sciences",
+    "description": "A biopharmaceutical company, focused on research and development of innovative medicines."
+  },
+  {
+    "name": "Goldman Sachs Group",
+    "description": "A multinational investment banking and financial services company."
+  },
+  {
+    "name": "Google",
+    "description": "A global technology giant specializing in internet-related services and products, including the Google search engine."
+  },
+  {
+    "name": "H&M",
+    "description": "A Swedish multinational clothing retail company, known for fashion-forward clothing at affordable prices."
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "description": "A multinational information technology company, offering enterprise IT solutions and services."
+  },
+  {
+    "name": "Huawei",
+    "description": "A Chinese multinational technology company, specializing in telecommunications equipment and consumer electronics."
+  },
+  {
+    "name": "IBM",
+    "description": "A multinational technology and consulting company, famous for its computer hardware and software."
+  },
+  {
+    "name": "IKEA",
+    "description": "A Swedish multinational furniture and home goods retailer, offering affordable and stylish products."
+  },
+  {
+    "name": "Intel",
+    "description": "A technology company specializing in semiconductor chips and processors for computers and devices."
+  },
+  {
+    "name": "JPMorgan Chase",
+    "description": "A multinational investment bank and financial services company."
+  },
+  {
+    "name": "Johnson & Johnson",
+    "description": "A multinational pharmaceutical and consumer goods company, known for its healthcare products."
+  },
+  {
+    "name": "L'Oréal",
+    "description": "A French multinational cosmetics and beauty company, offering a wide range of skincare, makeup, and haircare products."
+  },
+  {
+    "name": "Lego",
+    "description": "A Danish toy company, known for its colorful plastic building blocks and creative playsets."
+  },
+  {
+    "name": "Lululemon Athletica",
+    "description": "A Canadian athletic apparel retailer, known for yoga and fitness clothing."
+  },
+  {
+    "name": "Mastercard",
+    "description": "A global financial services company, providing payment solutions and technology."
+  },
+  {
+    "name": "McDonald's",
+    "description": "A global fast-food restaurant chain, known for its burgers, fries, and Happy Meals."
+  },
+  {
+    "name": "Mercedes-Benz",
+    "description": "A German luxury automobile manufacturer, known for its high-quality vehicles."
+  },
+  {
+    "name": "Microsoft",
+    "description": "A leading technology company, famous for its Windows operating system and Office suite."
+  },
+  {
+    "name": "Nestlé",
+    "description": "A multinational food and beverage company, known for its chocolates, coffee, and bottled water."
+  },
+  {
+    "name": "Netflix",
+    "description": "A global streaming platform offering a wide variety of TV shows, movies, and original content."
+  },
+  {
+    "name": "Nike",
+    "description": "A multinational sportswear and equipment company, famous for its athletic shoes and apparel."
+  },
+  {
+    "name": "Nissan",
+    "description": "A Japanese multinational automobile manufacturer, known for cars, trucks, and electric vehicles."
+  },
+  {
+    "name": "Nvidia",
+    "description": "A technology company known for its graphics processing units (GPUs) and gaming hardware."
+  },
+  {
+    "name": "Oracle",
+    "description": "A multinational computer technology corporation, specializing in database software and cloud computing."
+  },
+  {
+    "name": "Panasonic",
+    "description": "A Japanese multinational electronics corporation, offering a wide range of products."
+  },
+  {
+    "name": "PayPal",
+    "description": "An online payment platform and financial technology company, facilitating secure online transactions."
+  },
+  {
+    "name": "PepsiCo",
+    "description": "A multinational food and beverage company, known for brands like Pepsi, Frito-Lay, and Quaker Oats."
+  },
+  {
+    "name": "Pfizer",
+    "description": "A pharmaceutical company known for developing vaccines and healthcare solutions."
+  },
+  {
+    "name": "Prada",
+    "description": "An Italian luxury fashion house, famous for high-end clothing, accessories, and handbags."
+  },
+  {
+    "name": "Procter & Gamble",
+    "description": "A multinational consumer goods company, known for its brands in hygiene, health, and household products."
+  },
+  {
+    "name": "Qualcomm",
+    "description": "A semiconductor and telecommunications equipment company, known for mobile chipsets."
+  },
+  {
+    "name": "Red Bull",
+    "description": "An energy drink brand, known for its marketing campaigns and extreme sports sponsorships."
+  },
+  {
+    "name": "Samsung Electronics",
+    "description": "A South Korean electronics company known for its smartphones, TVs, and home appliances."
+  },
+  {
+    "name": "Siemens",
+    "description": "A German multinational conglomerate, specializing in industrial and healthcare products."
+  },
+  {
+    "name": "Sony",
+    "description": "A Japanese multinational conglomerate, known for its electronics, gaming, and entertainment products."
+  },
+  {
+    "name": "Starbucks",
+    "description": "A multinational coffeehouse chain, known for its specialty coffee beverages and cafes."
+  },
+  {
+    "name": "T-Mobile",
+    "description": "A telecommunications company providing wireless voice, messaging, and data services."
+  },
+  {
+    "name": "Tencent Holdings",
+    "description": "A Chinese technology conglomerate, known for its social media, gaming, and entertainment services."
+  },
+  {
+    "name": "Tesla",
+    "description": "An electric vehicle and clean energy company founded by Elon Musk, known for its innovative electric cars."
+  },
+  {
+    "name": "The Home Depot",
+    "description": "A home improvement retailer, offering a wide range of products for DIY projects."
+  },
+  {
+    "name": "Toyota",
+    "description": "A Japanese multinational automotive manufacturer, known for its reliable cars and hybrid technology."
+  },
+  {
+    "name": "Twitter",
+    "description": "A social media platform, known for microblogging and real-time information sharing."
+  },
+  {
+    "name": "UBS Group",
+    "description": "A Swiss multinational investment bank and financial services company."
+  },
+  {
+    "name": "Unilever",
+    "description": "A multinational consumer goods company, known for brands in food, beverages, and personal care."
+  },
+  {
+    "name": "Verizon Communications",
+    "description": "A telecommunications company providing wireless, internet, and digital services."
+  },
+  {
+    "name": "Visa",
+    "description": "A global payments technology company, facilitating electronic fund transfers and transactions."
+  },
+  {
+    "name": "Volkswagen Group",
+    "description": "A German multinational automotive manufacturing group, known for various car brands."
+  },
+  {
+    "name": "Walmart",
+    "description": "The world's largest retailer, offering a wide range of products, including groceries and electronics."
+  },
+  {
+    "name": "Walt Disney",
+    "description": "A global entertainment conglomerate known for its iconic characters, movies, and theme parks."
+  },
+  {
+    "name": "Xiaomi",
+    "description": "A Chinese multinational electronics company known for its smartphones, smart home devices, and more."
+  },
+  {
+    "name": "Yahoo",
+    "description": "A multinational technology company known for its web services, including Yahoo Mail and Yahoo Finance."
+  },
+  {
+    "name": "Zara",
+    "description": "A Spanish fast-fashion retailer, known for its trendy clothing and accessories."
+  },
+  {
+    "name": "Zoom Video Communications",
+    "description": "A video conferencing company known for its Zoom Meetings platform."
+  }
+]

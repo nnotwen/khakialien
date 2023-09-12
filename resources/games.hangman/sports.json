@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Aikido",
+    "description": "A Japanese martial art that emphasizes blending with the opponent's movements and using their energy against them."
+  },
+  {
+    "name": "Alpine Skiing",
+    "description": "A discipline of skiing that involves descending snow-covered slopes at high speeds."
+  },
+  {
+    "name": "Aquathlon",
+    "description": "A multisport race that combines swimming and running, with a focus on speed and endurance."
+  },
+  {
+    "name": "Archery",
+    "description": "An ancient sport that involves using a bow to shoot arrows at a target for accuracy."
+  },
+  {
+    "name": "Arm Wrestling",
+    "description": "A strength-based sport where competitors aim to pin each other's arm to a surface."
+  },
+  {
+    "name": "Artistic Gymnastics",
+    "description": "A gymnastics discipline that involves performing intricate and expressive routines on apparatus like the balance beam and uneven bars."
+  },
+  {
+    "name": "Australian Rules Football",
+    "description": "A contact sport played on an oval-shaped field, involving kicking an oval ball through goalposts to score points."
+  },
+  {
+    "name": "Auto Racing",
+    "description": "A motorsport where participants race automobiles in various categories, such as Formula 1, NASCAR, and endurance racing."
+  },
+  {
+    "name": "Badminton",
+    "description": "A racket sport played with a shuttlecock, where players aim to score points by hitting the shuttlecock over a net."
+  },
+  {
+    "name": "Baseball",
+    "description": "A bat-and-ball game played between two teams, where the objective is to score runs by hitting a pitched ball."
+  },
+  {
+    "name": "Basketball",
+    "description": "A team sport played with a ball, where players aim to score points by shooting the ball through the opponent's hoop."
+  },
+  {
+    "name": "Beach Volleyball",
+    "description": "A variant of volleyball played on a sandy court, often by two-player teams."
+  },
+  {
+    "name": "Biathlon",
+    "description": "A winter sport that combines cross-country skiing and rifle shooting."
+  },
+  {
+    "name": "Billiards",
+    "description": "A cue sport played on a rectangular table with pockets, involving balls and a cue stick."
+  },
+  {
+    "name": "Bobsleigh",
+    "description": "A winter sport where teams of two or four make timed runs down narrow, twisting, banked, ice tracks in a gravity-powered sled."
+  },
+  {
+    "name": "Bodyboarding",
+    "description": "A water sport where riders lie on a small board and ride waves toward the shore."
+  },
+  {
+    "name": "Bodybuilding",
+    "description": "A sport that focuses on developing and displaying muscular physique through weightlifting and specific training routines."
+  },
+  {
+    "name": "Bowling",
+    "description": "A sport where players roll a heavy ball down a lane to knock down pins arranged in a triangular formation."
+  },
+  {
+    "name": "Boxing",
+    "description": "A combat sport where two fighters face off in a ring, using their fists to strike their opponent."
+  },
+  {
+    "name": "Bull Riding",
+    "description": "A rodeo sport where riders attempt to stay on the back of a bucking bull for as long as possible."
+  },
+  {
+    "name": "Cano",
+    "description": "A water sport that involves paddling a canoe or kayak through water courses, often for racing."
+  },
+  {
+    "name": "Capoeira",
+    "description": "A Brazilian martial art that combines elements of dance, acrobatics, and music, often played as a game."
+  },
+  {
+    "name": "Chess",
+    "description": "A two-player strategy board game where the objective is to checkmate the opponent's king."
+  },
+  {
+    "name": "Cricket",
+    "description": "A bat-and-ball game played primarily in England and countries influenced by British culture, with various formats like Test, One-Day, and T20."
+  },
+  {
+    "name": "CrossFit",
+    "description": "A high-intensity fitness program that combines elements of weightlifting, aerobic exercises, and functional movements."
+  },
+  {
+    "name": "Curling",
+    "description": "A team sport that involves sliding stones on a sheet of ice towards a target area which is segmented into four concentric circles."
+  },
+  {
+    "name": "Cycling",
+    "description": "A sport that involves riding bicycles, often in races like road cycling, track cycling, and BMX."
+  },
+  {
+    "name": "Diving",
+    "description": "A sport where athletes perform acrobatic dives into water, often from a platform or springboard."
+  },
+  {
+    "name": "Dodgeball",
+    "description": "A team sport where players throw balls at the opposing team members to eliminate them from the game."
+  },
+  {
+    "name": "Equestrian",
+    "description": "A sport involving horses, with various disciplines including dressage, show jumping, and eventing."
+  },
+  {
+    "name": "Equestrian Vaulting",
+    "description": "A sport where individuals perform gymnastic and dance movements on the back of a moving horse."
+  },
+  {
+    "name": "Extreme Ironing",
+    "description": "An extreme sport and performance art where people iron clothes in remote and challenging locations."
+  },
+  {
+    "name": "Fell Running",
+    "description": "A form of running that takes place on hilly or mountainous terrain, often with steep ascents and descents."
+  },
+  {
+    "name": "Fencing",
+    "description": "A combat sport involving two competitors who use bladed weapons to score points by making contact with their opponent."
+  },
+  {
+    "name": "Field Hockey",
+    "description": "A team sport played on a grass or turf field, where players use a curved stick to hit a ball into the opponent's goal."
+  },
+  {
+    "name": "Figure Skating",
+    "description": "A sport that combines artistic expression and athleticism, where athletes perform on ice with grace and precision."
+  },
+  {
+    "name": "Fistball",
+    "description": "A team sport that resembles volleyball, where two teams try to score points by hitting a ball over a net and into the opponent's field."
+  },
+  {
+    "name": "Football (American)",
+    "description": "A team sport played with an oval-shaped ball, where the objective is to score touchdowns by crossing the opponent's goal line."
+  },
+  {
+    "name": "Football (Soccer)",
+    "description": "The world's most popular sport, played with a round ball, where teams compete to score goals by getting the ball into the opponent's net."
+  },
+  {
+    "name": "Freestyle Wrestling",
+    "description": "A style of amateur wrestling where competitors can use various techniques to pin their opponent's shoulders to the mat."
+  },
+  {
+    "name": "Frisbee Golf",
+    "description": "A disc golf sport where players throw a frisbee-like disc into a target basket in as few throws as possible."
+  },
+  {
+    "name": "Golf",
+    "description": "A precision sport where players use clubs to hit a ball into a series of holes on a course in as few strokes as possible."
+  },
+  {
+    "name": "Gymnastics",
+    "description": "A sport that involves performing acrobatic and artistic routines on various apparatus, including the balance beam and parallel bars."
+  },
+  {
+    "name": "Handball",
+    "description": "A team sport played with a ball, where players aim to throw it into the opponent's goal."
+  },
+  {
+    "name": "Handball (Team)",
+    "description": "A fast-paced team sport played with a ball, where players aim to throw it into the opponent's goal."
+  },
+  {
+    "name": "High Jump",
+    "description": "A track and field event where athletes attempt to jump over a horizontal bar at measured heights."
+  },
+  {
+    "name": "Horse Racing",
+    "description": "A sport where horses and jockeys compete in races, typically on a flat track or over hurdles."
+  },
+  {
+    "name": "Horseball",
+    "description": "A team sport played on horseback, where players try to score goals by throwing a ball through the opponent's goalpost."
+  },
+  {
+    "name": "Ice Hockey",
+    "description": "A fast-paced team sport played on ice, where players use sticks to hit a puck into the opponent's goal."
+  },
+  {
+    "name": "Jai Alai",
+    "description": "A sport that involves players using a curved basket-like device to catch and throw a ball against a wall at high speeds."
+  },
+  {
+    "name": "Judo",
+    "description": "A martial art and combat sport that focuses on throws and grappling techniques to gain control over an opponent."
+  },
+  {
+    "name": "Kabaddi",
+    "description": "A contact team sport that originated in South Asia, where players try to tag opponents while holding their breath."
+  },
+  {
+    "name": "Karate",
+    "description": "A martial art that emphasizes striking techniques using the hands, feet, and knees."
+  },
+  {
+    "name": "Kiteboarding",
+    "description": "An adventure water sport that combines elements of surfing, paragliding, and kite flying."
+  },
+  {
+    "name": "Korfball",
+    "description": "A mixed-gender team sport that combines elements of basketball and netball, where players score by throwing a ball through a hoop."
+  },
+  {
+    "name": "Lacrosse",
+    "description": "A team sport played with a small rubber ball and a long-handled stick with a netted pocket, where players aim to score goals."
+  },
+  {
+    "name": "Luge",
+    "description": "A winter sport where athletes make timed runs down narrow, twisting, banked, ice tracks while lying on their backs."
+  },
+  {
+    "name": "Martial Arts",
+    "description": "A collective term for various combat practices and disciplines, including karate, judo, taekwondo, and more."
+  },
+  {
+    "name": "Motorsport",
+    "description": "A category of competitive racing involving vehicles, such as Formula 1, NASCAR, and rally racing."
+  },
+  {
+    "name": "Mountain Biking",
+    "description": "A cycling discipline that involves off-road biking on rugged terrain, including downhill and cross-country racing."
+  },
+  {
+    "name": "Paddleboarding",
+    "description": "A water sport where participants stand on a large board and use a paddle to propel themselves through the water."
+  },
+  {
+    "name": "Parkour",
+    "description": "An athletic training discipline that involves moving rapidly through an environment, overcoming obstacles with fluid movements."
+  },
+  {
+    "name": "Pickleball",
+    "description": "A racket sport that combines elements of tennis, badminton, and table tennis, played on a smaller court."
+  },
+  {
+    "name": "Polo",
+    "description": "A team sport played on horseback, where players use mallets to score goals by hitting a ball into the opponent's goal."
+  },
+  {
+    "name": "Powerlifting",
+    "description": "A strength sport where athletes compete in three lifts: squat, bench press, and deadlift."
+  },
+  {
+    "name": "Racquetball",
+    "description": "A fast-paced indoor sport played with a small rubber ball and a racquet, often in a four-walled court."
+  },
+  {
+    "name": "Rock Climbing",
+    "description": "A sport that involves ascending natural rock formations or artificial climbing walls using physical strength and technique."
+  },
+  {
+    "name": "Roller Derby",
+    "description": "A contact sport played on roller skates, where two teams compete to score points by lapping members of the opposing team."
+  },
+  {
+    "name": "Rowing",
+    "description": "A water sport where teams or individuals use oars to propel a boat forward in races or recreational outings."
+  },
+  {
+    "name": "Rugby",
+    "description": "A team sport with various forms, including rugby union and rugby league, where players aim to score by carrying, passing, or kicking the ball."
+  },
+  {
+    "name": "Rugby Sevens",
+    "description": "A shorter and faster-paced version of rugby union, with teams of seven players, often played in tournaments."
+  },
+  {
+    "name": "Sailing",
+    "description": "A water sport that involves using wind to propel a boat through water, with various types of sailing races."
+  },
+  {
+    "name": "Shooting",
+    "description": "A precision sport that involves using firearms or air guns to hit targets, often with multiple disciplines."
+  },
+  {
+    "name": "Skateboarding",
+    "description": "An action sport that involves riding and performing tricks on a skateboard."
+  },
+  {
+    "name": "Skeleton",
+    "description": "A winter sport where athletes make timed runs down narrow, twisting, banked, ice tracks while lying face down on a small sled."
+  },
+  {
+    "name": "Snooker",
+    "description": "A cue sport played on a rectangular table covered with a green cloth, involving skillful potting of colored balls."
+  },
+  {
+    "name": "Surfing",
+    "description": "A water sport where individuals ride on the surface of ocean waves using a surfboard."
+  },
+  {
+    "name": "Synchronized Swimming",
+    "description": "A water sport that combines elements of swimming, dance, and gymnastics, performed in synchronized routines."
+  },
+  {
+    "name": "Table Tennis",
+    "description": "A fast-paced indoor sport played with small paddles and a lightweight ball, often called ping pong."
+  },
+  {
+    "name": "Taekwondo",
+    "description": "A Korean martial art that emphasizes high, fast kicks and powerful hand techniques."
+  },
+  {
+    "name": "Teamgym",
+    "description": "A gymnastics discipline that involves teams performing floor routines, trampette, and tumbling exercises."
+  },
+  {
+    "name": "Tennis",
+    "description": "A racquet sport played on a rectangular court, with the objective of scoring points by hitting the ball over the net."
+  },
+  {
+    "name": "Toe Wrestling",
+    "description": "A sport where two opponents attempt to pin each other's foot by locking toes and wrestling."
+  },
+  {
+    "name": "Triathlon",
+    "description": "A multi-sport endurance race that includes swimming, cycling, and running, usually in that order."
+  },
+  {
+    "name": "Ultimate Frisbee",
+    "description": "A non-contact team sport played with a flying disc, where players score by catching the disc in the opposing team's end zone."
+  },
+  {
+    "name": "Underwater Hockey",
+    "description": "A sport played at the bottom of a swimming pool, where teams push a puck into the opposing team's goal."
+  },
+  {
+    "name": "Volleyball",
+    "description": "A team sport played with a ball over a net, with the objective of scoring points by sending the ball into the opponent's court."
+  },
+  {
+    "name": "Wakeboarding",
+    "description": "A water sport where participants ride a wakeboard over the surface of the water, often towed behind a boat."
+  },
+  {
+    "name": "Weightlifting",
+    "description": "A strength sport where athletes lift weights in two disciplines: the snatch and the clean and jerk."
+  },
+  {
+    "name": "Wingsuit Flying",
+    "description": "An extreme sport where individuals wear a special suit with fabric wings to glide through the air."
+  },
+  {
+    "name": "Wrestling",
+    "description": "A combat sport that involves grappling, takedowns, and pins to defeat an opponent."
+  },
+  {
+    "name": "Yoga",
+    "description": "A physical, mental, and spiritual practice that includes a combination of postures, breathing exercises, and meditation."
+  },
+  {
+    "name": "Zumba",
+    "description": "A fitness program that combines dance and aerobic movements to create an enjoyable workout."
+  }
+]
