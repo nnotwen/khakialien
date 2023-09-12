@@ -348,7 +348,7 @@ $(document).ready(async function () {
 
       // Print score evaluation
       $("#modalScoreEval").removeClass(
-        "text-danger text-warning text-info text-success"
+        "text-danger-emphasis text-warning-emphasis text-info-emphasis text-success-emphasis"
       );
       if (session.totalScore < average) {
         $("#modalScoreEvalCompare").html(
