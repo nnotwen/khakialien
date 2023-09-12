@@ -417,6 +417,9 @@ $(document).ready(async function () {
         )
         .addClass(accuracyEval[1]);
 
+      // Play audio
+      audio.gameOver.play();
+
       // Display Modal
       gameEndSummaryModal.show();
     }
