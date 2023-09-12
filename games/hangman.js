@@ -246,7 +246,7 @@ $(document).ready(async function () {
     }, 500);
 
     // Append category
-    $("#gameWordCategory").html(level.category);
+    $("#gameWordCategory").html(level.category.replace("_", " "));
 
     // Append word
     $("#gameWord").empty();
