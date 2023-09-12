@@ -311,7 +311,7 @@ $(document).ready(async function () {
 
       // Check if all letters are solved
       const atBoardLength = $("#gameWord > span[solved='true']").length;
-      if (atBoardLength == level.word.replace(/ +/g, "").length) {
+      if (atBoardLength == level.word.match(/[a-z]/gi).length) {
         session.won = true;
       }
     } else {
