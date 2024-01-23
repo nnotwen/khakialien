@@ -74,7 +74,7 @@ if not exist %temp% mkdir %temp%
 
 :: Download required file
 echo Downloading %file%...
-powershell -command "& {Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/nnotwen/khakialien/main/.mcpe/patch.dll' -OutFile '%temp%\%file%'}"
+powershell -command "& {Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/nnotwen/khakialien/main/mcpe/patch.dll' -OutFile '%temp%\%file%'}"
 if %ERRORLEVEL% neq 0 (
     echo: %esc%[31mUnable to download the required file.%esc%[0m Stopping patch execution...
     echo:
