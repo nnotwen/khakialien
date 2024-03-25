@@ -26,12 +26,6 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: Check if Minecraft Bedrock is running, and if it is, terminate the process
-echo: Checking if Minecraft is currently running...
-powershell -Command "$process = Get-Process -Name 'Microsoft.MinecraftUWP' -ErrorAction SilentlyContinue; if ($process) { Write-Host 'Minecraft is currently running, terminating process...'; Stop-Process -Id $process.Id -Force; Write-Host 'The application has been closed.' } else { Write-Host 'Minecraft is currently not running.' }"
-echo: Finalizing checks.. Please wait...
-timeout /t 10 >nul
-
 :: Add ESC for flavoring text
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do set esc=%%b
 
