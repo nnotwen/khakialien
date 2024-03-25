@@ -26,6 +26,17 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
+:: Check if Minecraft Bedrock is running
+powershell -Command "Get-Process | Select ProcessName | findstr Minecraft.Windows"
+if %errorlevel% equ 0 (
+    cls
+    echo Minecraft Bedrock is currently running. To prevent errors while patching, the application must be closed.
+    echo Close Minecraft Bedrock and try rerunning this script.
+    echo:
+    pause
+    exit /b
+)
+
 :: Add ESC for flavoring text
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do set esc=%%b
 
