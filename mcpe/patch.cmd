@@ -21,10 +21,16 @@ if %PROCESSOR_ARCHITECTURE%=="X86" (
 :: Check if Minecraft Bedrock is installed
 powershell -Command "Get-AppxPackage | Select Name, PackageFullName | findstr /C:'Microsoft.MinecraftUWP'"
 if %errorlevel% neq 0 (
-    echo Minecraft Bedrock Edition is not installed.
+    echo Minecraft Bedrock Edition is currently not installed. Please install Minecraft Bedrock Edition (Trial) from the Microsoft Store first before running this script.
     pause
     exit /b
 )
+
+:: Check if Minecraft Bedrock is running, and if it is, terminate the process
+echo: Checking if Minecraft is currently running...
+powershell -Command "$process = Get-Process -Name 'Microsoft.MinecraftUWP' -ErrorAction SilentlyContinue; if ($process) { Write-Host 'Minecraft is currently running, terminating process...'; Stop-Process -Id $process.Id -Force; Write-Host 'The application has been closed.' } else { Write-Host 'Minecraft is currently not running.' }"
+echo: Finalizing checks.. Please wait...
+timeout /t 10 >nul
 
 :: Add ESC for flavoring text
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do set esc=%%b
