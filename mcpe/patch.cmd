@@ -21,7 +21,7 @@ if %PROCESSOR_ARCHITECTURE%=="X86" (
 :: Check if Minecraft Bedrock is installed
 powershell -Command "Get-AppxPackage | Select Name, PackageFullName | findstr /C:'Microsoft.MinecraftUWP'"
 if %errorlevel% neq 0 (
-    echo Minecraft Bedrock Edition is currently not installed. Please install Minecraft Bedrock Edition (Trial) from the Microsoft Store first before running this script.
+    echo Minecraft Bedrock Edition is currently not installed. Please install Minecraft Bedrock Edition -Trial- from the Microsoft Store first before running this script.
     pause
     exit /b
 )
