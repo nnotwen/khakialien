@@ -85,15 +85,16 @@ if not exist %temp% mkdir %temp%
 
 :: Download required file
 echo Downloading %file%...
-powershell -command "& {Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/nnotwen/khakialien/main/mcpe/patch.dll' -OutFile '%temp%\%file%'}"
-if %ERRORLEVEL% neq 0 (
-    echo: %esc%[31mUnable to download the required file.%esc%[0m Stopping patch execution...
+powershell -command "& Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/nnotwen/khakialien/main/mcpe/patch.dll' -OutFile '%temp%\%file%'" 2>&1
+if exist %temp%\%file% (
+    echo: %esc%[32mFile successfully downloaded.%esc%[0m
+    echo:
+) else (
+    echo: 
+    echo: %esc%[91mUnable to download the required file.%esc%[0m Stopping patch execution...
     echo:
     pause
     goto :displayMenu
-) else (
-    echo: %esc%[32mFile successfully downloaded.%esc%[0m
-    echo:
 )
 
 
@@ -102,7 +103,7 @@ echo Taking ownership of %file% on System32 and SYSWOW64...
 takeown /f C:\Windows\System32\%file% >nul 2>&1
 icacls C:\Windows\System32\%file% /grant %username%:F >nul 2>&1
 if %ERRORLEVEL% neq 0 (
-    echo: %esc%[31mUnable to take ownership of System32/%file%.%esc%[0m
+    echo: %esc%[91mUnable to take ownership of System32/%file%.%esc%[0m
     echo: Stopping patch execution...
     echo:
     pause
@@ -115,7 +116,7 @@ takeown /f C:\Windows\SYSWOW64\%file% >nul 2>&1
 icacls C:\Windows\SYSWOW64\%file% /grant %username%:F >nul 2>&1
 if %ERRORLEVEL% neq 0 (
     icacls C:\Windows\System32\%file% /remove %username% >nul 2>&1
-    echo: %esc%[31mUnable to take ownership of SYSWOW64/%file%.%esc%[0m
+    echo: %esc%[91mUnable to take ownership of SYSWOW64/%file%.%esc%[0m
     echo: Stopping patch execution...
     echo:
     pause
@@ -239,7 +240,7 @@ set file=Windows.ApplicationModel.Store.dll
 echo Uninstalling patch 1 of 2...
 sfc /scanfile=C:\Windows\System32\%file% >nul 2>&1
 if %ERRORLEVEL% neq 0 (
-    echo: %esc%[31mPatch unsuccessful for C:\Windows\System32\%file%.%esc%[0m
+    echo: %esc%[91mPatch unsuccessful for C:\Windows\System32\%file%.%esc%[0m
     echo: You may want to run sfc \scannow to replace corrupt files
 ) else (
     echo: %esc%[32mSuccessfully patched C:\Windows\System32\%file%.%esc%[0m
@@ -249,7 +250,7 @@ echo:
 echo Uninstalling patch 2 of 2...
 sfc /scanfile=C:\Windows\SYSWOW64\%file% >nul 2>&1
 if %ERRORLEVEL% neq 0 (
-    echo: %esc%[31mPatch unsuccessful for C:\Windows\SYSWOW64\%file%.%esc%[0m
+    echo: %esc%[91mPatch unsuccessful for C:\Windows\SYSWOW64\%file%.%esc%[0m
     echo: You may want to run sfc \scannow to replace corrupt files
 ) else (
     echo: %esc%[32mSuccessfully patched C:\Windows\SYSWOW64\%file%.%esc%[0m
