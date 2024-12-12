@@ -1,4 +1,4 @@
-@setlocal DisableDelayedExpansion
+@setlocal enabledelayedexpansion
 @echo off
 
 cls
@@ -42,7 +42,7 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
 
 :displayMenu
 cls
-title Minecraft Bedrock Full Version Patcher by nnotwen
+title Minecraft Bedrock Full Version Patcher v2.0 by nnotwen
 
 echo:
 echo:
@@ -75,7 +75,7 @@ goto :displayMenu
 
 :patch
 cls
-title Minecraft Bedrock Full Version Patcher by nnotwen - Installing Patch
+title Minecraft Bedrock Full Version Patcher v2.0  by nnotwen - Installing Patch
 
 :: Set vars
 set temp=%userprofile%\AppData\Local\Temp\minecraftpatcher
@@ -83,7 +83,7 @@ set baseURI=https://raw.githubusercontent.com/nnotwen/khakialien/main/mcpe/v2
 
 set file_n[0]=f5ec96e8-bcf1-4036-a9f6-d1d6e18a4ba7.dll
 set file_n[1]=e534ace5-b93a-44ec-9d6c-c277a4c5ce79.dll
-set file_n_size=2
+set file_n_size=1
 set file=Windows.ApplicationModel.Store.dll
 
 set dir[0]=System32
@@ -94,11 +94,10 @@ set dir[1]=SYSWOW64
 if not exist %temp% mkdir %temp% 
 
 for /L %%i in (0,1,%file_n_size%) do (
-    set ff=!file_m[%%i]!
 
-    echo Downloading !file!...
-    powershell -command "& Invoke-WebRequest -Uri '%baseURI%'/%ff% OutFile '%temp%\%ff%'" 2>&1
-    if exist %temp%\%ff% (
+    echo Downloading !file_n[%%i]!...
+    powershell -command "& Invoke-WebRequest -Uri '%baseURI%/!file_n[%%i]!' -OutFile '%temp%\!file_n[%%i]!'" 2>&1
+    if exist %temp%\!file_n[%%i]! (
         echo %esc%[32mFile successfully downloaded.%esc%[0m & echo.
     ) else (
         echo. & echo %esc%[91mUnable to download the required file.%esc%[0m Stopping patch execution... & echo.
@@ -121,38 +120,45 @@ for /L %%i in (0,1,%file_n_size%) do (
     echo.
 )
 
-:: Move file to temp (so that they can be retrieved when something goes wrong)
-::
-:: Edit: This move is unnecessary, if something goes wrong, 
-:: just use sfc to retrieve cached copies from dllcache
-
+:: Moving file to temp (so that they can be retrieved when something goes wrong)
+:: for /L %%i in (0,1,%file_n_size%) do (
+::     echo Moving %file% from C:\Windows\!dir[%%i]! to temp dir
+:: 
+::     move C:\Windows\!dir[%%i]!\%file% %temp%\temp_!dir[%%i]!.dll
+::     
+::     if %ERRORLEVEL% neq 0 (
+::         echo %esc%[30mUnable to move %temp%\!file_n[%%i]! to !dir[%%i]!.%esc%[0m & echo.
+::         echo Performing patch uninstall to revert the changes... & pause & goto :revertPatch
+::     )
+:: )
 
 :: Move the modified dll from temp
+echo.
 for /L %%i in (0,1,%file_n_size%) do (
-    echo Applying patch !file_m[%%i]! to C:\Windows\!dir[%%i]!
-    copy /Y %temp%\!file_m[%%i]! C:\Windows\!dir[%%i]!\%file%
+    echo Applying patch !file_n[%%i]! to C:\Windows\!dir[%%i]!
+    copy /Y %temp%\!file_n[%%i]! C:\Windows\!dir[%%i]!\%file%
     
     if %ERRORLEVEL% neq 0 (
-        echo %esc%[30mUnable to apply %temp%\!file_m[%%i]! to !dir[%%i]!.%esc%[0m & echo.
+        echo %esc%[30mUnable to apply %temp%\!file_n[%%i]! to !dir[%%i]!.%esc%[0m & echo.
         echo Performing patch uninstall to revert the changes... & pause & goto :revertPatch
     )
 )
 
 :: Patch complete. Cleaning up
 echo. & echo %esc%[32mPatch complete. Cleaning up...%esc%[0m
-del /Q %temp%\*.* & echo & pause & goto :displayMenu
+del /Q %temp%\*.* & pause & goto :displayMenu
 
 :: ============================================================================================================
 
 :revertPatch
 cls
-title Minecraft Bedrock Full Version Patcher by nnotwen - Uninstalling Patch
+title Minecraft Bedrock Full Version Patcher v2.0  by nnotwen - Uninstalling Patch
 
 :: Set vars
 set file=Windows.ApplicationModel.Store.dll
 set dir[0]=System32
 set dir[1]=SYSWOW64
-set dir_size=2
+set dir_size=1
 
 for /L %%i in (0,1,%dir_size%) do (
     set /a index=%%i+1
