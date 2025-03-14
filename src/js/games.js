@@ -13,7 +13,7 @@ const dict = {
 $(function () {
   const games = [
     {
-      image: "./src/img/games-stick-alien-hero.png",
+      image: "./src/img/games-stick-alien-hero.jpg",
       title: "Stick Alien Hero",
       text: "Stretch, bridge, conquer! Join Stick Alien Hero in an intergalactic adventure, testing your skills to master cosmic gaps. Can you become the ultimate hero?",
       ref: "https://nnotwen.github.io/khakialien/games/stick-alien-hero",
@@ -36,7 +36,7 @@ $(function () {
       text: "Blast off into hilarity with Alien Jump! Help our wacky Khaki Alien bounce to new heights, dodging cosmic obstacles. It's like Doodle Jump, but with an alien twist.",
     },
     {
-      image: "./src/img/games-hangman.png",
+      image: "./src/img/games-hangman.jpg",
       title: "Hangman",
       text: "Unleash your cosmic wordplay skills in Khaki Alien's Wacky Hangman! Guess alien-themed words to save our lovable extraterrestrial friend. It's like Hangman, but with a cosmic twist. ",
       ref: "https://nnotwen.github.io/khakialien/games/hangman",
@@ -51,6 +51,7 @@ $(function () {
       text: "Join the wacky adventure of Running Alien! Help Khaki Alien dash through cosmic obstacles in this quirky endless runner. It's like the Dino Game on Chrome, but with an alien twist.",
     },
     {
+      image: "./src/img/games-password-game.jpg",
       title: "Password Game",
       text: "POV: You created a new bank account but they say you need to have an ultra secure password. Finish creating the password as soon as possible!",
       ref: "https://nnotwen.github.io/khakialien/games/password-game",
