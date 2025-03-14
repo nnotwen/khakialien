@@ -16,7 +16,7 @@ $(function () {
       image: "./src/img/games-stick-alien-hero.png",
       title: "Stick Alien Hero",
       text: "Stretch, bridge, conquer! Join Stick Alien Hero in an intergalactic adventure, testing your skills to master cosmic gaps. Can you become the ultimate hero?",
-      ref: "https://khakien.gq/games/stick-alien-hero",
+      ref: "https://nnotwen.github.io/khakialien/games/stick-alien-hero",
       tags: ["Local Save", "Recreated"],
     },
     {
@@ -39,7 +39,7 @@ $(function () {
       image: "./src/img/games-hangman.png",
       title: "Hangman",
       text: "Unleash your cosmic wordplay skills in Khaki Alien's Wacky Hangman! Guess alien-themed words to save our lovable extraterrestrial friend. It's like Hangman, but with a cosmic twist. ",
-      ref: "https://khakien.gq/games/hangman",
+      ref: "https://nnotwen.github.io/khakialien/games/hangman",
       tags: ["Meme", "Local Save", "Sounds"],
     },
     {
@@ -53,7 +53,7 @@ $(function () {
     {
       title: "Password Game",
       text: "POV: You created a new bank account but they say you need to have an ultra secure password. Finish creating the password as soon as possible!",
-      ref: "https://khakien.gq/games/password-game",
+      ref: "https://nnotwen.github.io/khakialien/games/password-game",
       tags: ["Recreated"],
     },
   ];
