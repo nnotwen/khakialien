@@ -1,3 +1,6 @@
+// true if site is hosted from github itself
+const githubStaticSite = (true) ? "khakialien" : "";
+
 class Session {
   constructor() {
     this.userCategories = [];
@@ -177,7 +180,7 @@ $(document).ready(async function () {
     // If wordbank is empty, fetch new set of words
     if (!session.wordBank.length) {
       for (const category of session.userCategories) {
-        const path = (c) => `/resources/games.hangman/${c}.json`;
+        const path = (c) => `${githubStaticSite}/resources/games.hangman/${c}.json`;
         const words = await $.getJSON(path(category));
 
         // Add category to words
